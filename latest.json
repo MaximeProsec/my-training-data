@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-29T13:28:23.118262",
+    "last_updated": "2026-04-29T13:32:14.000498",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -154,7 +154,7 @@
     },
     "phase_context": {
       "phase": "Base",
-      "phase_week": 1,
+      "phase_week": 2,
       "amber_threshold": 2,
       "modifier_applied": "default"
     },
@@ -164,9 +164,11 @@
     "alarm_refs": []
   },
   "history": {
-    "available": false,
-    "history_confidence": "low",
-    "note": "No history.json available. Longitudinal analysis limited to current 28-day window."
+    "available": true,
+    "last_generated": "2026-04-29",
+    "age_days": 0,
+    "total_months": 34,
+    "history_confidence": "high"
   },
   "summary": {
     "period_description": "Last 7 days of training (including today)",
@@ -639,8 +641,8 @@
       "reason_codes": [],
       "basis": {
         "stream_1": {
-          "ctl_slope": null,
-          "acwr_trend": null,
+          "ctl_slope": -1.2,
+          "acwr_trend": "falling",
           "hard_day_pattern": 1.3,
           "weeks_available": 4
         },
@@ -657,8 +659,8 @@
         "data_quality": "good",
         "stream_agreement": null
       },
-      "previous_phase": null,
-      "phase_duration_weeks": 1,
+      "previous_phase": "Base",
+      "phase_duration_weeks": 2,
       "dossier_declared": null,
       "dossier_agreement": null
     },
@@ -685,7 +687,7 @@
     "p_max": 952,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-29T13:28:23.118109",
+    "calculation_timestamp": "2026-04-29T13:32:13.999364",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
