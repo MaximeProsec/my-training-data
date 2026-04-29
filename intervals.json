@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T17:09:21.298458",
+  "generated_at": "2026-04-29T18:44:52.696106",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -299,6 +299,25 @@
           "zone": 2,
           "training_load": 42.916935,
           "decoupling": 4.224032
+        }
+      ]
+    },
+    {
+      "activity_id": "i144134878",
+      "date": "2026-04-29",
+      "type": "Ride",
+      "name": "Mariakerke-Bad - Sint-Pieters op de Dijk",
+      "interval_summary": [
+        "1x 1h56m 133bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "7006s@133bpm",
+          "duration_secs": 7006,
+          "avg_hr": 133,
+          "max_hr": 161,
+          "zone": 2
         }
       ]
     }
