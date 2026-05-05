@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T04:31:17.878228",
+  "generated_at": "2026-05-05T06:37:42.229115",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -448,6 +448,26 @@
           "max_hr": 168,
           "avg_cadence": 70.0,
           "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i145509122",
+      "date": "2026-05-05",
+      "type": "Run",
+      "name": "30-40 min Easy",
+      "interval_summary": [
+        "1x 34m19s 151bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2059s@151bpm85rpm",
+          "duration_secs": 2059,
+          "avg_hr": 151,
+          "max_hr": 171,
+          "avg_cadence": 84.767136,
+          "zone": 2
         }
       ]
     }
