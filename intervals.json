@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T17:10:00.222604",
+  "generated_at": "2026-05-06T18:55:13.642681",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -723,6 +723,46 @@
           "max_hr": 175,
           "avg_cadence": 19.6875,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i146003427",
+      "date": "2026-05-06",
+      "type": "Run",
+      "name": "Muide - Westergem",
+      "interval_summary": [
+        "1x 15m5s 155bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "905s@155bpm85rpm",
+          "duration_secs": 905,
+          "avg_hr": 155,
+          "max_hr": 164,
+          "avg_cadence": 85.23836,
+          "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i146003413",
+      "date": "2026-05-06",
+      "type": "Run",
+      "name": "Muide",
+      "interval_summary": [
+        "1x 20s 89bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "20s@89bpm78rpm",
+          "duration_secs": 20,
+          "avg_hr": 89,
+          "max_hr": 98,
+          "avg_cadence": 77.52941,
+          "zone": 1
         }
       ]
     }
