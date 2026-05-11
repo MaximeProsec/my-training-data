@@ -12,10 +12,10 @@
 - **Volume:** 10-12 hours per week
 
 ## Physiology & Zones
-- **FTP (Cycling):** 150W (Indoor)
+- **FTP (Cycling):** 250 (Indoor)
 - **Resting HR:** 54 bpm
 - **Max HR:** 210 bpm
-- **LTHR (Lactate Threshold HR):** 191 bpm
+- **LTHR (Lactate Threshold HR):** 175 bpm
 - **Zones:** Intervals.icu Auto-calculated
 
 ## Goals & Events
