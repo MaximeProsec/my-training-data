@@ -3,6 +3,7 @@
 > Last updated: 2026-05-12
 > Sessions marked *(added)* are stacked additions to the original plan, based on observed training habits.
 > Monday ACWR caveat: if TSB < −10 on any given Monday, drop the run and keep strength only.
+> Tuesday swim is optional — if it doesn’t work, the swim carries to Wednesday naturally.
 
 ---
 
@@ -27,8 +28,8 @@
 | Day | Session(s) | Notes |
 |---|---|---|
 | Mon May 18 | Z2 Run 30–35 min *(added)* + Lower-body strength 1h | Run first, gym after — skip run if TSB < −10 |
-| Tue May 19 | Z2 Run 45–50 min + Upper-body strength 45 min *(added)* | Run first, strength after |
-| Wed May 20 | Swim 45 min + Z2 Bike 1h20 + 10–15 min brick run | Extend bike to 1h20 today |
+| Tue May 19 | Z2 Run 45–50 min + Swim 45 min *(optional)* + Upper-body strength 45 min *(added)* | Swim only if Tuesday works, else swim Wed |
+| Wed May 20 | Swim 45 min *(if not done Tue)* + Z2 Bike 1h20 + 10–15 min brick run | Extend bike to 1h20 today |
 | Thu May 21 | Z2 Run 40 min + Upper-body + Core strength 1h | Double day |
 | Fri May 22 | REST or 20 min easy walk/mobility | Low stress day |
 | Sat May 23 | Z2 Bike 1h30 outdoor if possible | Longest Z2 bike of base |
@@ -42,8 +43,8 @@
 | Day | Session(s) | Notes |
 |---|---|---|
 | Mon May 25 | Lower-body strength 1h | Last dedicated strength-only day |
-| Tue May 26 | Swim 45 min easy | Flush session |
-| Wed May 27 | Z2 Bike 1h + 10 min brick | Bridge into Build — keep it clean |
+| Tue May 26 | Swim 45 min easy *(optional)* | Flush session — carries to Wed if needed |
+| Wed May 27 | Swim 45 min *(if not done Tue)* + Z2 Bike 1h + 10 min brick | Bridge into Build — keep it clean |
 
 ---
 
@@ -65,8 +66,8 @@
 | Day | Session(s) | Notes |
 |---|---|---|
 | Mon Jun 2 | Z2 Run 35–40 min *(added)* + Lower-body strength 1h | Run first — skip run if fatigued |
-| Tue Jun 3 | Swim 45–50 min aerobic | Aerobic flush |
-| Wed Jun 4 | Threshold Bike 1h10 — 3×10 min @ FTP (256W outdoor) | Second hard session |
+| Tue Jun 3 | Swim 45–50 min aerobic *(optional)* | Carries to Wed if Tuesday doesn’t work |
+| Wed Jun 4 | Swim 45 min *(if not done Tue)* + Threshold Bike 1h10 — 3×10 min @ FTP | Swim first as aerobic warm-up to the day |
 | Thu Jun 5 | Z2 Run 40 min + Upper-body + Core 1h | Double — keep run easy |
 | Fri Jun 6 | REST or 20 min mobility | — |
 | Sat Jun 7 | Z2 Bike 1h40 outdoor + 15 min brick run | Longest brick yet — key aerobic session |
@@ -80,8 +81,8 @@
 | Day | Session(s) | Notes |
 |---|---|---|
 | Mon Jun 9 | Z2 Run 35–40 min *(added)* + Lower-body strength 1h | Run first — skip run if fatigued |
-| Tue Jun 10 | Swim 50 min + Z3 Tempo Run 40 min (2×12 min tempo) | First run intensity of Build |
-| Wed Jun 11 | Sweet Spot Bike 1h20 — 3×15 min @ 88–93% FTP | Hardest bike session so far |
+| Tue Jun 10 | Swim 50 min *(optional)* + Z3 Tempo Run 40 min (2×12 min tempo) | Swim carries to Wed if Tuesday doesn’t work |
+| Wed Jun 11 | Swim 45–50 min *(if not done Tue)* + Sweet Spot Bike 1h20 — 3×15 min @ 88–93% FTP | Swim first as aerobic warm-up |
 | Thu Jun 12 | Z2 Run 40 min + Core/Upper-body 30–45 min *(added)* | Easy run + short strength |
 | Fri Jun 13 | Upper-body + Core strength 1h | — |
 | Sat Jun 14 | Z2 Bike 1h45–2h outdoor + 15 min brick run | Biggest aerobic ride of the block |
@@ -95,8 +96,8 @@
 | Day | Session(s) | Notes |
 |---|---|---|
 | Mon Jun 16 | Z2 Run 35–40 min *(added)* + Lower-body strength 1h | Run first — skip run if fatigued |
-| Tue Jun 17 | Swim 50 min + Z2 Run 40 min | Double — easy both |
-| Wed Jun 18 | Threshold Bike 1h20 — 2×20 min @ FTP | Repeat FTP blocks — key session |
+| Tue Jun 17 | Swim 50 min *(optional)* + Z2 Run 40 min | Swim carries to Wed if Tuesday doesn’t work |
+| Wed Jun 18 | Swim 45–50 min *(if not done Tue)* + Threshold Bike 1h20 — 2×20 min @ FTP | Swim first as aerobic warm-up |
 | Thu Jun 19 | Z2 Run 45 min + Core 30 min | Already stacked ✓ |
 | Fri Jun 20 | REST or easy walk | — |
 | Sat Jun 21 | Z2 Bike 1h45 outdoor + 15 min brick run | Maintain long aerobic |
