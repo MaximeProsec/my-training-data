@@ -30,3 +30,21 @@
 - **Cycling:** Primary work indoors; long rides (1x/week) outdoors
 - **Running:** Primarily outdoors
 - **Structure:** Mixed discipline training week
+
+## 70.3 Planning Notes — May 13, 2026
+
+**Target event**  Half Ironman (70.3)
+
+- **Bike identified as primary limiter** — current 3600s MMP (190W) is at the floor of race-pace requirement
+
+- **Bike**: Extend Z2 rides to 1h30–2h; target 160–180 TSS/week on bike; one long ride (2h+) per week from late May
+
+- **Run**: Cap at current volume, don't grow further — redirect adaptation budget to bike
+
+- **Swim**: Gradually increase to 50–60 TSS/week
+
+- **Bricks**: Extend from 10–15 min to 20–30 min progressively
+
+- **Reassess sport TSS balance after May 30 group ride**
+
+- **Target training load split**: ~50% bike / 25% run / 25% swim
