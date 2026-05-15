@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T08:15:33.198829",
+  "generated_at": "2026-05-15T10:41:35.808577",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1206,6 +1206,27 @@
           "max_hr": 181,
           "avg_cadence": 82.0,
           "zone": 4
+        }
+      ]
+    },
+    {
+      "activity_id": "i148410309",
+      "date": "2026-05-15",
+      "type": "VirtualRide",
+      "name": "Z2 bike 30min easy",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3613,
+          "avg_power": 165,
+          "max_power": 176,
+          "avg_hr": 130,
+          "max_hr": 143,
+          "avg_cadence": 88.28702,
+          "zone": 2,
+          "training_load": 44.427406,
+          "decoupling": 1.9100813
         }
       ]
     }
