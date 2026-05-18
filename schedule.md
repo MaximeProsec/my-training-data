@@ -5,7 +5,7 @@
 > **FLEX:** sessions marked with 🔄 can be moved to any weekday if weekend is unavailable.
 > Monday ACWR caveat: if TSB < −10 on any given Monday, drop the run and keep strength only.
 > Tuesday swim is optional — if it doesn't work, the swim carries to Wednesday naturally.
-> **Festival week (Jun 29 – Jul 5):** planned as full rest. 1–2 opportunistic easy runs welcome but not required.
+> **Festival week (Jun 29 – Jul 5):** Thu–Sun is full rest at festival. Mon–Wed are a light deload flush before it starts.
 > **Brick progression:** brick runs lengthen earlier so 25–35 min feels routine before the race-specific phase.
 > **Long run progression:** Sunday long runs build from ~50 min to a peak of ~1h50 (~19–20 km) on Sun Aug 16, then taper back down.
 
@@ -123,29 +123,29 @@
 | Thu Jun 25 | Z2 Run 40 min + Core 30 min | Easy double |
 | Fri Jun 26 | REST | — |
 | Sat Jun 27 | Z2 Bike 1h easy OR Z2 Run 45 min | Choose by feel — deload starts |
-| Sun Jun 28 | REST | Full rest — festival week begins Mon |
+| Sun Jun 28 | REST | Full rest — festival prep week begins Mon |
 
 **Weekly TSS target: ~380–420 | Hard days: 1**
 
 ---
 
-## 🎵 FESTIVAL WEEK / FULL REST (Jun 29 – Jul 5)
+## 🎵 PRE-FESTIVAL FLUSH + FESTIVAL (Jun 29 – Jul 5)
 
-> Full week is planned as rest. Festival runs Thu Jul 2 – Sun Jul 5.
-> 1–2 opportunistic easy runs (20–30 min) are welcome — not required, no guilt if they don't happen.
-> CTL will dip slightly — that's fine. TSB recovers and you come back sharper.
+> **Mon Jun 29 – Wed Jul 1:** light deload sessions to stay ticking over before the festival. No intensity, no fatigue.
+> **Thu Jul 2 – Sun Jul 5:** festival. Full rest. 1–2 opportunistic easy runs welcome if they happen — no guilt if they don't.
+> Come back Mon Jul 6 with TSB well positive and ready to build.
 
 | Day | Session(s) | Notes |
 |---|---|---|
-| Mon Jun 29 | REST or easy walk | — |
-| Tue Jun 30 | REST or easy walk | — |
-| Wed Jul 1 | REST or easy walk | — |
-| Thu Jul 2 | 🎵 Festival starts | Optional easy run |
-| Fri Jul 3 | 🎵 Festival | Optional easy run |
-| Sat Jul 4 | 🎵 Festival | Optional easy run |
+| Mon Jun 29 | Swim 35–40 min easy aerobic | Gentle flush — no intensity |
+| Tue Jun 30 | Z2 Bike 45–50 min easy (60–65%) | Keep legs moving — indoor fine |
+| Wed Jul 1 | Z2 Run 30–35 min easy | Last session before festival — HR ≤ 155 |
+| Thu Jul 2 | 🎵 Festival starts | REST — optional easy run if opportunity arises |
+| Fri Jul 3 | 🎵 Festival | REST — optional easy run |
+| Sat Jul 4 | 🎵 Festival | REST — optional easy run |
 | Sun Jul 5 | 🎵 Festival | REST |
 
-**Weekly TSS target: 0–60 (opportunistic only)**
+**Weekly TSS target: ~80–120 (Mon–Wed only) | Hard days: 0**
 
 ---
 
@@ -223,7 +223,7 @@
 > Strength drops to 1×/week full-body maintenance. Ends completely after Sun Sep 6.
 > 🔄 = can move to any weekday.
 
-### Week of Aug 3–9 (Race-Specific, Week 1)
+### Week of Aug 4–10 (Race-Specific, Week 1)
 | Day | Session(s) | Notes |
 |---|---|---|
 | Mon Aug 4 | Z2 Run 40 min + Full-body maintenance strength 45 min | Strength now 1×/week only |
@@ -305,18 +305,18 @@
 
 ---
 
-### Week of Sep 7–13 (Taper Week 1 — South of France 🏻)
+### Week of Sep 7–13 (Taper Week 1 — South of France 🏔)
 
 > **Sep 7–12 in South of France.** Reshaped as a stimulating taper: 1–2 col rides, easy running between.
 > **Col riding rule: Z2 ceiling. HR < 170 on all climbs.** Stimulus, not racing.
 
 | Day | Session(s) | Notes |
 |---|---|---|
-| Mon Sep 7 | 🏻 Z2 Run 30 min easy | Arrival / settle in |
-| Tue Sep 8 | 🏻 🟢 **Col Ride 2–2h30 — Z2 ceiling (HR < 170 on climbs)** | Big aerobic quality — enjoy the terrain |
-| Wed Sep 9 | 🏻 Z2 Run 35 min | Easy between rides |
-| Thu Sep 10 | 🏻 🟢 **Col Ride 1h30–2h — Z2 ceiling** | Second col ride — shorter |
-| Fri Sep 11 | 🏻 REST or easy walk | — |
+| Mon Sep 7 | 🏔 Z2 Run 30 min easy | Arrival / settle in |
+| Tue Sep 8 | 🏔 🟢 **Col Ride 2–2h30 — Z2 ceiling (HR < 170 on climbs)** | Big aerobic quality — enjoy the terrain |
+| Wed Sep 9 | 🏔 Z2 Run 35 min | Easy between rides |
+| Thu Sep 10 | 🏔 🟢 **Col Ride 1h30–2h — Z2 ceiling** | Second col ride — shorter |
+| Fri Sep 11 | 🏔 REST or easy walk | — |
 | Sat Sep 12 | Travel home | — |
 | Sun Sep 13 | Z2 Bike 1h easy (indoor ok) + Z2 Run 30 min | Flush after travel |
 
@@ -416,7 +416,8 @@
 | Build P1 W2 | Jun 8–14 | 460–500 | 2 |
 | Build P1 W3 | Jun 15–21 | 460–490 | 1–2 |
 | Build P1 W4 + flush | Jun 22–28 | 380–420 | 1 |
-| Festival / Rest | Jun 29–Jul 5 | 0–60 | 0 |
+| Pre-festival flush | Jun 29–Jul 1 | 80–120 | 0 |
+| Festival | Jul 2–5 | 0–60 | 0 |
 | Build P2 W1 | Jul 6–12 | 400–430 | 0 |
 | Build P2 W2 | Jul 13–19 | 450–490 | 1–2 |
 | Build P2 W3 | Jul 20–26 | 490–530 | 2–3 |
