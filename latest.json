@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-19T11:51:42.845644",
+    "last_updated": "2026-05-19T14:25:19.243605",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -156,7 +156,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-04-29",
-    "age_days": 19,
+    "age_days": 20,
     "total_months": 34,
     "history_confidence": "high"
   },
@@ -672,7 +672,7 @@
     "p_max": 945,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 54.27,
-    "calculation_timestamp": "2026-05-19T11:51:42.844521",
+    "calculation_timestamp": "2026-05-19T14:25:19.242442",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -4326,14 +4326,14 @@
       "description": ""
     },
     {
-      "id": 109715570,
+      "id": 109715760,
       "date": "2026-05-22",
-      "name": "Mobility",
+      "name": "Short Endurance Z2 40-50 min",
       "type": "WORKOUT",
-      "sport_type": "Yoga",
+      "sport_type": "Run",
       "planned_tss": null,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
@@ -4352,14 +4352,27 @@
       "description": ""
     },
     {
-      "id": 109715760,
+      "id": 109727462,
       "date": "2026-05-24",
-      "name": "Short Endurance Z2 40-50 min",
+      "name": "40 min Z2 Run",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": ""
+    },
+    {
+      "id": 109715570,
+      "date": "2026-05-25",
+      "name": "Mobility",
+      "type": "WORKOUT",
+      "sport_type": "Yoga",
+      "planned_tss": null,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
@@ -4373,19 +4386,6 @@
       "planned_tss": null,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
-    {
-      "id": 109727462,
-      "date": "2026-05-25",
-      "name": "40 min Z2 Run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
