@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-20T14:13:59.747152",
+    "last_updated": "2026-05-20T17:30:20.747467",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "amber",
-        "value": -24.2
+        "value": -24.3
       }
     },
     "signal_summary": {
@@ -229,10 +229,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 39.99,
-      "atl": 64.18,
-      "tsb": -24.19,
-      "ramp_rate": 2.79,
+      "ctl": 40.02,
+      "atl": 64.31,
+      "tsb": -24.29,
+      "ramp_rate": 2.82,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -682,7 +682,7 @@
     "p_max": 945,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 54.32,
-    "calculation_timestamp": "2026-05-20T14:13:59.746039",
+    "calculation_timestamp": "2026-05-20T17:30:20.746266",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -4375,13 +4375,13 @@
       "name": "Z2 bike",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 54,
+      "planned_tss": 55,
       "duration_hours": 1.33,
       "duration_formatted": "1h20m",
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description": "- 10m ramp 50%-65%\n- 60m 65%\n- 10m ramp 65%-50%"
+      "description": "- 5m ramp 50%-65%\n- 70m 65%\n- 5m ramp 65%-50%"
     },
     {
       "id": 109715232,
