@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T01:30:59.993303",
+  "generated_at": "2026-05-27T06:00:37.187333",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1163,6 +1163,26 @@
           "max_hr": 153,
           "avg_cadence": 82.0,
           "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i151820848",
+      "date": "2026-05-26",
+      "type": "Run",
+      "name": "50 min Z2 Run",
+      "interval_summary": [
+        "1x 48m 145bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2880s@145bpm85rpm",
+          "duration_secs": 2880,
+          "avg_hr": 145,
+          "max_hr": 158,
+          "avg_cadence": 85.009384,
+          "zone": 2
         }
       ]
     }
