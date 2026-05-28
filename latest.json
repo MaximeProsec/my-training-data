@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-28T12:53:28.169545",
+    "last_updated": "2026-05-28T16:45:33.077090",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -166,7 +166,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-04-29",
-    "age_days": 28,
+    "age_days": 29,
     "total_months": 34,
     "history_confidence": "high"
   },
@@ -239,7 +239,7 @@
       "w_prime": 19920,
       "w_prime_kj": 19.9,
       "p_max": 945,
-      "vo2max": 55.26,
+      "vo2max": 55.35,
       "sports": {
         "cycling": {
           "lthr": 185,
@@ -294,10 +294,10 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": 11.922619,
+      "respiration": 11.817073,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3995,
+      "steps": 5196,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -680,8 +680,8 @@
     "w_prime_kj": 19.9,
     "p_max": 945,
     "power_model_source": "wellness.sportInfo",
-    "vo2max": 55.26,
-    "calculation_timestamp": "2026-05-28T12:53:28.168696",
+    "vo2max": 55.35,
+    "calculation_timestamp": "2026-05-28T16:45:33.075925",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -4738,7 +4738,7 @@
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": 55.26,
+      "vo2max": 55.35,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -4773,14 +4773,14 @@
       },
       "resting_hr": 47,
       "hrv_rmssd": null,
-      "hrv_sdnn": 74.30884,
+      "hrv_sdnn": 84.06057,
       "sleep_hours": 7.28,
       "sleep_formatted": "7h16m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": 55.26,
+      "vo2max": 55.35,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -4794,10 +4794,10 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": 11.922619,
+      "respiration": 11.817073,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3995,
+      "steps": 5196,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4971,19 +4971,6 @@
       "description": "10\u201315 min Z2 easy jog off the bike"
     },
     {
-      "id": 109728046,
-      "date": "2026-06-04",
-      "name": "Z2 Run 40 min easy",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
-    {
       "id": 109728091,
       "date": "2026-06-04",
       "name": "upper\u2011body strength",
@@ -4995,6 +4982,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
+    },
+    {
+      "id": 112862650,
+      "date": "2026-06-04",
+      "name": "Z3 Tempo Run 40 min (2\u00d712 min tempo)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "-10m warmup\n2x12 min tempo : \nAround 4:20\nCooldown"
     },
     {
       "id": 109728144,
@@ -5068,8 +5068,8 @@
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
-      "duration_hours": 0.17,
-      "duration_formatted": "10m",
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "-10m warmup\n2x12 min tempo :\nAround 4:20"
@@ -5677,12 +5677,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 12,
+    "attempted": 13,
     "success": 1,
     "patternA": 0,
     "patternB": 1,
     "bail_no_workout_doc": 6,
-    "bail_no_match": 11
+    "bail_no_match": 12
   },
   "weekly_summary": {
     "total_training_hours": 5.67,
