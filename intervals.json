@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T04:40:27.778837",
+  "generated_at": "2026-05-29T08:27:13.918960",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -889,6 +889,106 @@
           "zone": 2,
           "training_load": 6.315808,
           "decoupling": 10.506481
+        }
+      ]
+    },
+    {
+      "activity_id": "i152420537",
+      "date": "2026-05-29",
+      "type": "Run",
+      "name": "Z2 Run 40 min easy",
+      "interval_summary": [
+        "9x 5m34s 151bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "334s@151bpm87rpm",
+          "duration_secs": 356,
+          "avg_hr": 137,
+          "max_hr": 148,
+          "avg_cadence": 84.81356,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "334s@151bpm87rpm",
+          "duration_secs": 335,
+          "avg_hr": 148,
+          "max_hr": 154,
+          "avg_cadence": 86.39702,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "334s@151bpm87rpm",
+          "duration_secs": 328,
+          "avg_hr": 152,
+          "max_hr": 158,
+          "avg_cadence": 87.30488,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "334s@151bpm87rpm",
+          "duration_secs": 334,
+          "avg_hr": 152,
+          "max_hr": 160,
+          "avg_cadence": 86.12575,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "334s@151bpm87rpm",
+          "duration_secs": 334,
+          "avg_hr": 152,
+          "max_hr": 158,
+          "avg_cadence": 87.17964,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "334s@151bpm87rpm",
+          "duration_secs": 334,
+          "avg_hr": 153,
+          "max_hr": 159,
+          "avg_cadence": 86.81437,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "334s@151bpm87rpm",
+          "duration_secs": 331,
+          "avg_hr": 156,
+          "max_hr": 161,
+          "avg_cadence": 87.274925,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "334s@151bpm87rpm",
+          "duration_secs": 334,
+          "avg_hr": 156,
+          "max_hr": 160,
+          "avg_cadence": 87.461075,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "334s@151bpm87rpm",
+          "duration_secs": 316,
+          "avg_hr": 156,
+          "max_hr": 160,
+          "avg_cadence": 86.27215,
+          "zone": 3
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 158,
+          "max_hr": 158,
+          "avg_cadence": 76.0,
+          "zone": 3
         }
       ]
     }
