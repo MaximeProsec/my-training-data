@@ -1,6 +1,6 @@
 # Training Schedule — May 12 to October 10, 2026
 
-> Last updated: 2026-05-18
+> Last updated: 2026-05-29
 > Sessions marked *(added)* are stacked additions to the original plan.
 > **FLEX:** sessions marked with 🔄 can be moved to any weekday if weekend is unavailable.
 > Monday ACWR caveat: if TSB < −10 on any given Monday, drop the run and keep strength only.
@@ -91,11 +91,11 @@
 | Tue Jun 9 | Swim 50 min aerobic | Optional carry to Wed |
 | Wed Jun 10 | Swim 45 min *(if not done Tue)* + 🔥 **Sweet Spot Bike 1h20 — 3×15 min @ 88–93% FTP** | Hard day 1 |
 | Thu Jun 11 | Z2 Run 40 min + Upper-body + Core 45 min | Easy run + short strength |
-| Fri Jun 12 | REST or mobility | — |
-| Sat Jun 13 | 🔄 🔥 **Z2 Bike 2h outdoor + 20 min brick run** | Hard day 2 — **can shift to any weekday** |
+| Fri Jun 12 | 🔥 **Z3 Tempo Run 35–40 min — 2×10 min @ ~4:20/km** *(added)* | Hard day 2 — Thu was easy, Sat is aerobic |
+| Sat Jun 13 | 🔄 🔥 **Z2 Bike 2h outdoor + 20 min brick run** | Hard day 3 — **can shift to any weekday** |
 | Sun Jun 14 | 🏃 **Long Run 1h Z2** (~10–11 km) | Keep Z2 if legs are cooked from Sat |
 
-**Weekly TSS target: ~460–500 | Hard days: 2**
+**Weekly TSS target: ~460–500 | Hard days: 3**
 
 ---
 
@@ -106,11 +106,11 @@
 | Tue Jun 16 | Swim 50 min aerobic | Optional carry to Wed |
 | Wed Jun 17 | Swim 45 min *(if not done Tue)* + 🔥 **Threshold Bike 1h20 — 2×20 min @ FTP (251W)** | Hard day 1 — longest FTP block of Build P1 |
 | Thu Jun 18 | Z2 Run 45 min + Core 30 min | Easy double |
-| Fri Jun 19 | REST or easy walk | — |
+| Fri Jun 19 | 🔥 **Z3 Tempo Run 40 min — 2×12 min @ ~4:20/km** *(added)* | Hard day 2 — Thu was easy, Sat is aerobic brick |
 | Sat Jun 20 | 🔄 🟢 **Z2 Bike 1h45 outdoor + 25 min brick run** | Long brick — **can shift to any weekday** |
 | Sun Jun 21 | 🏃 🟢 **Long Run 1h10 Z2 + 15 min tempo** (~13 km) | Optional tempo segment — or pure Z2 if Sat was hard |
 
-**Weekly TSS target: ~460–490 | Hard days: 1–2**
+**Weekly TSS target: ~460–490 | Hard days: 2–3**
 
 ---
 
@@ -121,7 +121,7 @@
 | Tue Jun 23 | Swim 50 min aerobic | Optional carry to Wed |
 | Wed Jun 24 | Swim 45 min *(if not done Tue)* + 🔥 **Sweet Spot Bike 1h — 2×15 min @ 88–93% FTP** | Hard day 1 |
 | Thu Jun 25 | Z2 Run 40 min + Core 30 min | Easy double |
-| Fri Jun 26 | REST | — |
+| Fri Jun 26 | REST | Deload Friday — no bike, no tempo |
 | Sat Jun 27 | Z2 Bike 1h easy OR Z2 Run 45 min | Choose by feel — deload starts |
 | Sun Jun 28 | REST | Full rest — festival prep week begins Mon |
 
@@ -163,7 +163,7 @@
 | Tue Jul 7 | Swim 50 min aerobic | Optional carry to Wed |
 | Wed Jul 8 | Swim 45 min *(if not done Tue)* + Z2 Bike 1h20 (65%) | Rebuild aerobic base — no intensity yet |
 | Thu Jul 9 | Z2 Run 45 min + Upper-body strength 45 min | Easy double |
-| Fri Jul 10 | REST or 20 min mobility | — |
+| Fri Jul 10 | 30–40 min Z2 Bike easy (55–65% FTP) + 10 min mobility *(added)* | Active recovery — post-festival, keep it gentle |
 | Sat Jul 11 | 🔄 Z2 Bike 2h outdoor + 25 min brick run | Long ride back — **can shift to any weekday** |
 | Sun Jul 12 | 🏃 **Long Run 1h10 Z2** (~12 km) | Reconnect with long run after festival |
 
@@ -178,11 +178,11 @@
 | Tue Jul 14 | Swim 55 min — introduce pace sets (4×200m @ CSS) | First swim quality |
 | Wed Jul 15 | 🔥 **Threshold Bike 1h20 — 2×20 min @ FTP (251W)** | Hard day 1 |
 | Thu Jul 16 | Z2 Run 45 min + Upper-body strength 45 min | Easy double |
-| Fri Jul 17 | REST or 20 min mobility | — |
-| Sat Jul 18 | 🔄 🟢 **Z2 Bike 2h15 outdoor + 30 min brick run** | Hard day 2 — **can shift to any weekday** |
+| Fri Jul 17 | 🔥 **Z3 Tempo Run 40–45 min — 2×12 min @ ~4:20/km** *(added)* | Hard day 2 — Thu was easy, Sat is long aerobic brick |
+| Sat Jul 18 | 🔄 🟢 **Z2 Bike 2h15 outdoor + 30 min brick run** | Hard day 3 — **can shift to any weekday** |
 | Sun Jul 19 | 🏃 **Long Run 1h20 Z2** (~14 km) | Step up — HR ≤ 160 throughout |
 
-**Weekly TSS target: ~450–490 | Hard days: 1–2**
+**Weekly TSS target: ~450–490 | Hard days: 2–3**
 
 ---
 
@@ -193,7 +193,7 @@
 | Tue Jul 21 | Swim 55 min — 4×300m @ CSS | Build swim quality |
 | Wed Jul 22 | 🔥 **Threshold Bike 1h30 — 3×15 min @ FTP (251W)** | Hard day 1 — biggest FTP block yet |
 | Thu Jul 23 | 🟢 **Z3 Tempo Run 50 min — 2×15 min @ ~4:20/km** | Hard day 2 |
-| Fri Jul 24 | REST | — |
+| Fri Jul 24 | REST | Thu hard + Sat very hard — full rest |
 | Sat Jul 25 | 🔄 Race-Pace Bike 2h — 40 min @ 75–80% FTP + 35 min brick run | Hard day 3 — **can shift to any weekday** |
 | Sun Jul 26 | 🏃 **Long Run 1h30 Z2** (~16 km) | Longest run so far — fuel from 60 min |
 
@@ -208,7 +208,7 @@
 | Tue Jul 28 | Swim 50 min — 1500m continuous | Approach race distance |
 | Wed Jul 29 | Z2 Bike 1h30 outdoor | Easy — no intensity |
 | Thu Jul 30 | Z2 Run 50 min + Upper-body strength 30 min | Comfortable double |
-| Fri Aug 1 | REST | — |
+| Fri Aug 1 | 30–40 min Z2 Bike easy (55–65% FTP) + 10 min mobility *(added)* | Active recovery — consolidation week, keep gentle |
 | Sat Aug 2 | 🔄 Z2 Bike 2h + 20 min brick run | Maintain long aerobic — **can shift to any weekday** |
 | Sun Aug 3 | 🏃 **Long Run 1h20 Z2** (~14 km) | Step-back — intentional reduction before Race-Specific |
 
@@ -230,7 +230,7 @@
 | Tue Aug 5 | Swim 1h — 3×400m @ CSS + drills | First extended swim quality set |
 | Wed Aug 6 | 🔥 **Race-Pace Bike 1h30 — 40 min @ 75–80% FTP (~190–205W)** | Hard day 1 — first race-pace block |
 | Thu Aug 7 | Z2 Run 50 min | Recovery run |
-| Fri Aug 8 | REST or mobility | — |
+| Fri Aug 8 | 30–40 min Z2 Bike easy (55–65% FTP) + 10 min mobility *(added)* | Active recovery — protect Saturday's hard session |
 | Sat Aug 9 | 🔄 🔥 **Race-Pace Bike 2h30 — 60 min @ race zone + 30 min brick run** | Hard day 2 — **can shift to any weekday** |
 | Sun Aug 10 | 🏃 **Long Run 1h40 Z2** (~17–18 km) | Big step up — fuel from 45 min, HR ≤ 160 |
 
@@ -245,7 +245,7 @@
 | Tue Aug 11 | Swim 1h — 1900m race-pace continuous effort | Full 70.3 swim distance |
 | Wed Aug 12 | Z2 Bike 1h easy | Active recovery before key days |
 | Thu Aug 13 | 🔥 **Race-Pace Bike 1h45 — 70 min @ race zone + 35 min brick run** | Hard day 1 — hardest brick of the plan |
-| Fri Aug 14 | REST | — |
+| Fri Aug 14 | REST | Thu was the hardest brick — full rest before peak long run |
 | Sat Aug 15 | 🔄 Z2 Bike 2h30–3h outdoor | Hard day 2 (aerobic load) — **can shift to any weekday** |
 | Sun Aug 16 | 🏃 🔥 **Long Run 1h50 Z2** (~19–20 km) — **PEAK LONG RUN** | Longest run of the plan — fuel every 30–40 min, HR ≤ 160 |
 
@@ -260,7 +260,7 @@
 | Tue Aug 18 | Swim 1h10 — 1900m continuous at race pace | Reinforce swim confidence |
 | Wed Aug 19 | 🔥 **Threshold Bike 1h30 — 2×25 min @ FTP** | Hard day 1 |
 | Thu Aug 20 | 🟢 **Z3 Tempo Run 50 min — 2×15 min tempo** | Hard day 2 |
-| Fri Aug 21 | REST | — |
+| Fri Aug 21 | REST | Thu hard + Sat race-sim — full rest |
 | Sat Aug 22 | 🔄 🔥 **Race-Sim Brick: Z2 Bike 2h30 + 35 min run @ race pace** | Hard day 3 — **can shift to any weekday** |
 | Sun Aug 23 | 🏃 **Long Run 1h Z2** (~10–11 km) | Mandatory step-back after peak week |
 
@@ -275,7 +275,7 @@
 | Tue Aug 25 | Swim 45 min easy aerobic | Flush |
 | Wed Aug 26 | Z2 Bike 1h30 outdoor | Easy — no intensity |
 | Thu Aug 27 | Z2 Run 50 min | Comfortable |
-| Fri Aug 28 | REST | — |
+| Fri Aug 28 | REST | Deload week — no additions |
 | Sat Aug 29 | 🔄 Z2 Bike 2h + 20 min brick | Maintain feel — **can shift to any weekday** |
 | Sun Aug 30 | 🏃 **Long Run 1h Z2** (~10–11 km) | Keep easy — deload week |
 
@@ -297,7 +297,7 @@
 | Tue Sep 1 | Swim 1h — 1900m race-pace effort | Reinforce swim |
 | Wed Sep 2 | 🔥 **Race-Pace Bike 1h30 — 45 min @ race zone** | Hard day 1 |
 | Thu Sep 3 | 🟢 **Z3 Tempo Run 40 min — 1×20 min tempo** | Hard day 2 |
-| Fri Sep 4 | REST | — |
+| Fri Sep 4 | 30–40 min Z2 Bike easy (55–65% FTP) + 10 min mobility *(added)* | Active recovery — Thu easy-ish, Sat race-sim |
 | Sat Sep 5 | 🔄 🔥 **Race-Sim Brick: Z2 Bike 2h + 30 min brick run** | Hard day 3 — **can shift to any weekday** |
 | Sun Sep 6 | 🏃 **Long Run 1h Z2** (~10–11 km) | Last meaningful long run before taper |
 
@@ -331,7 +331,7 @@
 | Tue Sep 15 | Swim 40 min — 800m race-pace effort | Feel maintained |
 | Wed Sep 16 | Race-Pace Bike 1h — 25 min @ race zone | Keep legs sharp |
 | Thu Sep 17 | Z2 Run 35 min | Easy flush |
-| Fri Sep 18 | REST | — |
+| Fri Sep 18 | REST | Taper — no additions |
 | Sat Sep 19 | Z2 Bike 1h30 outdoor + 10–15 min brick | Last long-ish ride |
 | Sun Sep 20 | Z2 Run 40 min | Easy close |
 
@@ -406,6 +406,50 @@
 
 ---
 
+## Tempo Run Progression
+
+| Date | Day | Session | Phase |
+|---|---|---|---|
+| Jun 4 | Thu | Z3 Tempo 45 min — 2×12 min @ ~4:20/km | Build P1 W1 |
+| Jun 12 | Fri | Z3 Tempo 35–40 min — 2×10 min @ ~4:20/km *(added)* | Build P1 W2 |
+| Jun 19 | Fri | Z3 Tempo 40 min — 2×12 min @ ~4:20/km *(added)* | Build P1 W3 |
+| Jun 21 | Sun | Long Run optional 15 min tempo segment | Build P1 W3 |
+| Jul 17 | Fri | Z3 Tempo 40–45 min — 2×12 min @ ~4:20/km *(added)* | Build P2 W2 |
+| Jul 23 | Thu | Z3 Tempo 50 min — 2×15 min @ ~4:20/km | Build P2 W3 |
+| Aug 20 | Thu | Z3 Tempo 50 min — 2×15 min tempo | Race-Specific W3 |
+| Sep 3 | Thu | Z3 Tempo 40 min — 1×20 min tempo | Peak W1 |
+
+---
+
+## Friday Session Summary
+
+| Friday | Session | Rationale |
+|---|---|---|
+| May 15 | Z2 Bike 40 min easy (70%) | Active recovery (existing) |
+| May 22 | REST or 20 min mobility | Base week — low stress |
+| May 29 | Z2 Run 40 min easy | Build opener — no bike needed |
+| Jun 5 | REST or easy walk | Camping — no bike available |
+| Jun 12 | 🔥 Tempo Run 35–40 min — 2×10 min *(added)* | Thu easy, Sat aerobic |
+| Jun 19 | 🔥 Tempo Run 40 min — 2×12 min *(added)* | Thu easy, Sat aerobic |
+| Jun 26 | REST | Deload Friday |
+| Jul 3 | 🎵 Festival REST | — |
+| Jul 10 | Z2 Bike 30–40 min easy *(added)* | Post-festival gentle return |
+| Jul 17 | 🔥 Tempo Run 40–45 min — 2×12 min *(added)* | Thu easy, Sat long brick |
+| Jul 24 | REST | Thu + Sat both hard |
+| Aug 1 | Z2 Bike 30–40 min easy *(added)* | Consolidation flush |
+| Aug 8 | Z2 Bike 30–40 min easy *(added)* | Protect Sat race-pace session |
+| Aug 14 | REST | After hardest brick of plan |
+| Aug 21 | REST | Thu hard + Sat race-sim |
+| Aug 28 | REST | Mandatory deload |
+| Sep 4 | Z2 Bike 30–40 min easy *(added)* | Thu tempo, Sat race-sim — active recovery |
+| Sep 11 | 🏔 REST or easy walk | South of France |
+| Sep 18 | REST | Taper |
+| Sep 25 | REST | Taper |
+| Oct 2 | REST | Travel/race week |
+| Oct 9 | REST | Race eve |
+
+---
+
 ## Load Trajectory — Full Season
 
 | Phase | Dates | Target Weekly TSS | Hard Days/Week |
@@ -413,13 +457,13 @@
 | End of Base | May 11–24 | 330–380 | 0 |
 | Build P1 opener | May 28–31 | 200–240 | 1 |
 | Build P1 W1 | Jun 1–7 | 420–460 | 2 |
-| Build P1 W2 | Jun 8–14 | 460–500 | 2 |
-| Build P1 W3 | Jun 15–21 | 460–490 | 1–2 |
+| Build P1 W2 | Jun 8–14 | 460–500 | 3 |
+| Build P1 W3 | Jun 15–21 | 460–490 | 2–3 |
 | Build P1 W4 + flush | Jun 22–28 | 380–420 | 1 |
 | Pre-festival flush | Jun 29–Jul 1 | 80–120 | 0 |
 | Festival | Jul 2–5 | 0–60 | 0 |
 | Build P2 W1 | Jul 6–12 | 400–430 | 0 |
-| Build P2 W2 | Jul 13–19 | 450–490 | 1–2 |
+| Build P2 W2 | Jul 13–19 | 450–490 | 2–3 |
 | Build P2 W3 | Jul 20–26 | 490–530 | 2–3 |
 | Build P2 W4 | Jul 27–Aug 2 | 420–450 | 0 |
 | Race-Specific W1 | Aug 4–10 | 500–540 | 2 |
@@ -447,3 +491,5 @@
 - **Sleep ≥ 8h during taper** is a training session. Prioritize it over any workout.
 - **Race week:** no new sessions, gear, routes, or nutrition. Only familiar stimuli.
 - **Race day is Saturday Oct 10.**
+- **Friday tempo runs (Jun 12, 19, Jul 17):** only viable when Thursday was easy. If Thursday was harder than planned, revert Friday to active recovery bike or full rest.
+- **Friday active recovery bike:** 30–40 min, HR < 130, power < 60% FTP. Keep it short — scope creep blunts Saturday's quality.
