@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-29T14:22:45.913113",
+    "last_updated": "2026-05-29T17:47:07.966657",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -297,7 +297,7 @@
       "respiration": 12.171875,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 12971,
+      "steps": 13551,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -682,7 +682,7 @@
     "p_max": 945,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 55.18,
-    "calculation_timestamp": "2026-05-29T14:22:45.912021",
+    "calculation_timestamp": "2026-05-29T17:47:07.965247",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -4877,7 +4877,7 @@
       "respiration": 12.171875,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 12971,
+      "steps": 13551,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -5208,18 +5208,17 @@
       "description_preview": null
     },
     {
-      "id": 113022033,
+      "id": 113024429,
       "date": "2026-06-12",
-      "name": "Z2 Active recovery",
+      "name": "Z3 Tempo Run 40 min (2\u00d712 min tempo)",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 34,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.17,
+      "duration_formatted": "10m",
       "workout_summary": null,
       "has_terrain": false,
-      "indoor": true,
-      "description_preview": "- 5m ramp 50%-65%\n- 40m 65%\n- 5m ramp 65%-50%"
+      "description_preview": "-10m warmup\n2x12 min tempo :\nAround 4:20"
     },
     {
       "id": 109728642,
@@ -5595,6 +5594,19 @@
       "description_preview": null
     },
     {
+      "id": 113024671,
+      "date": "2026-06-28",
+      "name": "Z3 Tempo Run 40 min (2\u00d712 min tempo)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.17,
+      "duration_formatted": "10m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-10m warmup\n2x12 min tempo :\nAround 4:20"
+    },
+    {
       "id": 110874176,
       "date": "2026-06-29",
       "name": "40 min Z2 Run",
@@ -5798,12 +5810,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 16,
+    "attempted": 17,
     "success": 1,
     "patternA": 0,
     "patternB": 1,
     "bail_no_workout_doc": 6,
-    "bail_no_match": 15
+    "bail_no_match": 16
   },
   "weekly_summary": {
     "total_training_hours": 6.74,
