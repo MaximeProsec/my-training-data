@@ -1,85 +1,10 @@
 {
-  "generated_at": "2026-05-28T23:00:15.842315",
+  "generated_at": "2026-05-29T00:11:59.661540",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i148218878",
-      "date": "2026-05-14",
-      "type": "Run",
-      "name": "5K min EAsy Run Z2",
-      "interval_summary": [
-        "4x 5m29s 152bpm",
-        "1x 4m52s 171bpm",
-        "1x 6s 181bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "329s@152bpm86rpm",
-          "duration_secs": 331,
-          "avg_hr": 142,
-          "max_hr": 150,
-          "avg_cadence": 85.1459,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "329s@152bpm86rpm",
-          "duration_secs": 330,
-          "avg_hr": 152,
-          "max_hr": 159,
-          "avg_cadence": 85.8,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "329s@152bpm86rpm",
-          "duration_secs": 330,
-          "avg_hr": 156,
-          "max_hr": 160,
-          "avg_cadence": 86.24848,
-          "zone": 3
-        },
-        {
-          "type": "WORK",
-          "label": "329s@152bpm86rpm",
-          "duration_secs": 325,
-          "avg_hr": 158,
-          "max_hr": 162,
-          "avg_cadence": 86.14154,
-          "zone": 3
-        },
-        {
-          "type": "WORK",
-          "label": "292s@171bpm87rpm",
-          "duration_secs": 292,
-          "avg_hr": 171,
-          "max_hr": 189,
-          "avg_cadence": 87.34247,
-          "zone": 4
-        },
-        {
-          "type": "WORK",
-          "label": "6s@181bpm84rpm",
-          "duration_secs": 6,
-          "avg_hr": 181,
-          "max_hr": 181,
-          "avg_cadence": 84.0,
-          "zone": 4
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 181,
-          "max_hr": 181,
-          "avg_cadence": 82.0,
-          "zone": 4
-        }
-      ]
-    },
     {
       "activity_id": "i148410309",
       "date": "2026-05-15",
