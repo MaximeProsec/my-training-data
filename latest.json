@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-29T11:44:08.440285",
+    "last_updated": "2026-05-29T14:22:45.913113",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -113,9 +113,9 @@
       },
       "rhr": {
         "status": "green",
-        "value": 52,
-        "baseline_7d": 50.3,
-        "delta_bpm": 1.7
+        "value": 51,
+        "baseline_7d": 50.1,
+        "delta_bpm": 0.9
       },
       "sleep": {
         "status": "amber",
@@ -166,7 +166,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-04-29",
-    "age_days": 29,
+    "age_days": 30,
     "total_months": 34,
     "history_confidence": "high"
   },
@@ -275,7 +275,7 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 52,
+      "resting_hr": 51,
       "hrv": null,
       "sleep_quality": 1,
       "sleep_hours": 6.5,
@@ -297,7 +297,7 @@
       "respiration": 12.171875,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 12107,
+      "steps": 12971,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -312,11 +312,11 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 50.3,
+    "rhr_baseline_7d": 50.1,
     "hrv_baseline_28d": 89.2,
-    "rhr_baseline_28d": 53.0,
+    "rhr_baseline_28d": 52.9,
     "latest_hrv": null,
-    "latest_rhr": 52,
+    "latest_rhr": 51,
     "acwr": 0.89,
     "acwr_interpretation": "optimal",
     "monotony": 2.05,
@@ -682,7 +682,7 @@
     "p_max": 945,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 55.18,
-    "calculation_timestamp": "2026-05-29T11:44:08.439081",
+    "calculation_timestamp": "2026-05-29T14:22:45.912021",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -4851,9 +4851,9 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 52,
+      "resting_hr": 51,
       "hrv_rmssd": null,
-      "hrv_sdnn": 83.04451,
+      "hrv_sdnn": 80.12644,
       "sleep_hours": 6.5,
       "sleep_formatted": "6h30m",
       "sleep_quality": 1,
@@ -4877,7 +4877,7 @@
       "respiration": 12.171875,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 12107,
+      "steps": 12971,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -5208,6 +5208,20 @@
       "description_preview": null
     },
     {
+      "id": 113022033,
+      "date": "2026-06-12",
+      "name": "Z2 Active recovery",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 34,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "- 5m ramp 50%-65%\n- 40m 65%\n- 5m ramp 65%-50%"
+    },
+    {
       "id": 109728642,
       "date": "2026-06-13",
       "name": "Z2 bike 2h(Outside?)",
@@ -5367,6 +5381,20 @@
       "description_preview": null
     },
     {
+      "id": 113022159,
+      "date": "2026-06-19",
+      "name": "Z2 Active recovery",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 34,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "- 5m ramp 50%-65%\n- 40m 65%\n- 5m ramp 65%-50%"
+    },
+    {
       "id": 109731521,
       "date": "2026-06-20",
       "name": "Z2 Bike 1h45 outdoor + 25 min brick run",
@@ -5524,6 +5552,20 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
+    },
+    {
+      "id": 113022180,
+      "date": "2026-06-26",
+      "name": "Z2 Active recovery",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 34,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "- 5m ramp 50%-65%\n- 40m 65%\n- 5m ramp 65%-50%"
     },
     {
       "id": 109734974,
@@ -5739,15 +5781,29 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
+    },
+    {
+      "id": 113022198,
+      "date": "2026-07-10",
+      "name": "Z2 Active recovery",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 34,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "- 5m ramp 50%-65%\n- 40m 65%\n- 5m ramp 65%-50%"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 12,
+    "attempted": 16,
     "success": 1,
     "patternA": 0,
     "patternB": 1,
     "bail_no_workout_doc": 6,
-    "bail_no_match": 11
+    "bail_no_match": 15
   },
   "weekly_summary": {
     "total_training_hours": 6.74,
@@ -5755,7 +5811,7 @@
     "total_tss": 351,
     "activities_count": 8,
     "avg_hrv": null,
-    "avg_resting_hr": 50.3
+    "avg_resting_hr": 50.1
   },
   "race_calendar": {
     "next_race": null,
