@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-05-30T23:41:43.292179",
+  "generated_at": "2026-05-31T01:50:37.358648",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i148762039",
-      "date": "2026-05-16",
-      "type": "VirtualRide",
-      "name": "Z2 bike",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 4814,
-          "avg_power": 149,
-          "max_power": 184,
-          "avg_hr": 125,
-          "max_hr": 138,
-          "avg_cadence": 86.67179,
-          "zone": 2,
-          "training_load": 48.396065,
-          "decoupling": 4.7331123
-        }
-      ]
-    },
     {
       "activity_id": "i148961317",
       "date": "2026-05-17",
