@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T05:02:04.496560",
+  "generated_at": "2026-06-04T08:58:29.270730",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1532,6 +1532,59 @@
           "zone": 2,
           "training_load": 6.3053446,
           "decoupling": 6.1201706
+        }
+      ]
+    },
+    {
+      "activity_id": "i154163517",
+      "date": "2026-06-04",
+      "type": "Run",
+      "name": "Z3 Tempo Run 40 min (2\u00d712 min tempo)",
+      "interval_summary": [
+        "2x 12m 185bpm"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 304,
+          "avg_hr": 138,
+          "max_hr": 156,
+          "avg_cadence": 83.35906,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "720s@185bpm89rpm",
+          "duration_secs": 720,
+          "avg_hr": 182,
+          "max_hr": 190,
+          "avg_cadence": 89.60694,
+          "zone": 4
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 123,
+          "avg_hr": 162,
+          "max_hr": 189,
+          "avg_cadence": 61.853657,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "720s@185bpm89rpm",
+          "duration_secs": 720,
+          "avg_hr": 187,
+          "max_hr": 192,
+          "avg_cadence": 89.119446,
+          "zone": 5
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 394,
+          "avg_hr": 161,
+          "max_hr": 191,
+          "avg_cadence": 76.68782,
+          "zone": 3
         }
       ]
     }
