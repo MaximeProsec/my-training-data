@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T02:48:11.514269",
+  "generated_at": "2026-06-05T06:55:18.687290",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1484,6 +1484,27 @@
           "max_hr": 191,
           "avg_cadence": 76.68782,
           "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i154467012",
+      "date": "2026-06-05",
+      "type": "VirtualRide",
+      "name": "Z2 bike 1heasy",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3642,
+          "avg_power": 160,
+          "max_power": 175,
+          "avg_hr": 132,
+          "max_hr": 141,
+          "avg_cadence": 89.21966,
+          "zone": 2,
+          "training_load": 41.623802,
+          "decoupling": 0.526779
         }
       ]
     }
