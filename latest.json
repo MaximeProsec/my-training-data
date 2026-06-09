@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-09T13:48:40.454598",
+    "last_updated": "2026-06-09T14:37:05.449239",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -658,7 +658,7 @@
           "current_week_hard_days_total": 4,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.1,
+          "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 1.3
         },
         "data_quality": "good",
@@ -692,7 +692,7 @@
     "p_max": 945,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 55.84,
-    "calculation_timestamp": "2026-06-09T13:48:40.453436",
+    "calculation_timestamp": "2026-06-09T14:37:05.448037",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -5223,6 +5223,19 @@
       "description": "- 15m ramp 50%-75%\n- 5m 75%\n- 15m 88%\n- 5m 60%\n- 15m 90%\n- 5m 60%\n- 15m 93%\n- 10m ramp 75%-50%"
     },
     {
+      "id": 115193313,
+      "date": "2026-06-10",
+      "name": "20 min Brick",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.33,
+      "duration_formatted": "20m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "20min Z2 easy jog off the bike"
+    },
+    {
       "id": 109728633,
       "date": "2026-06-11",
       "name": "50  min Easy Aerobic OPEN WATER",
@@ -6106,7 +6119,7 @@
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 7,
+    "bail_no_workout_doc": 8,
     "bail_no_match": 19
   },
   "weekly_summary": {
