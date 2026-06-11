@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-11T11:45:34.325394",
+    "last_updated": "2026-06-11T15:25:38.559779",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -102,8 +102,8 @@
   "athlete_notes": null,
   "alerts": [],
   "readiness_decision": {
-    "recommendation": "go",
-    "priority": 3,
+    "recommendation": "modify",
+    "priority": 2,
     "signals": {
       "hrv": {
         "status": "unavailable",
@@ -112,10 +112,10 @@
         "delta_pct": null
       },
       "rhr": {
-        "status": "green",
-        "value": 53,
-        "baseline_7d": 53.1,
-        "delta_bpm": -0.1
+        "status": "amber",
+        "value": 58,
+        "baseline_7d": 53.9,
+        "delta_bpm": 4.1
       },
       "sleep": {
         "status": "amber",
@@ -137,8 +137,8 @@
       }
     },
     "signal_summary": {
-      "green": 2,
-      "amber": 2,
+      "green": 1,
+      "amber": 3,
       "red": 0,
       "unavailable": 2
     },
@@ -149,8 +149,19 @@
       "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": null,
-    "reason": "P3 green light. 2 green, 2 amber (threshold 3), 0 red.",
+    "modification": {
+      "triggers": [
+        "rhr",
+        "sleep",
+        "tsb"
+      ],
+      "suggested_adjustments": {
+        "intensity": "reduce",
+        "volume": "reduce",
+        "cap_zone": null
+      }
+    },
+    "reason": "P2 signal count. 3 amber (rhr, sleep, tsb) >= threshold 3.",
     "alarm_refs": []
   },
   "history": {
@@ -265,7 +276,7 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 53,
+      "resting_hr": 58,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": 5.37,
@@ -287,7 +298,7 @@
       "respiration": 12.133333,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 7053,
+      "steps": 8908,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -302,11 +313,11 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 53.1,
+    "rhr_baseline_7d": 53.9,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 52,
+    "rhr_baseline_28d": 52.2,
     "latest_hrv": null,
-    "latest_rhr": 53,
+    "latest_rhr": 58,
     "acwr": 1.07,
     "acwr_interpretation": "optimal",
     "monotony": 2.23,
@@ -670,7 +681,7 @@
     "p_max": 945,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 56.01,
-    "calculation_timestamp": "2026-06-11T11:45:34.324490",
+    "calculation_timestamp": "2026-06-11T15:25:38.558529",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -4979,9 +4990,9 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 53,
+      "resting_hr": 58,
       "hrv_rmssd": null,
-      "hrv_sdnn": 77.97482,
+      "hrv_sdnn": 67.82414,
       "sleep_hours": 5.37,
       "sleep_formatted": "5h22m",
       "sleep_quality": null,
@@ -5005,7 +5016,7 @@
       "respiration": 12.133333,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 7053,
+      "steps": 8908,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -5308,17 +5319,16 @@
       "description_preview": null
     },
     {
-      "id": 109733319,
+      "id": 110872499,
       "date": "2026-06-23",
-      "name": "50  min Easy Aerobic",
+      "name": "upper\u2011body strength",
       "type": "WORKOUT",
-      "sport_type": "Swim",
+      "sport_type": "WeightTraining",
       "planned_tss": null,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "indoor": true,
       "description_preview": null
     },
     {
@@ -5363,6 +5373,20 @@
       "description_preview": "- 5m ramp 50%-65%\n- 50m 70%\n- 5m ramp 65%-50%"
     },
     {
+      "id": 109733319,
+      "date": "2026-06-25",
+      "name": "50  min Easy Aerobic",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": null,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": null
+    },
+    {
       "id": 109733565,
       "date": "2026-06-25",
       "name": "45 min Z2 Run",
@@ -5371,19 +5395,6 @@
       "planned_tss": null,
       "duration_hours": 0.75,
       "duration_formatted": "45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 110872499,
-      "date": "2026-06-25",
-      "name": "upper\u2011body strength",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": null,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
@@ -5950,7 +5961,7 @@
     "total_tss": 504,
     "activities_count": 9,
     "avg_hrv": null,
-    "avg_resting_hr": 53.1
+    "avg_resting_hr": 53.9
   },
   "race_calendar": {
     "next_race": null,
