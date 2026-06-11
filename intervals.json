@@ -1,59 +1,10 @@
 {
-  "generated_at": "2026-06-10T23:52:30.177619",
+  "generated_at": "2026-06-11T02:09:09.262479",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i152204617",
-      "date": "2026-05-27",
-      "type": "VirtualRide",
-      "name": "Z2 bike",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 4821,
-          "avg_power": 152,
-          "max_power": 184,
-          "avg_hr": 124,
-          "max_hr": 135,
-          "avg_cadence": 82.57996,
-          "zone": 2,
-          "training_load": 52.394596,
-          "decoupling": 6.6552224
-        }
-      ]
-    },
-    {
-      "activity_id": "i152251872",
-      "date": "2026-05-27",
-      "type": "Run",
-      "name": "Muide - Kleinendries",
-      "interval_summary": [
-        "1x 18m 160bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1080s@160bpm87rpm",
-          "duration_secs": 1080,
-          "avg_hr": 160,
-          "max_hr": 173,
-          "avg_cadence": 86.6308,
-          "zone": 3
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 167,
-          "max_hr": 167,
-          "avg_cadence": 82.0,
-          "zone": 4
-        }
-      ]
-    },
     {
       "activity_id": "i152362676",
       "date": "2026-05-28",
