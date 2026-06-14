@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-14T19:55:35.581939",
+    "last_updated": "2026-06-14T20:13:35.019680",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -662,7 +662,7 @@
           "race_proximity": null,
           "next_week_load": null,
           "plan_coverage_current_week": 0.1,
-          "plan_coverage_next_week": 1.3
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -697,7 +697,7 @@
     "p_max": 945,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 56.14,
-    "calculation_timestamp": "2026-06-14T19:55:35.580673",
+    "calculation_timestamp": "2026-06-14T20:13:35.018505",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -5409,17 +5409,18 @@
       "description": ""
     },
     {
-      "id": 109732427,
+      "id": 113022159,
       "date": "2026-06-16",
-      "name": "Z3 Tempo Run 40 min (2\u00d712 min tempo)",
+      "name": "Z2 Active recovery",
       "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
+      "sport_type": "Ride",
+      "planned_tss": 34,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "10 min warmpu\n2x12 min tempo --_> Pace? \nCooldown"
+      "indoor": true,
+      "description": "- 5m ramp 50%-65%\n- 40m 65%\n- 5m ramp 65%-50%"
     },
     {
       "id": 109731514,
@@ -5448,6 +5449,19 @@
       "has_terrain": false,
       "indoor": true,
       "description": "- 15m ramp 50%-75%\n- 5m 75%\n- 20m 100%\n- 5m 60%\n- 20m 100%\n- 10m ramp 75%-50%"
+    },
+    {
+      "id": 116086421,
+      "date": "2026-06-17",
+      "name": "25min Brick",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.25,
+      "duration_formatted": "15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "25min Z2 easy jog off the bike"
     },
     {
       "id": 109731516,
@@ -5489,18 +5503,17 @@
       "description": ""
     },
     {
-      "id": 113022159,
+      "id": 109732427,
       "date": "2026-06-19",
-      "name": "Z2 Active recovery",
+      "name": "Z3 Tempo Run 40 min (2\u00d712 min tempo)",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 34,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
       "workout_summary": null,
       "has_terrain": false,
-      "indoor": true,
-      "description": "- 5m ramp 50%-65%\n- 40m 65%\n- 5m ramp 65%-50%"
+      "description": "10 min warmpu\n2x12 min tempo --_> Pace? \nCooldown"
     },
     {
       "id": 109731525,
@@ -6267,7 +6280,7 @@
     "success": 1,
     "patternA": 0,
     "patternB": 1,
-    "bail_no_workout_doc": 7,
+    "bail_no_workout_doc": 8,
     "bail_no_match": 17
   },
   "weekly_summary": {
