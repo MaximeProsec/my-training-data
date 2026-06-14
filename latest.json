@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-14T20:13:35.019680",
+    "last_updated": "2026-06-14T21:37:45.163304",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -309,7 +309,7 @@
       "respiration": 11.642858,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 13868,
+      "steps": 13925,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -697,7 +697,7 @@
     "p_max": 945,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 56.14,
-    "calculation_timestamp": "2026-06-14T20:13:35.018505",
+    "calculation_timestamp": "2026-06-14T21:37:45.162106",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -5320,7 +5320,7 @@
       },
       "resting_hr": 55,
       "hrv_rmssd": null,
-      "hrv_sdnn": 109.714355,
+      "hrv_sdnn": 105.77069,
       "sleep_hours": 6.58,
       "sleep_formatted": "6h35m",
       "sleep_quality": 2,
@@ -5344,7 +5344,7 @@
       "respiration": 11.642858,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 13868,
+      "steps": 13925,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -5414,13 +5414,13 @@
       "name": "Z2 Active recovery",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 34,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
+      "planned_tss": 48,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description": "- 5m ramp 50%-65%\n- 40m 65%\n- 5m ramp 65%-50%"
+      "description": "- 5m ramp 50%-65%\n- 60m 65%\n- 5m ramp 65%-50%"
     },
     {
       "id": 109731514,
@@ -5771,7 +5771,7 @@
     {
       "id": 110874134,
       "date": "2026-07-01",
-      "name": "Sweet Spot Bike 1h \u2014 2\u00d715 min @ 88\u201393% FTP (~225\u2013238W)",
+      "name": "Sweet Spot Bike 1h \u2014 3\u00d715 min @ 88\u201393% FTP (~225\u2013238W)",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 93,
