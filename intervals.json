@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T05:55:50.856009",
+  "generated_at": "2026-06-23T08:55:16.648401",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1540,6 +1540,29 @@
           "zone": 1,
           "training_load": 10.514801,
           "decoupling": -5.077355
+        }
+      ]
+    },
+    {
+      "activity_id": "i159587548",
+      "date": "2026-06-22",
+      "type": "VirtualRun",
+      "name": "40 min Z2 Run",
+      "interval_summary": [
+        "1x 39m59s 144bpm"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2
+        },
+        {
+          "type": "WORK",
+          "label": "2399s@144bpm",
+          "duration_secs": 2399,
+          "avg_hr": 144,
+          "max_hr": 156,
+          "zone": 2
         }
       ]
     }
