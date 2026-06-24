@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-24T16:57:36.637496",
+    "last_updated": "2026-06-24T18:29:20.382274",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -287,7 +287,7 @@
       "respiration": 11.787879,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 7045,
+      "steps": 9031,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -620,7 +620,7 @@
     },
     "phase_detection": {
       "phase": "Build",
-      "confidence": "medium",
+      "confidence": "high",
       "reason_codes": [],
       "basis": {
         "stream_1": {
@@ -631,9 +631,9 @@
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 1,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 1,
+          "current_week_hard_days_total": 2,
           "race_proximity": 88,
           "next_week_load": null,
           "plan_coverage_current_week": 0.82,
@@ -670,7 +670,7 @@
     "p_max": 943,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-24T16:57:36.636051",
+    "calculation_timestamp": "2026-06-24T18:29:20.381058",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -4772,7 +4772,7 @@
       "respiration": 11.787879,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 7045,
+      "steps": 9031,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4799,18 +4799,18 @@
       "description": ""
     },
     {
-      "id": 110872970,
+      "id": 118296541,
       "date": "2026-06-24",
-      "name": "Z2 bike 1heasy",
+      "name": "Sweet Spot Bike 1h \u2014 3\u00d715 min @ 88\u201393% FTP (~225\u2013238W)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 46,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "planned_tss": 93,
+      "duration_hours": 1.42,
+      "duration_formatted": "1h25m",
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description": "- 5m ramp 50%-65%\n- 50m 70%\n- 5m ramp 65%-50%"
+      "description": "- 15m ramp 50%-75%\n- 5m 75%\n- 15m 88%\n- 5m 60%\n- 15m 90%\n- 5m 60%\n- 15m 93%\n- 10m ramp 75%-50%"
     },
     {
       "id": 109733319,
