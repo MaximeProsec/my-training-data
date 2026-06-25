@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-25T12:35:08.476799",
+    "last_updated": "2026-06-25T15:32:39.486148",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -695,7 +695,7 @@
     "p_max": 943,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-25T12:35:08.475612",
+    "calculation_timestamp": "2026-06-25T15:32:39.484988",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -5273,23 +5273,9 @@
       "description_preview": null
     },
     {
-      "id": 110872791,
-      "date": "2026-07-08",
-      "name": "Threshold Bike 1h20 \u2014 2\u00d720 min @ 100% FTP",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 98,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h15m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "indoor": true,
-      "description_preview": "- 15m ramp 50%-75%\n- 5m 75%\n- 20m 100%"
-    },
-    {
       "id": 110874643,
       "date": "2026-07-08",
-      "name": "Z2 bike 1heasy",
+      "name": "Z2 bike 1heasy or outside ride",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 63,
@@ -5419,36 +5405,8 @@
       "description_preview": null
     },
     {
-      "id": 110881726,
-      "date": "2026-07-14",
-      "name": "Swim 55 min \u2014 introduce pace sets (4\u00d7200m @ CSS)",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": null,
-      "duration_hours": 0.92,
-      "duration_formatted": "55m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "indoor": true,
-      "description_preview": "4\u00d7200m @ CSS"
-    },
-    {
-      "id": 110881954,
-      "date": "2026-07-15",
-      "name": "45 min Easy Aerobic",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": null,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "indoor": true,
-      "description_preview": null
-    },
-    {
       "id": 110881976,
-      "date": "2026-07-15",
+      "date": "2026-07-14",
       "name": "Threshold Bike 1h20 \u2014 2\u00d720 min @ 100% FTP",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -5459,6 +5417,20 @@
       "has_terrain": false,
       "indoor": true,
       "description_preview": "- 15m ramp 50%-75%\n- 5m 75%\n- 20m 100%"
+    },
+    {
+      "id": 110881726,
+      "date": "2026-07-15",
+      "name": "Swim 55 min \u2014 introduce pace sets (4\u00d7200m @ CSS)",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": null,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "4\u00d7200m @ CSS"
     },
     {
       "id": 110882088,
@@ -5510,7 +5482,7 @@
       "duration_formatted": "10m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-10m warmup\n2x12 min tempo :\nAround 4:20"
+      "description_preview": "-10m warmup\n2x10 min tempo :\nAround 4:20"
     },
     {
       "id": 110882180,
@@ -5539,40 +5511,14 @@
       "description_preview": "25min Z2 easy jog off the bike"
     },
     {
-      "id": 110882257,
-      "date": "2026-07-19",
-      "name": "\ud83c\udfc3 Long Run 1h20 Z2 (~14 km)",
+      "id": 118544214,
+      "date": "2026-07-20",
+      "name": "\ud83c\udfc3 Long Run 1h20 Z2 (~13km)",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
       "duration_hours": 1.33,
       "duration_formatted": "1h20m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 110883877,
-      "date": "2026-07-20",
-      "name": "40 min Z2 Run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 110883884,
-      "date": "2026-07-20",
-      "name": "Lower\u2011body Run/Bike\u2011focused Strength",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": null,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
@@ -5896,12 +5842,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 14,
+    "attempted": 13,
     "success": 1,
     "patternA": 0,
     "patternB": 1,
     "bail_no_workout_doc": 8,
-    "bail_no_match": 13
+    "bail_no_match": 12
   },
   "weekly_summary": {
     "total_training_hours": 6.4,
