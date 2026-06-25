@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-25T19:28:26.606786",
+    "last_updated": "2026-06-25T21:10:48.857450",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -655,7 +655,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.64,
+          "planned_tss_delta": 0.81,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 2,
@@ -695,7 +695,7 @@
     "p_max": 943,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-25T19:28:26.605566",
+    "calculation_timestamp": "2026-06-25T21:10:48.856555",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -5117,13 +5117,13 @@
       "name": "Z2 Active recovery",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 34,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
+      "planned_tss": 55,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description": "- 5m ramp 50%-65%\n- 40m 65%\n- 5m ramp 65%-50%"
+      "description": "- 5m ramp 50%-65%\n- 70m 65%\n- 5m ramp 65%-50%"
     },
     {
       "id": 113024671,
