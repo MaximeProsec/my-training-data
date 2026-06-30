@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T01:34:37.099245",
+  "generated_at": "2026-06-30T05:52:25.557587",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1528,6 +1528,34 @@
           "max_hr": 151,
           "avg_cadence": 74.0,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i161392008",
+      "date": "2026-06-30",
+      "type": "Run",
+      "name": "Muide - Kerkstraat",
+      "interval_summary": [
+        "1x 48m16s 146bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2896s@146bpm87rpm",
+          "duration_secs": 2896,
+          "avg_hr": 146,
+          "max_hr": 161,
+          "avg_cadence": 86.90553,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 160,
+          "max_hr": 160,
+          "avg_cadence": 90.0,
+          "zone": 3
         }
       ]
     }
