@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T18:25:26.042820",
+  "generated_at": "2026-07-06T20:18:47.600258",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1278,6 +1278,52 @@
           "avg_hr": 72,
           "max_hr": 84,
           "avg_cadence": 47.0,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i163347458",
+      "date": "2026-07-06",
+      "type": "Run",
+      "name": "40 min Z2 Run",
+      "interval_summary": [
+        "1x 27m56s 149bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1676s@149bpm87rpm",
+          "duration_secs": 1676,
+          "avg_hr": 149,
+          "max_hr": 162,
+          "avg_cadence": 86.61028,
+          "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i163347445",
+      "date": "2026-07-03",
+      "type": "Run",
+      "name": "Hanewijk",
+      "interval_summary": [
+        "1x 9m42s 64bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "582s@64bpm",
+          "duration_secs": 582,
+          "avg_hr": 64,
+          "max_hr": 79,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 65,
+          "max_hr": 65,
           "zone": 1
         }
       ]
