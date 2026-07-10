@@ -1,38 +1,10 @@
 {
-  "generated_at": "2026-07-09T23:02:16.264259",
+  "generated_at": "2026-07-10T00:16:09.859544",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i160144357",
-      "date": "2026-06-25",
-      "type": "Run",
-      "name": "45 min Z2 Run",
-      "interval_summary": [
-        "1x 41m12s 154bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "2472s@154bpm87rpm",
-          "duration_secs": 2472,
-          "avg_hr": 154,
-          "max_hr": 187,
-          "avg_cadence": 87.21142,
-          "zone": 3
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 185,
-          "max_hr": 185,
-          "avg_cadence": 60.0,
-          "zone": 4
-        }
-      ]
-    },
     {
       "activity_id": "i160731457",
       "date": "2026-06-27",
@@ -152,34 +124,6 @@
           "max_hr": 177,
           "avg_cadence": 82.0,
           "zone": 4
-        }
-      ]
-    },
-    {
-      "activity_id": "i160731452",
-      "date": "2026-06-25",
-      "type": "Swim",
-      "name": "50  min Easy Aerobic",
-      "interval_summary": [
-        "1x 1432m 169bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1928s@169bpm25rpm",
-          "duration_secs": 1928,
-          "avg_hr": 169,
-          "max_hr": 188,
-          "avg_cadence": 24.927385,
-          "zone": 2
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 156,
-          "max_hr": 156,
-          "avg_cadence": 32.0,
-          "zone": 1
         }
       ]
     },
