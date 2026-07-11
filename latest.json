@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-11T06:07:59.888207",
+    "last_updated": "2026-07-11T08:11:24.160167",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 8.0
+        "value": 8.1
       }
     },
     "signal_summary": {
@@ -218,10 +218,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 57.11,
-      "atl": 49.14,
-      "tsb": 7.97,
-      "ramp_rate": -2.72,
+      "ctl": 57.01,
+      "atl": 48.96,
+      "tsb": 8.05,
+      "ramp_rate": -2.7,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -258,10 +258,10 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 83.5,
+      "weight_kg": 83.0,
       "display": {
         "weight": {
-          "value": 83.5,
+          "value": 83.0,
           "unit": "kg"
         }
       },
@@ -320,7 +320,7 @@
     "stress_tolerance": 2.9,
     "load_recovery_ratio": null,
     "tss_7d_total": 295.0,
-    "tss_28d_total": 1902.0,
+    "tss_28d_total": 1897.0,
     "zone_distribution_7d": {
       "z1_hours": 0.5,
       "z2_hours": 1.98,
@@ -361,23 +361,23 @@
       "sport": "run"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 58982,
+      "z1_seconds": 57371,
       "z2_seconds": 28770,
       "z3_seconds": 20354,
-      "z1_pct": 54.6,
-      "z2_pct": 26.6,
-      "z3_pct": 18.8,
+      "z1_pct": 53.9,
+      "z2_pct": 27.0,
+      "z3_pct": 19.1,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 17160,
+      "z1_seconds": 15549,
       "z2_seconds": 13899,
       "z3_seconds": 6124,
-      "z1_pct": 46.2,
-      "z2_pct": 37.4,
-      "z3_pct": 16.5,
+      "z1_pct": 43.7,
+      "z2_pct": 39.1,
+      "z3_pct": 17.2,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "hr",
@@ -502,92 +502,92 @@
           "start": "2026-05-31",
           "end": "2026-07-11"
         },
-        "weight_kg": 83.5,
-        "weight_source": "wellness_extended",
+        "weight_kg": 83.0,
+        "weight_source": "wellness_recent",
         "cycling": {
           "anchors": {
             "300s": {
               "actual_watts": 300,
-              "actual_wpkg": 3.59,
+              "actual_wpkg": 3.61,
               "actual_hr": 190,
               "pct_lthr": 102.7,
               "source": "observed_outdoor",
               "coggan_watts": 278,
-              "coggan_wpkg": 3.33,
+              "coggan_wpkg": 3.35,
               "cp_model_watts": 332,
-              "cp_model_wpkg": 3.98,
+              "cp_model_wpkg": 4.0,
               "model_divergence_pct": -9.6
             },
             "600s": {
               "actual_watts": 278,
-              "actual_wpkg": 3.33,
+              "actual_wpkg": 3.35,
               "actual_hr": 188,
               "pct_lthr": 101.6,
               "source": "observed_outdoor",
               "coggan_watts": 254,
-              "coggan_wpkg": 3.04,
+              "coggan_wpkg": 3.06,
               "cp_model_watts": 297,
-              "cp_model_wpkg": 3.56,
+              "cp_model_wpkg": 3.58,
               "model_divergence_pct": -6.4
             },
             "1200s": {
               "actual_watts": 274,
-              "actual_wpkg": 3.28,
+              "actual_wpkg": 3.3,
               "actual_hr": 182,
               "pct_lthr": 98.4,
               "source": "observed_outdoor",
               "coggan_watts": 244,
-              "coggan_wpkg": 2.92,
+              "coggan_wpkg": 2.94,
               "cp_model_watts": 280,
-              "cp_model_wpkg": 3.35,
+              "cp_model_wpkg": 3.37,
               "model_divergence_pct": -2.1
             },
             "1800s": {
               "actual_watts": 233,
-              "actual_wpkg": 2.79,
+              "actual_wpkg": 2.81,
               "actual_hr": 173,
               "pct_lthr": 93.5,
               "source": "observed_outdoor",
               "coggan_watts": 236,
-              "coggan_wpkg": 2.83,
+              "coggan_wpkg": 2.84,
               "cp_model_watts": 274,
-              "cp_model_wpkg": 3.28,
+              "cp_model_wpkg": 3.3,
               "model_divergence_pct": -15.0
             },
             "3600s": {
               "actual_watts": 228,
-              "actual_wpkg": 2.73,
+              "actual_wpkg": 2.75,
               "actual_hr": 167,
               "pct_lthr": 90.3,
               "source": "observed_outdoor",
               "coggan_watts": 225,
-              "coggan_wpkg": 2.69,
+              "coggan_wpkg": 2.71,
               "cp_model_watts": 268,
-              "cp_model_wpkg": 3.21,
+              "cp_model_wpkg": 3.23,
               "model_divergence_pct": -14.9
             },
             "5400s": {
               "actual_watts": 203,
-              "actual_wpkg": 2.43,
+              "actual_wpkg": 2.45,
               "actual_hr": 156,
               "pct_lthr": 84.3,
               "source": "observed_outdoor",
               "coggan_watts": 215,
-              "coggan_wpkg": 2.57,
+              "coggan_wpkg": 2.59,
               "cp_model_watts": 266,
-              "cp_model_wpkg": 3.19,
+              "cp_model_wpkg": 3.2,
               "model_divergence_pct": -23.7
             },
             "7200s": {
               "actual_watts": 207,
-              "actual_wpkg": 2.48,
+              "actual_wpkg": 2.49,
               "actual_hr": 142,
               "pct_lthr": 76.8,
               "source": "observed_outdoor",
               "coggan_watts": 204,
-              "coggan_wpkg": 2.44,
+              "coggan_wpkg": 2.46,
               "cp_model_watts": 265,
-              "cp_model_wpkg": 3.17,
+              "cp_model_wpkg": 3.19,
               "model_divergence_pct": -21.9
             }
           },
@@ -636,8 +636,8 @@
           "current_week_hard_days_total": 1,
           "race_proximity": 71,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.3,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_current_week": 0.33,
+          "plan_coverage_next_week": 1.22
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -670,13 +670,13 @@
     "p_max": 936,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-11T06:07:59.887309",
+    "calculation_timestamp": "2026-07-11T08:11:24.158965",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
       "activities_7d": 6,
-      "activities_28d": 36,
-      "planned_workouts_7d": 11,
+      "activities_28d": 35,
+      "planned_workouts_7d": 10,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 73
@@ -1551,132 +1551,6 @@
         "max_feels_like": 18.94,
         "min_temp": 18.35,
         "max_temp": 19.69,
-        "clouds_pct": 100,
-        "rain": 0.0,
-        "snow": 0.0
-      }
-    },
-    {
-      "id": "i162359593",
-      "date": "2026-07-02T11:55:53",
-      "type": "Run",
-      "name": "Hoogscharent - Hanewijk",
-      "duration_hours": 0.47,
-      "distance_km": 1.76,
-      "tss": 5,
-      "intensity_factor": 32.635696,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 83,
-      "max_hr": 101,
-      "avg_cadence": 48.840733,
-      "avg_speed": 3.7,
-      "avg_speed_unit": "KPH",
-      "max_speed": 5.5,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": 18.975672,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": 4.783179,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 111,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": 12.272505,
-      "display": {
-        "distance": {
-          "value": 1.76,
-          "unit": "km"
-        },
-        "elevation": {
-          "value": 12,
-          "unit": "m"
-        },
-        "avg_speed": {
-          "value": 3.7,
-          "unit": "km/h"
-        },
-        "max_speed": {
-          "value": 5.5,
-          "unit": "km/h"
-        }
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 1611,
-          "z2_time": 0,
-          "z3_time": 0,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      },
-      "has_intervals": true,
-      "has_dfa": false,
-      "terrain_summary": {
-        "source": "activity_streams",
-        "total_distance_km": 1.7,
-        "total_elevation_m": 4,
-        "elevation_per_km": 2.4,
-        "course_character": "flat",
-        "max_grade_pct": 0.7,
-        "grade_distribution": {
-          "flat_pct": 100.0,
-          "gentle_pct": 0.0,
-          "moderate_pct": 0.0,
-          "steep_pct": 0.0
-        },
-        "start_coords": [
-          50.96698,
-          4.6713
-        ],
-        "climbs": [],
-        "descents": [],
-        "display": {
-          "total_distance": {
-            "value": 1.7,
-            "unit": "km"
-          },
-          "total_elevation": {
-            "value": 4,
-            "unit": "m"
-          },
-          "elevation_per_distance": {
-            "value": 2,
-            "unit": "m/km"
-          }
-        }
-      },
-      "weather_summary": {
-        "source": "intervals_open_meteo",
-        "units": {
-          "wind": "m/s",
-          "temp": "c",
-          "rain": "mm"
-        },
-        "avg_wind_speed": 4.78,
-        "avg_wind_gust": 9.49,
-        "prevailing_wind_deg": 225,
-        "headwind_pct": 16.01,
-        "tailwind_pct": 70.76,
-        "avg_temp": 18.98,
-        "avg_temp_device": null,
-        "avg_feels_like": 17.75,
-        "min_feels_like": 17.73,
-        "max_feels_like": 17.82,
-        "min_temp": 18.93,
-        "max_temp": 19.06,
         "clouds_pct": 100,
         "rain": 0.0,
         "snow": 0.0
@@ -4579,14 +4453,17 @@
     },
     {
       "date": "2026-07-10",
-      "weight_kg": null,
+      "weight_kg": 83.0,
       "display": {
-        "weight": null
+        "weight": {
+          "value": 83.0,
+          "unit": "kg"
+        }
       },
       "resting_hr": 51,
       "hrv_rmssd": null,
-      "hrv_sdnn": 61.832832,
-      "sleep_hours": 6.81,
+      "hrv_sdnn": 64.849174,
+      "sleep_hours": 6.8,
       "sleep_formatted": "6h48m",
       "sleep_quality": null,
       "sleep_score": null,
@@ -4609,7 +4486,7 @@
       "respiration": 12.302325,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5474,
+      "steps": 1333,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4664,8 +4541,21 @@
   ],
   "planned_workouts": [
     {
-      "id": 110872795,
+      "id": 110872798,
       "date": "2026-07-11",
+      "name": "\ud83c\udfc3 \ud83d\udfe2 Long Run 1h10 Z2",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": ""
+    },
+    {
+      "id": 110872795,
+      "date": "2026-07-12",
       "name": "\ud83d\udd04 Z2 Bike 2h outdoor + 25 min brick run",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -4678,7 +4568,7 @@
     },
     {
       "id": 110872797,
-      "date": "2026-07-11",
+      "date": "2026-07-12",
       "name": "25min Brick",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -4688,19 +4578,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "25min Z2 easy jog off the bike"
-    },
-    {
-      "id": 110872798,
-      "date": "2026-07-12",
-      "name": "\ud83c\udfc3 \ud83d\udfe2 Long Run 1h10 Z2",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 1.17,
-      "duration_formatted": "1h10m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
     },
     {
       "id": 110881444,
@@ -4716,9 +4593,9 @@
       "description": ""
     },
     {
-      "id": 110881463,
+      "id": 110882100,
       "date": "2026-07-13",
-      "name": "Lower\u2011body Run/Bike\u2011focused Strength",
+      "name": "upper\u2011body strength",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
       "planned_tss": null,
@@ -4743,22 +4620,35 @@
       "description": "- 15m ramp 50%-75%\n- 5m 75%\n- 20m 100%\n- 5m 60%\n- 20m 100%\n- 15m ramp 75%-50%"
     },
     {
-      "id": 110881726,
-      "date": "2026-07-15",
-      "name": "Swim 55 min \u2014 introduce pace sets (4\u00d7200m @ CSS)",
+      "id": 122008388,
+      "date": "2026-07-14",
+      "name": "Open water swim",
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": null,
-      "duration_hours": 0.92,
-      "duration_formatted": "55m",
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
       "description": "4\u00d7200m @ CSS"
     },
     {
+      "id": 110881463,
+      "date": "2026-07-15",
+      "name": "Lower\u2011body Run/Bike\u2011focused Strength",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": ""
+    },
+    {
       "id": 110882088,
-      "date": "2026-07-16",
+      "date": "2026-07-15",
       "name": "Z2 Run 45 min easy",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -4770,17 +4660,18 @@
       "description": ""
     },
     {
-      "id": 110882100,
+      "id": 110881726,
       "date": "2026-07-16",
-      "name": "upper\u2011body strength",
+      "name": "Swim 55 min \u2014 introduce pace sets (4\u00d7200m @ CSS)",
       "type": "WORKOUT",
-      "sport_type": "WeightTraining",
+      "sport_type": "Swim",
       "planned_tss": null,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "duration_hours": 0.92,
+      "duration_formatted": "55m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": ""
+      "indoor": true,
+      "description": "4\u00d7200m @ CSS"
     },
     {
       "id": 110882150,
@@ -4850,16 +4741,29 @@
     {
       "id": 110884025,
       "date": "2026-07-21",
-      "name": "Swim 55 min \u2014 4\u00d7300m @ CSS",
+      "name": "Open water swim",
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": null,
-      "duration_hours": 0.92,
-      "duration_formatted": "55m",
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
       "description_preview": "4\u00d7200m @ CSS"
+    },
+    {
+      "id": 122008333,
+      "date": "2026-07-21",
+      "name": "40 min Z2 Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
     },
     {
       "id": 110883589,
@@ -4873,20 +4777,6 @@
       "workout_summary": "15m @156W | 5m @188W | 3\u00d715m @251W / 5m rec",
       "has_terrain": false,
       "indoor": true
-    },
-    {
-      "id": 110884031,
-      "date": "2026-07-22",
-      "name": "45 min Easy Aerobic",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": null,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "indoor": true,
-      "description_preview": null
     },
     {
       "id": 110883858,
@@ -4929,32 +4819,6 @@
       "description_preview": "- 5m ramp 50%-65%\n- 40m 65%\n- 5m ramp 65%-50%"
     },
     {
-      "id": 110884580,
-      "date": "2026-07-25",
-      "name": "\ud83d\udd04 Race-Pace Bike 2h \u2014 40 min @ 75\u201380% FTP + 35 min brick run",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 110884596,
-      "date": "2026-07-25",
-      "name": "30m Brick",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.58,
-      "duration_formatted": "35m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "25min Z2 easy jog off the bike"
-    },
-    {
       "id": 110884677,
       "date": "2026-07-26",
       "name": "\ud83c\udfc3 Long Run 1h30 Z2 (~16 km)",
@@ -4994,8 +4858,34 @@
       "description_preview": null
     },
     {
-      "id": 110910456,
+      "id": 110884580,
       "date": "2026-07-28",
+      "name": "\ud83d\udd04 Race-Pace Bike 2h \u2014 40 min @ 75\u201380% FTP + 35 min brick run",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 110884596,
+      "date": "2026-07-28",
+      "name": "30m Brick",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "25min Z2 easy jog off the bike"
+    },
+    {
+      "id": 110910456,
+      "date": "2026-07-29",
       "name": "Swim 50 min \u2014 1500m continuous",
       "type": "WORKOUT",
       "sport_type": "Swim",
@@ -5341,7 +5231,7 @@
     "success": 1,
     "patternA": 0,
     "patternB": 1,
-    "bail_no_workout_doc": 11,
+    "bail_no_workout_doc": 12,
     "bail_no_match": 7
   },
   "weekly_summary": {
