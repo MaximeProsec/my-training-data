@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-12T00:06:54.757715",
+    "last_updated": "2026-07-12T03:51:02.232381",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -155,8 +155,8 @@
   },
   "history": {
     "available": true,
-    "last_generated": "2026-06-08",
-    "age_days": 33,
+    "last_generated": "2026-07-12",
+    "age_days": 0,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -621,12 +621,14 @@
     },
     "phase_detection": {
       "phase": "Build",
-      "confidence": "medium",
-      "reason_codes": [],
+      "confidence": "low",
+      "reason_codes": [
+        "BUILD_RESUMING_AFTER_DELOAD_TENTATIVE"
+      ],
       "basis": {
         "stream_1": {
-          "ctl_slope": null,
-          "acwr_trend": null,
+          "ctl_slope": 0.95,
+          "acwr_trend": "falling",
           "hard_day_pattern": 3,
           "weeks_available": 4
         },
@@ -643,13 +645,15 @@
         "data_quality": "good",
         "stream_agreement": null
       },
-      "previous_phase": null,
+      "previous_phase": "Deload",
       "phase_duration_weeks": 1,
       "dossier_declared": null,
       "dossier_agreement": null
     },
     "phase_detected": "Build",
-    "phase_triggers": [],
+    "phase_triggers": [
+      "BUILD_RESUMING_AFTER_DELOAD_TENTATIVE"
+    ],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
       "current_ftp": 251,
@@ -671,7 +675,7 @@
     "p_max": 935,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-12T00:06:54.756543",
+    "calculation_timestamp": "2026-07-12T03:51:02.231166",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
