@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-12T19:46:48.101378",
+    "last_updated": "2026-07-12T20:32:37.984958",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -652,7 +652,7 @@
           "race_proximity": 70,
           "next_week_load": null,
           "plan_coverage_current_week": 0.22,
-          "plan_coverage_next_week": 1.33
+          "plan_coverage_next_week": 1.22
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -687,7 +687,7 @@
     "p_max": 935,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-12T19:46:48.100167",
+    "calculation_timestamp": "2026-07-12T20:32:37.983732",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -831,7 +831,7 @@
       "id": "i165052444",
       "date": "2026-07-12T13:22:28",
       "type": "WeightTraining",
-      "name": "Traditional Strength Training",
+      "name": "Upper Body",
       "duration_hours": 0.95,
       "distance_km": 0.0,
       "tss": 23,
@@ -4653,9 +4653,9 @@
       "description": ""
     },
     {
-      "id": 110882100,
+      "id": 110881463,
       "date": "2026-07-13",
-      "name": "upper\u2011body strength",
+      "name": "Lower\u2011body Run/Bike\u2011focused Strength",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
       "planned_tss": null,
@@ -4666,18 +4666,17 @@
       "description": ""
     },
     {
-      "id": 110881976,
+      "id": 110882088,
       "date": "2026-07-14",
-      "name": "Threshold Bike 1h20 \u2014 2\u00d720 min @ 100% FTP",
+      "name": "Z2 Run 45 min easy",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 102,
-      "duration_hours": 1.33,
-      "duration_formatted": "1h20m",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "indoor": true,
-      "description": "- 15m ramp 50%-75%\n- 5m 75%\n- 20m 100%\n- 5m 60%\n- 20m 100%\n- 15m ramp 75%-50%"
+      "description": ""
     },
     {
       "id": 122008388,
@@ -4694,30 +4693,18 @@
       "description": "4\u00d7200m @ CSS"
     },
     {
-      "id": 110881463,
+      "id": 110881976,
       "date": "2026-07-15",
-      "name": "Lower\u2011body Run/Bike\u2011focused Strength",
+      "name": "Threshold Bike 1h20 \u2014 2\u00d720 min @ 100% FTP",
       "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": null,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "sport_type": "Ride",
+      "planned_tss": 102,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": ""
-    },
-    {
-      "id": 110882088,
-      "date": "2026-07-15",
-      "name": "Z2 Run 45 min easy",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
+      "indoor": true,
+      "description": "- 15m ramp 50%-75%\n- 5m 75%\n- 20m 100%\n- 5m 60%\n- 20m 100%\n- 15m ramp 75%-50%"
     },
     {
       "id": 110881726,
