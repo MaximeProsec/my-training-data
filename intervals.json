@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T19:10:20.901332",
+  "generated_at": "2026-07-14T20:20:51.743296",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -791,6 +791,26 @@
           "max_hr": 157,
           "avg_cadence": 86.0,
           "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i165751624",
+      "date": "2026-07-14",
+      "type": "Swim",
+      "name": "Open water swim",
+      "interval_summary": [
+        "1x 2236m 1:50"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2462s@170bpm24rpm",
+          "duration_secs": 2462,
+          "avg_hr": 170,
+          "max_hr": 182,
+          "avg_cadence": 23.722178,
+          "zone": 2
         }
       ]
     }
