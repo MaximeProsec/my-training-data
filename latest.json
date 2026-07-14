@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-14T12:21:06.494656",
+    "last_updated": "2026-07-14T14:19:32.029960",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -671,7 +671,7 @@
     "p_max": 934,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-14T12:21:06.493429",
+    "calculation_timestamp": "2026-07-14T14:19:32.028745",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
@@ -4576,6 +4576,19 @@
       "description": ""
     },
     {
+      "id": 110884270,
+      "date": "2026-07-20",
+      "name": "Mobility",
+      "type": "WORKOUT",
+      "sport_type": "Yoga",
+      "planned_tss": null,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": ""
+    },
+    {
       "id": 122008333,
       "date": "2026-07-21",
       "name": "40 min Z2 Run",
@@ -4610,19 +4623,6 @@
       "planned_tss": null,
       "duration_hours": 0.83,
       "duration_formatted": "50m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 110884270,
-      "date": "2026-07-24",
-      "name": "Mobility",
-      "type": "WORKOUT",
-      "sport_type": "Yoga",
-      "planned_tss": null,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
@@ -4866,7 +4866,7 @@
     },
     {
       "id": 110914867,
-      "date": "2026-08-08",
+      "date": "2026-08-07",
       "name": "\ud83d\udd04 \ud83d\udd25 Race-Pace Bike 2h30 \u2014 60 min @ race zone + 30 min brick run",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -4879,7 +4879,7 @@
     },
     {
       "id": 110914893,
-      "date": "2026-08-08",
+      "date": "2026-08-07",
       "name": "30m Brick",
       "type": "WORKOUT",
       "sport_type": "Run",
