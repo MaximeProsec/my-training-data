@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-15T09:32:46.444376",
+    "last_updated": "2026-07-15T11:14:01.412381",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -113,13 +113,13 @@
       },
       "rhr": {
         "status": "green",
-        "value": 52,
-        "baseline_7d": 51.7,
-        "delta_bpm": 0.3
+        "value": 48,
+        "baseline_7d": 51.1,
+        "delta_bpm": -3.1
       },
       "sleep": {
         "status": "green",
-        "hours": 7.74,
+        "hours": 8.25,
         "quality": null
       },
       "acwr": {
@@ -265,12 +265,12 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 52,
+      "resting_hr": 48,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": 7.74,
-      "sleep_formatted": "7h44m",
-      "sleep_score": null,
+      "sleep_hours": 8.25,
+      "sleep_formatted": "8h15m",
+      "sleep_score": 80.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -287,7 +287,7 @@
       "respiration": 11.559524,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 836,
+      "steps": 2667,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -302,11 +302,11 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 51.7,
+    "rhr_baseline_7d": 51.1,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 52.1,
+    "rhr_baseline_28d": 51.9,
     "latest_hrv": null,
-    "latest_rhr": 52,
+    "latest_rhr": 48,
     "acwr": 0.87,
     "acwr_interpretation": "optimal",
     "monotony": 1.21,
@@ -636,7 +636,7 @@
           "current_week_hard_days_total": 2,
           "race_proximity": 67,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.78,
+          "plan_coverage_current_week": 0.67,
           "plan_coverage_next_week": 0.78
         },
         "data_quality": "good",
@@ -670,7 +670,7 @@
     "p_max": 934,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-15T09:32:46.443172",
+    "calculation_timestamp": "2026-07-15T11:14:01.411468",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -4279,17 +4279,20 @@
     },
     {
       "date": "2026-07-15",
-      "weight_kg": null,
+      "weight_kg": 83.0,
       "display": {
-        "weight": null
+        "weight": {
+          "value": 83.0,
+          "unit": "kg"
+        }
       },
-      "resting_hr": 52,
+      "resting_hr": 48,
       "hrv_rmssd": null,
-      "hrv_sdnn": 84.56461,
-      "sleep_hours": 7.74,
-      "sleep_formatted": "7h44m",
+      "hrv_sdnn": 81.12075,
+      "sleep_hours": 8.25,
+      "sleep_formatted": "8h15m",
       "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_score": 80.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -4309,7 +4312,7 @@
       "respiration": 11.559524,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 836,
+      "steps": 2667,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4334,20 +4337,6 @@
       "has_terrain": false,
       "indoor": true,
       "description": "- 15m ramp 50%-75%\n- 5m 75%\n- 20m 100%\n- 5m 60%\n- 20m 100%\n- 15m ramp 75%-50%"
-    },
-    {
-      "id": 110881726,
-      "date": "2026-07-16",
-      "name": "Swim 55 min \u2014 introduce pace sets (4\u00d7200m @ CSS)",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": null,
-      "duration_hours": 0.92,
-      "duration_formatted": "55m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "indoor": true,
-      "description": "4\u00d7200m @ CSS"
     },
     {
       "id": 113025616,
@@ -5012,7 +5001,7 @@
     "success": 1,
     "patternA": 0,
     "patternB": 1,
-    "bail_no_workout_doc": 13,
+    "bail_no_workout_doc": 12,
     "bail_no_match": 6
   },
   "weekly_summary": {
@@ -5021,7 +5010,7 @@
     "total_tss": 359,
     "activities_count": 8,
     "avg_hrv": null,
-    "avg_resting_hr": 51.7
+    "avg_resting_hr": 51.1
   },
   "race_calendar": {
     "next_race": {
