@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-15T11:14:01.412381",
+    "last_updated": "2026-07-15T12:41:49.699970",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -637,7 +637,7 @@
           "race_proximity": 67,
           "next_week_load": null,
           "plan_coverage_current_week": 0.67,
-          "plan_coverage_next_week": 0.78
+          "plan_coverage_next_week": 0.89
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -670,7 +670,7 @@
     "p_max": 934,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-15T11:14:01.411468",
+    "calculation_timestamp": "2026-07-15T12:41:49.698753",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -4288,7 +4288,7 @@
       },
       "resting_hr": 48,
       "hrv_rmssd": null,
-      "hrv_sdnn": 81.12075,
+      "hrv_sdnn": 78.54391,
       "sleep_hours": 8.25,
       "sleep_formatted": "8h15m",
       "sleep_quality": null,
@@ -4432,7 +4432,7 @@
     {
       "id": 110883589,
       "date": "2026-07-22",
-      "name": "Threshold Bike 1h20 \u2014 2\u00d720 min @ 100% FTP",
+      "name": "Threshold Bike 1h20 \u2014 3*15 min @ 100% FTP",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 111,
@@ -4469,6 +4469,19 @@
       "has_terrain": false,
       "indoor": true,
       "description_preview": "- 5m ramp 50%-65%\n- 40m 65%\n- 5m ramp 65%-50%"
+    },
+    {
+      "id": 123005819,
+      "date": "2026-07-25",
+      "name": "\ud83c\udfc3 Long Run 1h30 Z2 (~16 km)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
     },
     {
       "id": 110910422,
@@ -4595,8 +4608,8 @@
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
@@ -4669,7 +4682,7 @@
     },
     {
       "id": 110914791,
-      "date": "2026-08-05",
+      "date": "2026-08-04",
       "name": "\ud83d\udd25 Race-Pace Bike 1h30 \u2014 40 min @ 75\u201380% FTP (~190\u2013205W)",
       "type": "WORKOUT",
       "sport_type": "Ride",
