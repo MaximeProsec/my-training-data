@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T06:38:07.522413",
+  "generated_at": "2026-07-16T08:58:50.543881",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -665,6 +665,150 @@
           "max_hr": 182,
           "avg_cadence": 23.722178,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i166189929",
+      "date": "2026-07-16",
+      "type": "Run",
+      "name": "Muide - Kerkstraat",
+      "interval_summary": [
+        "2x 12m 184bpm",
+        "1x 3m3s 164bpm"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 305,
+          "avg_hr": 142,
+          "max_hr": 156,
+          "avg_cadence": 84.03642,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "720s@184bpm90rpm",
+          "duration_secs": 720,
+          "avg_hr": 182,
+          "max_hr": 190,
+          "avg_cadence": 90.30556,
+          "zone": 4
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 123,
+          "avg_hr": 154,
+          "max_hr": 189,
+          "avg_cadence": 46.747967,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "720s@184bpm90rpm",
+          "duration_secs": 720,
+          "avg_hr": 186,
+          "max_hr": 193,
+          "avg_cadence": 90.68889,
+          "zone": 5
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 155,
+          "avg_hr": 151,
+          "max_hr": 191,
+          "avg_cadence": 59.380646,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "183s@164bpm87rpm",
+          "duration_secs": 183,
+          "avg_hr": 164,
+          "max_hr": 170,
+          "avg_cadence": 87.15847,
+          "zone": 3
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 170,
+          "max_hr": 170,
+          "avg_cadence": 86.0,
+          "zone": 4
+        }
+      ]
+    },
+    {
+      "activity_id": "i166189955",
+      "date": "2026-07-15",
+      "type": "VirtualRide",
+      "name": "Threshold Bike 1h20 \u2014 2\u00d720 min @ 100% FTP",
+      "interval_summary": [
+        "2x 20m 239w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1201,
+          "avg_power": 161,
+          "max_power": 262,
+          "avg_hr": 126,
+          "max_hr": 139,
+          "avg_cadence": 91.74688,
+          "zone": 2,
+          "training_load": 14.242321,
+          "decoupling": -13.09376
+        },
+        {
+          "type": "WORK",
+          "label": "1200s@239w92rpm",
+          "duration_secs": 1200,
+          "avg_power": 239,
+          "max_power": 429,
+          "avg_hr": 162,
+          "max_hr": 172,
+          "avg_cadence": 94.793335,
+          "zone": 4,
+          "training_load": 30.475706,
+          "decoupling": 5.7840805
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 302,
+          "avg_power": 142,
+          "max_power": 206,
+          "avg_hr": 144,
+          "max_hr": 171,
+          "avg_cadence": 85.71192,
+          "zone": 2,
+          "training_load": 3.0764098,
+          "decoupling": -17.38871
+        },
+        {
+          "type": "WORK",
+          "label": "1200s@239w92rpm",
+          "duration_secs": 1200,
+          "avg_power": 239,
+          "max_power": 332,
+          "avg_hr": 166,
+          "max_hr": 175,
+          "avg_cadence": 89.059166,
+          "zone": 4,
+          "training_load": 30.222271,
+          "decoupling": 3.7530377
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 936,
+          "avg_power": 144,
+          "max_power": 244,
+          "avg_hr": 139,
+          "max_hr": 172,
+          "avg_cadence": 76.875,
+          "zone": 2,
+          "training_load": 9.914922,
+          "decoupling": 6.266426
         }
       ]
     }
