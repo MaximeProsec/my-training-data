@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T23:33:22.748944",
+  "generated_at": "2026-07-17T01:08:13.999557",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -22,48 +22,6 @@
           "max_hr": 192,
           "avg_cadence": 86.942,
           "zone": 3
-        }
-      ]
-    },
-    {
-      "activity_id": "i162359593",
-      "date": "2026-07-02",
-      "type": "Run",
-      "name": "Hoogscharent - Hanewijk",
-      "interval_summary": [
-        "1x 17m21s 81bpm",
-        "1x 10m49s 83bpm"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1
-        },
-        {
-          "type": "WORK",
-          "label": "1041s@81bpm48rpm",
-          "duration_secs": 1041,
-          "avg_hr": 81,
-          "max_hr": 93,
-          "avg_cadence": 48.091434,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "649s@83bpm50rpm",
-          "duration_secs": 649,
-          "avg_hr": 83,
-          "max_hr": 101,
-          "avg_cadence": 50.07396,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 69,
-          "max_hr": 69,
-          "avg_cadence": 27.0,
-          "zone": 1
         }
       ]
     },
