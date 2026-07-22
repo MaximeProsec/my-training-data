@@ -1,38 +1,10 @@
 {
-  "generated_at": "2026-07-21T23:36:49.363713",
+  "generated_at": "2026-07-22T01:03:35.481464",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i163614838",
-      "date": "2026-07-07",
-      "type": "Swim",
-      "name": "50  min Easy Aerobic",
-      "interval_summary": [
-        "1x 2180m 150bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "2479s@150bpm24rpm",
-          "duration_secs": 2479,
-          "avg_hr": 150,
-          "max_hr": 185,
-          "avg_cadence": 23.571428,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 160,
-          "max_hr": 160,
-          "avg_cadence": 2.0,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i163753814",
       "date": "2026-07-08",
