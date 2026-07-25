@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T08:35:09.224602",
+  "generated_at": "2026-07-25T10:13:46.526951",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1138,6 +1138,53 @@
           "avg_cadence": 76.5,
           "zone": 2,
           "training_load": 0.5838594
+        }
+      ]
+    },
+    {
+      "activity_id": "i169039017",
+      "date": "2026-07-25",
+      "type": "VirtualRide",
+      "name": "Plainefas - Sonne",
+      "interval_summary": [
+        "1x 2m56s 223w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 725,
+          "avg_power": 158,
+          "max_power": 362,
+          "avg_hr": 122,
+          "max_hr": 136,
+          "avg_cadence": 74.071724,
+          "zone": 2,
+          "training_load": 8.808546,
+          "decoupling": -6.210315
+        },
+        {
+          "type": "WORK",
+          "label": "176s@223w77rpm",
+          "duration_secs": 176,
+          "avg_power": 223,
+          "max_power": 346,
+          "avg_hr": 119,
+          "max_hr": 122,
+          "avg_cadence": 76.568184,
+          "zone": 3,
+          "training_load": 3.7558486
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2831,
+          "avg_power": 172,
+          "max_power": 205,
+          "avg_hr": 141,
+          "max_hr": 153,
+          "avg_cadence": 86.49488,
+          "zone": 2,
+          "training_load": 39.548492,
+          "decoupling": 7.703455
         }
       ]
     }
