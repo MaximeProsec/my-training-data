@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T08:18:24.732455",
+  "generated_at": "2026-07-27T11:46:20.551970",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1185,6 +1185,34 @@
           "max_hr": 153,
           "avg_cadence": 75.0,
           "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i169631604",
+      "date": "2026-07-27",
+      "type": "Run",
+      "name": "\ud83c\udfc3 Long Run 1h30 Z2 (~16 km)",
+      "interval_summary": [
+        "1x 1h30m 145bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "5401s@145bpm87rpm",
+          "duration_secs": 5401,
+          "avg_hr": 145,
+          "max_hr": 157,
+          "avg_cadence": 86.89916,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 150,
+          "max_hr": 150,
+          "avg_cadence": 89.0,
+          "zone": 2
         }
       ]
     }
