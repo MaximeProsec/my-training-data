@@ -1,38 +1,10 @@
 {
-  "generated_at": "2026-07-26T23:37:06.526217",
+  "generated_at": "2026-07-27T01:14:59.348450",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i165052449",
-      "date": "2026-07-12",
-      "type": "Run",
-      "name": "Muide - Gent",
-      "interval_summary": [
-        "1x 1h9m 160bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "4172s@160bpm86rpm",
-          "duration_secs": 4172,
-          "avg_hr": 160,
-          "max_hr": 175,
-          "avg_cadence": 86.463646,
-          "zone": 3
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 173,
-          "max_hr": 173,
-          "avg_cadence": 75.0,
-          "zone": 4
-        }
-      ]
-    },
     {
       "activity_id": "i165180555",
       "date": "2026-07-13",
