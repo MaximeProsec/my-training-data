@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T07:31:35.929814",
+  "generated_at": "2026-07-31T10:12:25.008381",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1576,6 +1576,34 @@
           "zone": 3,
           "training_load": 236.27342,
           "decoupling": -1.5845326
+        }
+      ]
+    },
+    {
+      "activity_id": "i171040125",
+      "date": "2026-07-31",
+      "type": "Run",
+      "name": "30m Brick",
+      "interval_summary": [
+        "1x 38m35s 147bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2315s@147bpm88rpm",
+          "duration_secs": 2315,
+          "avg_hr": 147,
+          "max_hr": 172,
+          "avg_cadence": 88.101295,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 171,
+          "max_hr": 171,
+          "avg_cadence": 90.0,
+          "zone": 4
         }
       ]
     }
