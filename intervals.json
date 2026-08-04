@@ -1,34 +1,10 @@
 {
-  "generated_at": "2026-08-03T23:55:55.837208",
+  "generated_at": "2026-08-04T01:20:01.716110",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i167628452",
-      "date": "2026-07-20",
-      "type": "Run",
-      "name": "De Panne",
-      "interval_summary": [
-        "1x 6m1s 72bpm"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1
-        },
-        {
-          "type": "WORK",
-          "label": "361s@72bpm96rpm",
-          "duration_secs": 361,
-          "avg_hr": 72,
-          "max_hr": 93,
-          "avg_cadence": 95.914795,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i168139674",
       "date": "2026-07-22",
