@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-09T14:03:39.125604",
+    "last_updated": "2026-08-09T14:49:01.339817",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -112,14 +112,14 @@
         "delta_pct": null
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 53.3,
-        "delta_bpm": null
+        "status": "green",
+        "value": 54,
+        "baseline_7d": 53.4,
+        "delta_bpm": 0.6
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "green",
+        "hours": 7.84,
         "quality": null
       },
       "acwr": {
@@ -137,10 +137,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 4,
       "amber": 0,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 2
     },
     "phase_context": {
       "phase": "Build",
@@ -150,7 +150,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 4 green, 0 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -265,11 +265,11 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 56,
+      "resting_hr": 54,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 7.84,
+      "sleep_formatted": "7h50m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -287,7 +287,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 14313,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -302,11 +302,11 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 53.3,
+    "rhr_baseline_7d": 53.4,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 51.0,
+    "rhr_baseline_28d": 51.1,
     "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_rhr": 54,
     "acwr": 0.91,
     "acwr_interpretation": "optimal",
     "monotony": 0.59,
@@ -670,10 +670,10 @@
     "p_max": 1011,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-09T14:03:39.124384",
+    "calculation_timestamp": "2026-08-09T14:49:01.338677",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 6,
+      "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 30,
       "planned_workouts_7d": 9,
@@ -3817,7 +3817,7 @@
       },
       "resting_hr": 56,
       "hrv_rmssd": null,
-      "hrv_sdnn": 67.30109,
+      "hrv_sdnn": 69.752525,
       "sleep_hours": 7.08,
       "sleep_formatted": "7h4m",
       "sleep_quality": null,
@@ -3841,7 +3841,7 @@
       "respiration": 10.836957,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 27900,
+      "steps": 28004,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3857,11 +3857,11 @@
       "display": {
         "weight": null
       },
-      "resting_hr": null,
+      "resting_hr": 54,
       "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "hrv_sdnn": 67.81692,
+      "sleep_hours": 7.84,
+      "sleep_formatted": "7h50m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -3883,7 +3883,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 14313,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4500,7 +4500,7 @@
     "total_tss": 434,
     "activities_count": 4,
     "avg_hrv": null,
-    "avg_resting_hr": 53.3
+    "avg_resting_hr": 53.4
   },
   "race_calendar": {
     "next_race": {
