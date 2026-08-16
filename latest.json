@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-16T00:27:17.180999",
+    "last_updated": "2026-08-16T02:03:03.463434",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -143,20 +143,20 @@
       "unavailable": 4
     },
     "phase_context": {
-      "phase": "Build",
+      "phase": "Base",
       "phase_week": 1,
-      "amber_threshold": 3,
-      "modifier_applied": "build_loosened"
+      "amber_threshold": 2,
+      "modifier_applied": "default"
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 2 green, 0 amber (threshold 2), 0 red. Note: 4 signals unavailable \u2014 limited data.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
-    "last_generated": "2026-07-12",
-    "age_days": 35,
+    "last_generated": "2026-08-16",
+    "age_days": 0,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -545,13 +545,15 @@
       "completed_dates": []
     },
     "phase_detection": {
-      "phase": "Build",
+      "phase": "Base",
       "confidence": "medium",
-      "reason_codes": [],
+      "reason_codes": [
+        "PHASE_TRANSITION_Build_TO_Base"
+      ],
       "basis": {
         "stream_1": {
-          "ctl_slope": null,
-          "acwr_trend": null,
+          "ctl_slope": -0.25,
+          "acwr_trend": "stable",
           "hard_day_pattern": 2.3,
           "weeks_available": 4
         },
@@ -568,13 +570,15 @@
         "data_quality": "good",
         "stream_agreement": null
       },
-      "previous_phase": null,
+      "previous_phase": "Build",
       "phase_duration_weeks": 1,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Build",
-    "phase_triggers": [],
+    "phase_detected": "Base",
+    "phase_triggers": [
+      "PHASE_TRANSITION_Build_TO_Base"
+    ],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
       "current_ftp": 251,
@@ -596,7 +600,7 @@
     "p_max": 1004,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-16T00:27:17.179767",
+    "calculation_timestamp": "2026-08-16T02:03:03.462540",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
