@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-17T06:25:10.768326",
+    "last_updated": "2026-08-17T07:28:21.172820",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -209,10 +209,10 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 82.4,
+      "weight_kg": 82.0,
       "display": {
         "weight": {
-          "value": 82.4,
+          "value": 82.0,
           "unit": "kg"
         }
       },
@@ -431,92 +431,92 @@
           "start": "2026-07-07",
           "end": "2026-08-17"
         },
-        "weight_kg": 82.4,
-        "weight_source": "wellness_extended",
+        "weight_kg": 82.0,
+        "weight_source": "wellness_recent",
         "cycling": {
           "anchors": {
             "300s": {
               "actual_watts": 293,
-              "actual_wpkg": 3.56,
+              "actual_wpkg": 3.57,
               "actual_hr": 190,
               "pct_lthr": 102.7,
               "source": "observed_outdoor",
               "coggan_watts": 278,
-              "coggan_wpkg": 3.37,
+              "coggan_wpkg": 3.39,
               "cp_model_watts": 331,
-              "cp_model_wpkg": 4.02,
+              "cp_model_wpkg": 4.04,
               "model_divergence_pct": -11.5
             },
             "600s": {
               "actual_watts": 278,
-              "actual_wpkg": 3.37,
+              "actual_wpkg": 3.39,
               "actual_hr": 188,
               "pct_lthr": 101.6,
               "source": "observed_outdoor",
               "coggan_watts": 254,
-              "coggan_wpkg": 3.08,
+              "coggan_wpkg": 3.1,
               "cp_model_watts": 296,
-              "cp_model_wpkg": 3.59,
+              "cp_model_wpkg": 3.61,
               "model_divergence_pct": -6.1
             },
             "1200s": {
               "actual_watts": 274,
-              "actual_wpkg": 3.33,
+              "actual_wpkg": 3.34,
               "actual_hr": 182,
               "pct_lthr": 98.4,
               "source": "observed_outdoor",
               "coggan_watts": 244,
-              "coggan_wpkg": 2.96,
+              "coggan_wpkg": 2.98,
               "cp_model_watts": 279,
-              "cp_model_wpkg": 3.39,
+              "cp_model_wpkg": 3.4,
               "model_divergence_pct": -1.8
             },
             "1800s": {
               "actual_watts": 245,
-              "actual_wpkg": 2.97,
+              "actual_wpkg": 2.99,
               "actual_hr": 171,
               "pct_lthr": 92.4,
               "source": "observed_outdoor",
               "coggan_watts": 236,
-              "coggan_wpkg": 2.86,
+              "coggan_wpkg": 2.88,
               "cp_model_watts": 273,
-              "cp_model_wpkg": 3.31,
+              "cp_model_wpkg": 3.33,
               "model_divergence_pct": -10.3
             },
             "3600s": {
               "actual_watts": 229,
-              "actual_wpkg": 2.78,
+              "actual_wpkg": 2.79,
               "actual_hr": 163,
               "pct_lthr": 88.1,
               "source": "observed_outdoor",
               "coggan_watts": 225,
-              "coggan_wpkg": 2.73,
+              "coggan_wpkg": 2.74,
               "cp_model_watts": 268,
-              "cp_model_wpkg": 3.25,
+              "cp_model_wpkg": 3.27,
               "model_divergence_pct": -14.6
             },
             "5400s": {
               "actual_watts": 211,
-              "actual_wpkg": 2.56,
+              "actual_wpkg": 2.57,
               "actual_hr": 141,
               "pct_lthr": 76.2,
               "source": "observed_outdoor",
               "coggan_watts": 215,
-              "coggan_wpkg": 2.61,
+              "coggan_wpkg": 2.62,
               "cp_model_watts": 266,
-              "cp_model_wpkg": 3.23,
+              "cp_model_wpkg": 3.24,
               "model_divergence_pct": -20.7
             },
             "7200s": {
               "actual_watts": 205,
-              "actual_wpkg": 2.49,
+              "actual_wpkg": 2.5,
               "actual_hr": 139,
               "pct_lthr": 75.1,
               "source": "observed_outdoor",
               "coggan_watts": 204,
-              "coggan_wpkg": 2.48,
+              "coggan_wpkg": 2.49,
               "cp_model_watts": 265,
-              "cp_model_wpkg": 3.22,
+              "cp_model_wpkg": 3.23,
               "model_divergence_pct": -22.6
             }
           },
@@ -546,7 +546,7 @@
     },
     "phase_detection": {
       "phase": "Base",
-      "confidence": "medium",
+      "confidence": "high",
       "reason_codes": [],
       "basis": {
         "stream_1": {
@@ -556,14 +556,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.38,
-          "hard_sessions_planned": 4,
+          "planned_tss_delta": null,
+          "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 4,
+          "current_week_hard_days_total": 0,
           "race_proximity": 54,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.75,
-          "plan_coverage_next_week": 2.0
+          "plan_coverage_current_week": 1.25,
+          "plan_coverage_next_week": 1.75
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -596,7 +596,7 @@
     "p_max": 1003,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-17T06:25:10.767098",
+    "calculation_timestamp": "2026-08-17T07:28:21.171596",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
@@ -2664,9 +2664,12 @@
     },
     {
       "date": "2026-08-17",
-      "weight_kg": null,
+      "weight_kg": 82.0,
       "display": {
-        "weight": null
+        "weight": {
+          "value": 82.0,
+          "unit": "kg"
+        }
       },
       "resting_hr": null,
       "hrv_rmssd": null,
@@ -2707,62 +2710,23 @@
   ],
   "planned_workouts": [
     {
-      "id": 126335090,
+      "id": 129691951,
       "date": "2026-08-17",
-      "name": "Full Body Maintenance",
+      "name": "Return-to-training: easy spin 20 min",
       "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": null,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
-    {
-      "id": 122496983,
-      "date": "2026-08-18",
-      "name": "\ud83c\udfc3 \ud83d\udd25 Long Run 1h50 Z2 (~19\u201320 km) \u2014 PEAK LONG RUN",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 1.83,
-      "duration_formatted": "1h50m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "Target pace ~5:25-5:40/km, but HR governs, not pace. Hard cap 160bpm \u2014 if HR creeps past that while holding pace, slow down. Start conservative (slower end) for first 30-40min given no long run since Aug 3 and the work weekend just before. Fuel every 30-40 min. Shifted from Aug 16 due to work weekend Aug 16-17."
-    },
-    {
-      "id": 122496995,
-      "date": "2026-08-19",
-      "name": "Swim 1h10 \u2014 1900m continuous at race pace",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
+      "sport_type": "Ride",
       "planned_tss": null,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "4\u00d7200m @ CSS"
-    },
-    {
-      "id": 122497011,
-      "date": "2026-08-20",
-      "name": "\ud83d\udd25 Threshold Bike 1h30 \u2014 2\u00d725 min @ FTP",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 111,
-      "duration_hours": 1.33,
-      "duration_formatted": "1h20m",
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description": "- 15m ramp 50%-80%\n- 25m @ 100% FTP\n- 5m @ 60%\n- 25m @ 100% FTP\n- 10m ramp 80%-50% cool down"
+      "description": "Very easy, low HR (Z1-Z2). Stop early if anything feels off \u2014 chest tightness, dizziness, unusual breathlessness."
     },
     {
-      "id": 122497024,
-      "date": "2026-08-21",
-      "name": "\ud83d\udfe2 Z3 Tempo Run 50 min \u2014 2\u00d715 min tempo",
+      "id": 129692005,
+      "date": "2026-08-18",
+      "name": "Return-to-training: easy jog 20 min",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
@@ -2770,25 +2734,39 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "2\u00d715 min tempo @ ~4:20/km"
+      "description": "Only if yesterday felt fine \u2014 no symptom flare, no chest issues. Keep it easy jog pace, walk if needed."
     },
     {
-      "id": 122497060,
-      "date": "2026-08-23",
-      "name": "\ud83d\udd04 \ud83d\udd25 Race-Sim Brick: Z2 Bike 2h30 + 35 min run @ race pace",
+      "id": 129692016,
+      "date": "2026-08-19",
+      "name": "Mobility / light stretching 15 min",
+      "type": "WORKOUT",
+      "sport_type": "Yoga",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Rest between the two openers"
+    },
+    {
+      "id": 129692029,
+      "date": "2026-08-20",
+      "name": "Easy spin 30 min, still Z1-Z2",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": null,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 90m @65% FTP race pace"
+      "indoor": true,
+      "description": "Extend if the first two sessions were clean"
     },
     {
-      "id": 122497064,
-      "date": "2026-08-23",
-      "name": "35m Brick",
+      "id": 129692059,
+      "date": "2026-08-21",
+      "name": "Easy jog 30 min, Z1-Z2",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
@@ -2796,20 +2774,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "35min Z2 easy jog off the bike @ race pace"
-    },
-    {
-      "id": 122497083,
-      "date": "2026-08-24",
-      "name": "\ud83c\udfc3 Long Run 1h Z2 (~10\u201311 km)",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "Mandatory step-back after peak week"
+      "description": "Still easy pace, no intensity yet"
     },
     {
       "id": 122497103,
@@ -3297,12 +3262,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 3,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 30,
-    "bail_no_match": 5
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
