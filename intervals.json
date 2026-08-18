@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T17:59:09.942433",
+  "generated_at": "2026-08-18T18:33:22.697002",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1120,6 +1120,34 @@
           "zone": 1,
           "training_load": 10.748629,
           "decoupling": 5.1437936
+        }
+      ]
+    },
+    {
+      "activity_id": "i177282200",
+      "date": "2026-08-18",
+      "type": "Run",
+      "name": "Muide - Kleinendries",
+      "interval_summary": [
+        "1x 20m5s 150bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1205s@150bpm88rpm",
+          "duration_secs": 1205,
+          "avg_hr": 150,
+          "max_hr": 170,
+          "avg_cadence": 88.269554,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 167,
+          "max_hr": 167,
+          "avg_cadence": 76.0,
+          "zone": 4
         }
       ]
     }
