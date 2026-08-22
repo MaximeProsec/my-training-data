@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T06:34:09.510113",
+  "generated_at": "2026-08-22T07:17:04.807536",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -99,6 +99,26 @@
           "zone": 2,
           "training_load": 2.7368612,
           "decoupling": 10.252401
+        }
+      ]
+    },
+    {
+      "activity_id": "i178490201",
+      "date": "2026-08-21",
+      "type": "Run",
+      "name": "Muide - Kolegem",
+      "interval_summary": [
+        "1x 30m2s 151bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1802s@151bpm88rpm",
+          "duration_secs": 1802,
+          "avg_hr": 151,
+          "max_hr": 163,
+          "avg_cadence": 87.96667,
+          "zone": 2
         }
       ]
     }
