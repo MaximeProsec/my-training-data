@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T16:09:13.947568",
+  "generated_at": "2026-08-23T16:39:09.433074",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -119,6 +119,55 @@
           "max_hr": 163,
           "avg_cadence": 87.96667,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i178960817",
+      "date": "2026-08-23",
+      "type": "Ride",
+      "name": "Muide - Gottem",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 7412,
+          "avg_power": 166,
+          "max_power": 642,
+          "avg_hr": 140,
+          "max_hr": 160,
+          "avg_cadence": 86.20534,
+          "zone": 2,
+          "training_load": 89.7682,
+          "decoupling": -3.4734366
+        }
+      ]
+    },
+    {
+      "activity_id": "i178960741",
+      "date": "2026-08-22",
+      "type": "Swim",
+      "name": "Hemeldonk",
+      "interval_summary": [
+        "1x 1609m 4:50"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "4663s@130bpm14rpm",
+          "duration_secs": 4663,
+          "avg_hr": 130,
+          "max_hr": 153,
+          "avg_cadence": 13.7562065,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 149,
+          "max_hr": 149,
+          "avg_cadence": 6.0,
+          "zone": 1
         }
       ]
     }
