@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-24T12:39:15.728381",
+    "last_updated": "2026-08-24T13:33:59.729514",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -143,7 +143,7 @@
       "unavailable": 2
     },
     "phase_context": {
-      "phase": "Base",
+      "phase": "Recovery",
       "phase_week": 1,
       "amber_threshold": 2,
       "modifier_applied": "default"
@@ -233,8 +233,8 @@
       "ctl": 47.28,
       "atl": 29.81,
       "tsb": 17.47,
-      "ramp_rate": -2.76,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ramp_rate": -2.51,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 255.2,
@@ -612,16 +612,17 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.25,
+    "consistency_index": 0.2,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 5,
       "completed_days": 2,
       "matched_days": 1,
       "planned_dates": [
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
-        "2026-08-21"
+        "2026-08-21",
+        "2026-08-24"
       ],
       "completed_dates": [
         "2026-08-20",
@@ -629,9 +630,11 @@
       ]
     },
     "phase_detection": {
-      "phase": "Base",
-      "confidence": "high",
-      "reason_codes": [],
+      "phase": "Recovery",
+      "confidence": "medium",
+      "reason_codes": [
+        "NO_BUILD_HISTORY_LOW_LOAD"
+      ],
       "basis": {
         "stream_1": {
           "ctl_slope": -9.2,
@@ -640,13 +643,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
+          "planned_tss_delta": 0.37,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 0,
           "race_proximity": 47,
           "next_week_load": 1.82,
-          "plan_coverage_current_week": 1.75,
+          "plan_coverage_current_week": 2.0,
           "plan_coverage_next_week": 2.5
         },
         "data_quality": "good",
@@ -657,8 +660,10 @@
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Base",
-    "phase_triggers": [],
+    "phase_detected": "Recovery",
+    "phase_triggers": [
+      "NO_BUILD_HISTORY_LOW_LOAD"
+    ],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
       "current_ftp": 251,
@@ -680,13 +685,13 @@
     "p_max": 996,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-24T12:39:15.727099",
+    "calculation_timestamp": "2026-08-24T13:33:59.728326",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
       "activities_7d": 6,
       "activities_28d": 18,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 117
@@ -2760,6 +2765,20 @@
   ],
   "planned_workouts": [
     {
+      "id": 131365375,
+      "date": "2026-08-24",
+      "name": "\ud83d\udeb4 Easy Z1/Z2 Bike 45 min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 54,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description": "Recovery/consolidation ride after Sunday's long aerobic session. Keep it easy and finish fresh.\n\n- Easy aerobic 45m 55-65%\n\n- Easy aerobic 45m 55-65%"
+    },
+    {
       "id": 122497103,
       "date": "2026-08-25",
       "name": "Z2 Run 35 min",
@@ -3360,12 +3379,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 18,
+    "attempted": 19,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 21,
-    "bail_no_match": 17
+    "bail_no_match": 18
   },
   "weekly_summary": {
     "total_training_hours": 5.4,
