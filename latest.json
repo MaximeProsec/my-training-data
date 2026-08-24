@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-24T11:40:10.706204",
+    "last_updated": "2026-08-24T11:58:30.202601",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -645,7 +645,7 @@
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 0,
           "race_proximity": 47,
-          "next_week_load": null,
+          "next_week_load": 0.29,
           "plan_coverage_current_week": 1.75,
           "plan_coverage_next_week": 2.25
         },
@@ -680,7 +680,7 @@
     "p_max": 996,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-24T11:40:10.705056",
+    "calculation_timestamp": "2026-08-24T11:58:30.201321",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -2853,15 +2853,15 @@
     {
       "id": 122497288,
       "date": "2026-08-31",
-      "name": "\ud83c\udfc3 Long Run 1h Z2 (~10\u201311 km)",
+      "name": "\ud83d\udeb4 Z2 Bike 60 min",
       "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "sport_type": "Ride",
+      "planned_tss": 42,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Keep easy \u2014 deload week"
+      "description": "Easy aerobic rebuild. Keep this genuinely Z2 and finish fresh.\n\n- Easy aerobic 1h 55-75%"
     },
     {
       "id": 122497304,
@@ -3336,12 +3336,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 3,
+    "attempted": 4,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 32,
-    "bail_no_match": 3
+    "bail_no_workout_doc": 31,
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 5.4,
