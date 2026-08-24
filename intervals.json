@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T16:20:03.258612",
+  "generated_at": "2026-08-24T17:00:59.526487",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -168,6 +168,27 @@
           "max_hr": 149,
           "avg_cadence": 6.0,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i179316350",
+      "date": "2026-08-24",
+      "type": "VirtualRide",
+      "name": "ROUVY - Easy spin 30+ min, still Z1-Z2 - 2026-08-20",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 38,
+          "avg_power": 127,
+          "max_power": 135,
+          "avg_hr": 95,
+          "max_hr": 111,
+          "avg_cadence": 76.70588,
+          "zone": 1,
+          "training_load": 0.11739496,
+          "decoupling": 9.479259
         }
       ]
     }
