@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-24T14:22:30.037559",
+    "last_updated": "2026-08-24T15:05:31.952166",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -643,7 +643,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.37,
+          "planned_tss_delta": 0.26,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 0,
@@ -685,7 +685,7 @@
     "p_max": 996,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-24T14:22:30.036725",
+    "calculation_timestamp": "2026-08-24T15:05:31.950902",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -2770,13 +2770,13 @@
       "name": "\ud83d\udeb4 Easy Z1/Z2 Bike 45 min",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 54,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
+      "planned_tss": 37,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h5m",
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description": "Recovery/consolidation ride after Sunday's long aerobic session. Keep it easy and finish fresh.\n\n- Easy aerobic 45m 55-65%\n\n- Easy aerobic 45m 55-65%"
+      "description": "Recovery/consolidation ride after Sunday's long aerobic session. Keep it easy and finish fresh.\n\n- 10m ramp 50-60%\n\n- Easy aerobic 45m 55-65%\n\n- 10m ramp 60-50%"
     },
     {
       "id": 122497103,
@@ -2805,11 +2805,11 @@
       "description": ""
     },
     {
-      "id": 122497204,
+      "id": 122497210,
       "date": "2026-08-26",
-      "name": "Swim 45 min easy aerobic",
+      "name": "Z2 Bike 1h30 outdoor",
       "type": "WORKOUT",
-      "sport_type": "Swim",
+      "sport_type": "Ride",
       "planned_tss": null,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
@@ -2818,11 +2818,11 @@
       "description": ""
     },
     {
-      "id": 122497210,
+      "id": 122497204,
       "date": "2026-08-27",
-      "name": "Z2 Bike 1h30 outdoor",
+      "name": "Swim 45 min easy aerobic",
       "type": "WORKOUT",
-      "sport_type": "Ride",
+      "sport_type": "Swim",
       "planned_tss": null,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
