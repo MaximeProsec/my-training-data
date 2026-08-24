@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T20:14:19.303994",
+  "generated_at": "2026-08-24T20:47:14.900508",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -189,6 +189,55 @@
           "zone": 1,
           "training_load": 0.11739496,
           "decoupling": 9.479259
+        }
+      ]
+    },
+    {
+      "activity_id": "i179391750",
+      "date": "2026-08-24",
+      "type": "VirtualRide",
+      "name": "\ud83d\udeb4 Easy Z1/Z2 Bike 45 min",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3925,
+          "avg_power": 145,
+          "max_power": 157,
+          "avg_hr": 124,
+          "max_hr": 134,
+          "avg_cadence": 90.65478,
+          "zone": 2,
+          "training_load": 37.395935,
+          "decoupling": 4.400719
+        }
+      ]
+    },
+    {
+      "activity_id": "i179391703",
+      "date": "2026-08-23",
+      "type": "VirtualRun",
+      "name": "Running",
+      "interval_summary": [
+        "1x 63s 149bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "63s@149bpm37rpm",
+          "duration_secs": 63,
+          "avg_hr": 149,
+          "max_hr": 169,
+          "avg_cadence": 37.064518,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 132,
+          "max_hr": 132,
+          "avg_cadence": 12.0,
+          "zone": 2
         }
       ]
     }
