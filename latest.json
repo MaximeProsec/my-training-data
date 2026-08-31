@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-31T19:59:35.123795",
+    "last_updated": "2026-08-31T23:37:04.597057",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -235,7 +235,7 @@
       "w_prime": 20365,
       "w_prime_kj": 20.4,
       "p_max": 992,
-      "vo2max": null,
+      "vo2max": 54.21,
       "sports": {
         "cycling": {
           "lthr": 185,
@@ -606,9 +606,9 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.29,
+    "consistency_index": 0.33,
     "consistency_details": {
-      "planned_days": 7,
+      "planned_days": 6,
       "completed_days": 2,
       "matched_days": 2,
       "planned_dates": [
@@ -617,8 +617,7 @@
         "2026-08-27",
         "2026-08-28",
         "2026-08-29",
-        "2026-08-30",
-        "2026-08-31"
+        "2026-08-30"
       ],
       "completed_dates": [
         "2026-08-27",
@@ -637,13 +636,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.63,
+          "planned_tss_delta": 1.28,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 1,
           "race_proximity": 40,
           "next_week_load": 1.42,
-          "plan_coverage_current_week": 1.6,
+          "plan_coverage_current_week": 1.8,
           "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
@@ -676,14 +675,14 @@
     "w_prime_kj": 20.4,
     "p_max": 992,
     "power_model_source": "wellness.sportInfo",
-    "vo2max": null,
-    "calculation_timestamp": "2026-08-31T19:59:35.122479",
+    "vo2max": 54.21,
+    "calculation_timestamp": "2026-08-31T23:37:04.595896",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
       "activities_7d": 8,
       "activities_28d": 19,
-      "planned_workouts_7d": 8,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 124
@@ -2803,14 +2802,14 @@
       },
       "resting_hr": 52,
       "hrv_rmssd": null,
-      "hrv_sdnn": 60.70497,
+      "hrv_sdnn": 64.72848,
       "sleep_hours": 6.8,
       "sleep_formatted": "6h47m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
+      "vo2max": 54.21,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -2840,82 +2839,95 @@
   ],
   "planned_workouts": [
     {
-      "id": 122497304,
-      "date": "2026-08-31",
-      "name": "\ud83c\udfc3 Easy Run 40 min",
+      "id": 133039085,
+      "date": "2026-09-01",
+      "name": "\ud83d\udeb4 Z2 Endurance Bike 60\u201375 min",
       "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
+      "sport_type": "Ride",
+      "planned_tss": 42,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Easy return-to-running. Keep the pace conversational and let HR dictate the effort; no pace target.\n\n- Easy aerobic run 40m easy"
+      "description": "- Z2 endurance 1h 62-68%"
     },
     {
-      "id": 122497347,
+      "id": 133039096,
       "date": "2026-09-02",
-      "name": "\ud83c\udfca Easy Swim 50 min",
+      "name": "\ud83c\udfca Easy Aerobic Swim 50 min",
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": null,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "First swim back after illness. Easy aerobic and technique focused; no race-pace work.\n\n- Easy swim 50m easy"
+      "description": "Easy aerobic/technique swim. Keep effort relaxed; no hard CSS work."
     },
     {
-      "id": 122497362,
+      "id": 133039111,
       "date": "2026-09-02",
-      "name": "\ud83d\udeb4 Z2 Bike 75 min",
+      "name": "\ud83c\udfcb\ufe0f Strength + KB Circuit 45\u201360 min",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 57,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h15m",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Aerobic rebuild. Keep this controlled and conversational.\n\n- Z2 endurance 1h15m 60-75%"
+      "description": "Compounds first if desired. Then 2 rounds of the kettlebell circuit. Keep 2\u20133 reps in reserve; do not turn this into a conditioning session."
     },
     {
-      "id": 131352217,
+      "id": 133039132,
       "date": "2026-09-03",
-      "name": "\ud83d\udeb4 Bike Quality 60 min \u2014 3\u00d78 min",
+      "name": "\ud83d\udeb4 Controlled Sweet Spot Re-entry 61 min",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 62,
-      "duration_hours": 1.1,
-      "duration_formatted": "1h6m",
-      "workout_summary": "15m @157W | 5m @196W | 3\u00d78m @236W / 4m rec | 10m @144W",
+      "planned_tss": 29,
+      "duration_hours": 0.62,
+      "duration_formatted": "37m",
+      "workout_summary": null,
       "has_terrain": false,
-      "description": "First controlled intensity session after illness. Keep it submaximal; stop the progression if HR or breathing is abnormal.\n\n-  15m ramp  55-65%\n\n- Build 5m 70-80%\n\n3x\n  - Controlled sweet spot 8m 88-92%\n  - Easy recovery 4m 50-55%\n\n- 10m ramp  60-50%"
+      "description": "- Warm-up 15m 55-65%\n3x\n  - Sweet spot 8m 88-92%\n  - Recovery 4m 55%\n- Cool-down 10m 50-60%"
     },
     {
-      "id": 131352237,
+      "id": 133039150,
       "date": "2026-09-03",
       "name": "\ud83c\udfca Easy Swim 45 min",
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": null,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Easy aerobic swim. Keep it relaxed; no race-pace work.\n\n- Easy aerobic swim 45m easy"
+      "description": "Easy aerobic swim. Relaxed technique and continuous easy effort; no hard CSS work."
     },
     {
-      "id": 122497377,
+      "id": 133039160,
       "date": "2026-09-04",
-      "name": "\ud83c\udfc3 Easy Run 40 min",
+      "name": "\ud83c\udfc3 Easy Run 35\u201345 min",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Easy aerobic run before travel. Keep it conversational; no pace target.\n\n- Easy aerobic 40m easy"
+      "description": "Optional extension to 45 min if fully recovered. Keep genuinely easy Z2; HR is the governor, pace is irrelevant."
+    },
+    {
+      "id": 133039184,
+      "date": "2026-09-04",
+      "name": "\ud83d\udeb4 Easy Spin 30\u201340 min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Very easy aerobic spin before France travel. 30\u201340 min, Z1/low Z2, roughly 130\u2013155 W. No intensity."
     },
     {
       "id": 122497440,
@@ -3376,12 +3388,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 16,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 12,
+    "success": 0,
+    "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 23,
-    "bail_no_match": 15
+    "bail_no_workout_doc": 28,
+    "bail_no_match": 12
   },
   "weekly_summary": {
     "total_training_hours": 8.23,
