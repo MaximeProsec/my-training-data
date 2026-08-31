@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T14:09:43.658632",
+  "generated_at": "2026-08-31T19:59:34.755990",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1486,6 +1486,34 @@
           "zone": 2,
           "training_load": 14.824975,
           "decoupling": 12.033257
+        }
+      ]
+    },
+    {
+      "activity_id": "i181842148",
+      "date": "2026-08-31",
+      "type": "Run",
+      "name": "\ud83c\udfc3 Easy Run 40 min",
+      "interval_summary": [
+        "1x 30m25s 139bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1825s@139bpm84rpm",
+          "duration_secs": 1825,
+          "avg_hr": 139,
+          "max_hr": 151,
+          "avg_cadence": 84.12781,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 148,
+          "max_hr": 148,
+          "avg_cadence": 79.0,
+          "zone": 2
         }
       ]
     }
