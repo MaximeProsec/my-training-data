@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T02:01:33.018338",
+  "generated_at": "2026-09-01T07:44:58.877362",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1493,6 +1493,27 @@
           "max_hr": 148,
           "avg_cadence": 79.0,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i181947541",
+      "date": "2026-09-01",
+      "type": "VirtualRide",
+      "name": "\ud83d\udeb4 Z2 Endurance Bike 60\u201375 min",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3604,
+          "avg_power": 166,
+          "max_power": 178,
+          "avg_hr": 136,
+          "max_hr": 149,
+          "avg_cadence": 83.81964,
+          "zone": 2,
+          "training_load": 45.38457,
+          "decoupling": 2.8650274
         }
       ]
     }
