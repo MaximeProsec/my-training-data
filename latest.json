@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-02T11:30:10.368459",
+    "last_updated": "2026-09-02T15:12:21.961578",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -655,7 +655,7 @@
           "current_week_hard_days_total": 1,
           "race_proximity": 38,
           "next_week_load": 1.42,
-          "plan_coverage_current_week": 1.6,
+          "plan_coverage_current_week": 1.8,
           "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
@@ -689,7 +689,7 @@
     "p_max": 992,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-02T11:30:10.367203",
+    "calculation_timestamp": "2026-09-02T15:12:21.960414",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
@@ -2808,17 +2808,17 @@
       "description": "Easy aerobic/technique swim. Keep effort relaxed; no hard CSS work."
     },
     {
-      "id": 133039111,
+      "id": 133415462,
       "date": "2026-09-02",
-      "name": "\ud83c\udfcb\ufe0f Strength + KB Circuit 45\u201360 min",
+      "name": "\ud83c\udfc3 Easy Run 35\u201345 min",
       "type": "WORKOUT",
-      "sport_type": "WeightTraining",
+      "sport_type": "Run",
       "planned_tss": null,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Compounds first if desired. Then 2 rounds of the kettlebell circuit. Keep 2\u20133 reps in reserve; do not turn this into a conditioning session."
+      "description": "Optional extension to 45 min if fully recovered. Keep genuinely easy Z2; HR is the governor, pace is irrelevant."
     },
     {
       "id": 133039132,
@@ -2871,6 +2871,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "Very easy aerobic spin before France travel. 30\u201340 min, Z1/low Z2, roughly 130\u2013155 W. No intensity."
+    },
+    {
+      "id": 133039111,
+      "date": "2026-09-05",
+      "name": "\ud83c\udfcb\ufe0f Strength + KB Circuit 45\u201360 min",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Compounds first if desired. Then 2 rounds of the kettlebell circuit. Keep 2\u20133 reps in reserve; do not turn this into a conditioning session."
     },
     {
       "id": 122497440,
@@ -3335,7 +3348,7 @@
     "success": 1,
     "patternA": 1,
     "patternB": 0,
-    "bail_no_workout_doc": 28,
+    "bail_no_workout_doc": 29,
     "bail_no_match": 10
   },
   "weekly_summary": {
