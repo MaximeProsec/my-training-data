@@ -1,58 +1,10 @@
 {
-  "generated_at": "2026-09-03T22:39:42.828837",
+  "generated_at": "2026-09-04T00:21:59.377995",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i178037307",
-      "date": "2026-08-20",
-      "type": "VirtualRide",
-      "name": "Easy spin 30+ min, still Z1-Z2",
-      "interval_summary": [
-        "1x 11m12s 205w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1501,
-          "avg_power": 174,
-          "max_power": 187,
-          "avg_hr": 131,
-          "max_hr": 144,
-          "avg_cadence": 84.63102,
-          "zone": 2,
-          "training_load": 20.486446,
-          "decoupling": -2.0810862
-        },
-        {
-          "type": "WORK",
-          "label": "672s@205w82rpm",
-          "duration_secs": 672,
-          "avg_power": 205,
-          "max_power": 213,
-          "avg_hr": 145,
-          "max_hr": 155,
-          "avg_cadence": 82.19196,
-          "zone": 3,
-          "training_load": 12.451654,
-          "decoupling": 0.41944808
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 228,
-          "avg_power": 158,
-          "max_power": 189,
-          "avg_hr": 136,
-          "max_hr": 148,
-          "avg_cadence": 74.0,
-          "zone": 2,
-          "training_load": 2.7368612,
-          "decoupling": 10.252401
-        }
-      ]
-    },
     {
       "activity_id": "i178490201",
       "date": "2026-08-21",
