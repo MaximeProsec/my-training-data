@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T22:51:47.976410",
+  "generated_at": "2026-09-06T00:17:09.351452",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -23,34 +23,6 @@
           "zone": 2,
           "training_load": 89.7682,
           "decoupling": -3.4734366
-        }
-      ]
-    },
-    {
-      "activity_id": "i178960741",
-      "date": "2026-08-22",
-      "type": "Swim",
-      "name": "Hemeldonk",
-      "interval_summary": [
-        "1x 1609m 4:50"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "4663s@130bpm14rpm",
-          "duration_secs": 4663,
-          "avg_hr": 130,
-          "max_hr": 153,
-          "avg_cadence": 13.7562065,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 149,
-          "max_hr": 149,
-          "avg_cadence": 6.0,
-          "zone": 1
         }
       ]
     },
