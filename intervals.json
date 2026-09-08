@@ -1,52 +1,10 @@
 {
-  "generated_at": "2026-09-07T22:19:12.524711",
+  "generated_at": "2026-09-08T00:32:08.238517",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i179316350",
-      "date": "2026-08-24",
-      "type": "VirtualRide",
-      "name": "ROUVY - Easy spin 30+ min, still Z1-Z2 - 2026-08-20",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 38,
-          "avg_power": 127,
-          "max_power": 135,
-          "avg_hr": 95,
-          "max_hr": 111,
-          "avg_cadence": 76.70588,
-          "zone": 1,
-          "training_load": 0.11739496,
-          "decoupling": 9.479259
-        }
-      ]
-    },
-    {
-      "activity_id": "i179391750",
-      "date": "2026-08-24",
-      "type": "VirtualRide",
-      "name": "\ud83d\udeb4 Easy Z1/Z2 Bike 45 min",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3925,
-          "avg_power": 145,
-          "max_power": 157,
-          "avg_hr": 124,
-          "max_hr": 134,
-          "avg_cadence": 90.65478,
-          "zone": 2,
-          "training_load": 37.395935,
-          "decoupling": 4.400719
-        }
-      ]
-    },
     {
       "activity_id": "i179717928",
       "date": "2026-08-25",
