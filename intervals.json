@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T17:21:54.527373",
+  "generated_at": "2026-09-09T19:52:11.697536",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1899,6 +1899,90 @@
           "zone": 4,
           "training_load": 13.966348,
           "decoupling": 11.465148
+        }
+      ]
+    },
+    {
+      "activity_id": "i185025705",
+      "date": "2026-09-09",
+      "type": "Run",
+      "name": "Bureau de Poste de Fraize - Plainfaing",
+      "interval_summary": [
+        "5x 5m30s 152bpm",
+        "1x 7m40s 173bpm",
+        "1x 5s 160bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "330s@152bpm85rpm",
+          "duration_secs": 356,
+          "avg_hr": 146,
+          "max_hr": 152,
+          "avg_cadence": 83.932014,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "330s@152bpm85rpm",
+          "duration_secs": 347,
+          "avg_hr": 153,
+          "max_hr": 161,
+          "avg_cadence": 85.12104,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "460s@173bpm74rpm",
+          "duration_secs": 460,
+          "avg_hr": 173,
+          "max_hr": 181,
+          "avg_cadence": 74.36087,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "330s@152bpm85rpm",
+          "duration_secs": 322,
+          "avg_hr": 155,
+          "max_hr": 183,
+          "avg_cadence": 85.01863,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "330s@152bpm85rpm",
+          "duration_secs": 290,
+          "avg_hr": 145,
+          "max_hr": 150,
+          "avg_cadence": 86.68621,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "330s@152bpm85rpm",
+          "duration_secs": 337,
+          "avg_hr": 160,
+          "max_hr": 167,
+          "avg_cadence": 85.4362,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "5s@160bpm84rpm",
+          "duration_secs": 5,
+          "avg_hr": 160,
+          "max_hr": 160,
+          "avg_cadence": 84.0,
+          "zone": 3
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 160,
+          "max_hr": 160,
+          "avg_cadence": 78.0,
+          "zone": 3
         }
       ]
     }
