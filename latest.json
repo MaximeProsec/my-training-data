@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 10.06,
-      "total_training_formatted": "10h3m",
-      "total_activities": 7,
-      "total_tss": 367
+      "total_training_hours": 11.27,
+      "total_training_formatted": "11h16m",
+      "total_activities": 8,
+      "total_tss": 449
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-13T06:05:31.561239",
+    "last_updated": "2026-09-13T11:44:19.783315",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -124,7 +124,7 @@
       },
       "acwr": {
         "status": "green",
-        "value": 0.96
+        "value": 1.11
       },
       "ri": {
         "status": "unavailable",
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -0.8
+        "value": -9.8
       }
     },
     "signal_summary": {
@@ -163,8 +163,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 10.06,
-    "total_activities": 7,
+    "total_duration_decimal_hours": 11.27,
+    "total_activities": 8,
     "by_activity_type": {
       "Hike": {
         "duration_decimal_hours": 5.72,
@@ -191,13 +191,13 @@
         }
       },
       "Run": {
-        "duration_decimal_hours": 1.2,
-        "count": 2,
-        "tss": 91,
-        "distance_km": 12.3,
+        "duration_decimal_hours": 2.41,
+        "count": 3,
+        "tss": 173,
+        "distance_km": 24.8,
         "display": {
           "distance": {
-            "value": 12.3,
+            "value": 24.8,
             "unit": "km"
           }
         }
@@ -206,17 +206,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 52.1,
-      "atl": 52.93,
-      "tsb": -0.83,
-      "ramp_rate": 4.29,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 54.03,
+      "atl": 63.84,
+      "tsb": -9.81,
+      "ramp_rate": 1.75,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 253.9,
-      "w_prime": 20345,
-      "w_prime_kj": 20.3,
-      "p_max": 1051,
+      "eftp": 254.2,
+      "w_prime": 20365,
+      "w_prime_kj": 20.4,
+      "p_max": 1052,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -295,43 +295,43 @@
     "rhr_baseline_28d": 54,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 0.96,
+    "acwr": 1.11,
     "acwr_interpretation": "optimal",
-    "monotony": 0.8,
+    "monotony": 1.03,
     "monotony_interpretation": "normal",
     "primary_sport": "cycling",
     "primary_sport_monotony": null,
     "primary_sport_tss_7d": 229.0,
-    "effective_monotony": 0.8,
+    "effective_monotony": 1.03,
     "multi_sport_detected": true,
-    "strain": 294.0,
-    "stress_tolerance": 3.7,
+    "strain": 462.0,
+    "stress_tolerance": 4.5,
     "load_recovery_ratio": null,
-    "tss_7d_total": 367.0,
-    "tss_28d_total": 1532.0,
+    "tss_7d_total": 449.0,
+    "tss_28d_total": 1614.0,
     "zone_distribution_7d": {
-      "z1_hours": 6.24,
-      "z2_hours": 1.59,
-      "z3_hours": 1.18,
-      "z4_plus_hours": 0.96,
-      "total_hours": 9.97,
+      "z1_hours": 6.25,
+      "z2_hours": 1.82,
+      "z3_hours": 2.03,
+      "z4_plus_hours": 1.09,
+      "total_hours": 11.18,
       "zone_basis": "mixed"
     },
-    "grey_zone_percentage": 11.9,
+    "grey_zone_percentage": 18.2,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 9.6,
+    "quality_intensity_percentage": 9.7,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "easy_time_ratio": 0.79,
+    "easy_time_ratio": 0.72,
     "easy_time_ratio_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 2,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 28181,
-      "z2_seconds": 4263,
-      "z3_seconds": 3447,
-      "z1_pct": 78.5,
-      "z2_pct": 11.9,
-      "z3_pct": 9.6,
+      "z1_seconds": 29036,
+      "z2_seconds": 7307,
+      "z3_seconds": 3910,
+      "z1_pct": 72.1,
+      "z2_pct": 18.2,
+      "z3_pct": 9.7,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
@@ -349,11 +349,11 @@
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 79937,
-      "z2_seconds": 20950,
-      "z3_seconds": 13249,
-      "z1_pct": 70.0,
-      "z2_pct": 18.4,
+      "z1_seconds": 80792,
+      "z2_seconds": 23994,
+      "z3_seconds": 13712,
+      "z1_pct": 68.2,
+      "z2_pct": 20.2,
       "z3_pct": 11.6,
       "polarization_index": null,
       "classification": "Pyramidal",
@@ -393,11 +393,11 @@
         "note": "Steady-state cycling sessions only (VI <= 1.05, VI > 0, >= 20min, power+HR data). Rising EF = improving aerobic efficiency. Compare like-for-like sessions only \u2014 EF varies with intensity. Trend compares 7d vs 28d mean (+/-0.03 = stable)."
       },
       "hrrc": {
-        "mean_hrrc_7d": null,
-        "mean_hrrc_28d": 21.0,
-        "qualifying_sessions_7d": 0,
-        "qualifying_sessions_28d": 3,
-        "trend": null,
+        "mean_hrrc_7d": 20.0,
+        "mean_hrrc_28d": 20.8,
+        "qualifying_sessions_7d": 1,
+        "qualifying_sessions_28d": 4,
+        "trend": "stable",
         "note": "HRRc = heart rate recovery (largest 60s HR drop in bpm after exceeding threshold HR for >1 min). Higher = better parasympathetic recovery. Null when threshold not reached, recording stopped before cooldown, or no HR data. Trend: 7d mean vs 28d mean, >10% = meaningful (min 1 session/7d, 3 sessions/28d). Display only \u2014 not wired into readiness_decision signals."
       },
       "tid_comparison": {
@@ -581,7 +581,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 262,
-          "w_prime_used": 20345,
+          "w_prime_used": 20365,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -621,10 +621,10 @@
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 2,
-          "race_proximity": null,
-          "next_week_load": 0.86,
+          "race_proximity": 27,
+          "next_week_load": 0.97,
           "plan_coverage_current_week": 0.12,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 1.12
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -651,18 +651,18 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 253.9,
-    "w_prime": 20345,
-    "w_prime_kj": 20.3,
-    "p_max": 1051,
+    "eftp": 254.2,
+    "w_prime": 20365,
+    "w_prime_kj": 20.4,
+    "p_max": 1052,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-13T06:05:31.560264",
+    "calculation_timestamp": "2026-09-13T11:44:19.782158",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 3,
-      "activities_7d": 7,
-      "activities_28d": 30,
+      "activities_7d": 8,
+      "activities_28d": 31,
       "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 0,
@@ -671,6 +671,132 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i186212467",
+      "date": "2026-09-13T11:38:24",
+      "type": "Run",
+      "name": "\ud83c\udfc3 Easy Run 60\u201370 min",
+      "duration_hours": 1.21,
+      "distance_km": 12.51,
+      "tss": 82,
+      "intensity_factor": 82.28391,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 157,
+      "max_hr": 188,
+      "avg_cadence": 84.301605,
+      "avg_speed": 10.3,
+      "avg_speed_unit": "KPH",
+      "max_speed": 13.8,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": 18.256598,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": 4.050704,
+      "wind_speed_unit": "KMH",
+      "work_kj": null,
+      "calories": 997,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": 20,
+      "elevation_m": 59.538967,
+      "display": {
+        "distance": {
+          "value": 12.51,
+          "unit": "km"
+        },
+        "elevation": {
+          "value": 60,
+          "unit": "m"
+        },
+        "avg_speed": {
+          "value": 10.3,
+          "unit": "km/h"
+        },
+        "max_speed": {
+          "value": 13.8,
+          "unit": "km/h"
+        }
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 29,
+          "z2_time": 826,
+          "z3_time": 3044,
+          "z4_time": 408,
+          "z5_time": 55,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": true,
+      "has_dfa": false,
+      "terrain_summary": {
+        "source": "activity_streams",
+        "total_distance_km": 12.7,
+        "total_elevation_m": 96,
+        "elevation_per_km": 7.6,
+        "course_character": "rolling",
+        "max_grade_pct": 2.1,
+        "grade_distribution": {
+          "flat_pct": 94.8,
+          "gentle_pct": 5.2,
+          "moderate_pct": 0.0,
+          "steep_pct": 0.0
+        },
+        "start_coords": [
+          51.07357,
+          3.72962
+        ],
+        "climbs": [],
+        "descents": [],
+        "display": {
+          "total_distance": {
+            "value": 12.7,
+            "unit": "km"
+          },
+          "total_elevation": {
+            "value": 96,
+            "unit": "m"
+          },
+          "elevation_per_distance": {
+            "value": 8,
+            "unit": "m/km"
+          }
+        }
+      },
+      "weather_summary": {
+        "source": "intervals_open_meteo",
+        "units": {
+          "wind": "m/s",
+          "temp": "c",
+          "rain": "mm"
+        },
+        "avg_wind_speed": 4.05,
+        "avg_wind_gust": 7.67,
+        "prevailing_wind_deg": 225,
+        "headwind_pct": 23.07,
+        "tailwind_pct": 21.94,
+        "avg_temp": 18.26,
+        "avg_temp_device": null,
+        "avg_feels_like": 18.87,
+        "min_feels_like": 18.74,
+        "max_feels_like": 18.94,
+        "min_temp": 18.16,
+        "max_temp": 18.38,
+        "clouds_pct": 100,
+        "rain": 0.6,
+        "snow": 0.0
+      }
+    },
     {
       "id": "i185677141",
       "date": "2026-09-11T11:09:58",
@@ -4796,23 +4922,9 @@
       "description": "Easy aerobic run to finish the France block. Only do the full duration if recovery is excellent; otherwise 45\u201360 min.\n\n- Easy aerobic 1h10m easy"
     },
     {
-      "id": 122497689,
-      "date": "2026-09-14",
-      "name": "Z2 Bike 1h easy \u2014 flush",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 42,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "indoor": true,
-      "description": "Easy aerobic flush after travel. Keep power controlled and conversational.\n\n- Easy Z2 1h 60-70%"
-    },
-    {
       "id": 122497717,
       "date": "2026-09-14",
-      "name": "Z2 Run 30 min",
+      "name": "\ud83c\udfc3 Easy Run + Mobility \u2014 30\u201340 min",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
@@ -4820,25 +4932,25 @@
       "duration_formatted": "30m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Easy return-to-normal run. HR-led: keep predominantly Z2; do not chase pace.\n\n- Easy Z2 30m easy"
+      "description": "30\u201340 min very easy aerobic running. Keep HR mostly below 151 bpm. Finish with 10 min mobility."
     },
     {
       "id": 122497729,
       "date": "2026-09-15",
-      "name": "\ud83c\udfc3 Easy Run 45 min",
+      "name": "\ud83d\udeb4 Z2 Bike 60\u201370 min \u2014 Return",
       "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
+      "sport_type": "Ride",
+      "planned_tss": 47,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h5m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Aerobic volume. Keep HR controlled in Z2; relaxed mechanics.\n\n- Easy Z2 45m easy"
+      "description": "- Easy endurance 15m 60-70%\n- Endurance 35m 65-72%\n- Cool down 15m 55-65%"
     },
     {
       "id": 122497738,
       "date": "2026-09-16",
-      "name": "Swim 55 min \u2014 race-pace technique",
+      "name": "\ud83c\udfca Swim \u2014 55 min Race Technique",
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": null,
@@ -4847,25 +4959,39 @@
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description": "Weekly swim: technique, CSS/race-pace exposure, relaxed continuous swimming.\n\n- Warm-up 8m\n- Drills 8m\nRace pace 4x\n  - 4m\n  - 1m\n- Easy continuous 15m\n- Cool-down 4m"
+      "description": "55 min race-pace technique swim. Smooth, controlled aerobic work; focus on relaxed form and sighting."
+    },
+    {
+      "id": 135759084,
+      "date": "2026-09-16",
+      "name": "\ud83c\udfc3 Easy Run \u2014 30 min",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "30 min easy Z2 run. Keep HR mostly \u2264151 bpm. This is aerobic volume only."
     },
     {
       "id": 122497775,
       "date": "2026-09-17",
-      "name": "Race-Pace Bike 1h30 \u2014 45 min race zone",
+      "name": "\ud83d\udeb4 Race-Specific Bike \u2014 90 min",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 72,
+      "planned_tss": 81,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "70.3-specific endurance. Hold race power smoothly; practice race fueling.\n\n- Warm-up 15m 55-70%\n- Race power 45m 72-78%\n- Easy endurance 15m 60-70%\n- Cool-down 15m 50-60%"
+      "indoor": true,
+      "description": "Race-specific bike. For the 45 min main block, target 200\u2013210 W. Keep the first 10 min of the block closer to 200 W and only build toward 210 W if controlled.\n- Warm up 15m 55-70%\n- Race power 45m 200-210w\n- Easy endurance 15m 60-70%\n- Cool down 15m 50-60%"
     },
     {
       "id": 122497782,
       "date": "2026-09-18",
-      "name": "\ud83c\udfc3 Tempo Run \u2014 3 km + 2 km",
+      "name": "\ud83c\udfc3 Tempo Run \u2014 10 km",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
@@ -4873,20 +4999,33 @@
       "duration_formatted": "57m30s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "First quality run after illness. Controlled threshold bridge; finish with more in reserve. HR-led if pace and HR disagree.\n- 2km easy\n- 3km 4:25-4:35/km\n- 1km easy\n- 2km 4:20-4:30/km\n- 2km easy"
+      "description": "Controlled tempo bridge. 2 km easy, 3 km @ 4:25\u20134:35/km, 1 km easy, 2 km @ 4:20\u20134:30/km, 2 km easy."
+    },
+    {
+      "id": 135756979,
+      "date": "2026-09-19",
+      "name": "\ud83c\udfc3 Easy Run \u2014 35 min",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "35 min easy aerobic run. Keep it genuinely easy; this is a volume/recovery day before the Sep 20 race-sim brick."
     },
     {
       "id": 127682322,
       "date": "2026-09-20",
-      "name": "\ud83d\udd04 \ud83d\udd25 Race-Sim Brick: Z2 Bike 2h + 30 min run",
+      "name": "\ud83d\udd04 \ud83d\udd25 Race-Sim Brick: 2h Bike + 30m Run",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 93,
+      "planned_tss": 104,
       "duration_hours": 2.0,
       "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Key 70.3 race-specific brick. Ride controlled at race effort, then run easy off the bike. Practice race fueling on the bike.\n\n- Easy endurance 30m 60-70%\n- Race power 1h 68-75%\n- Easy endurance 30m 60-70%"
+      "description": "- Easy start 30m 60-70%\n- Race power 1h 76-80%\n- Easy finish 30m 60-70%"
     },
     {
       "id": 127682323,
@@ -4904,7 +5043,7 @@
     {
       "id": 122497799,
       "date": "2026-09-21",
-      "name": "\ud83c\udfc3 Long Run 15\u201317 km Z2",
+      "name": "\ud83c\udfc3 Long Run \u2014 15\u201317 km Z2",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
@@ -4912,12 +5051,12 @@
       "duration_formatted": "1h37m46s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Standalone long run after the Sep 20 brick. Keep predominantly Z2 and relaxed. If legs are heavy, cap at 15 km; do not force distance.\n- 17km easy"
+      "description_preview": "15\u201317 km easy Z2. Keep HR mostly \u2264151 bpm. Cap at 15 km if legs feel heavy after the Sep 20 brick."
     },
     {
       "id": 122497810,
       "date": "2026-09-22",
-      "name": "Z2 Run 30 min \u2014 recovery",
+      "name": "\ud83c\udfc3 Recovery Run \u2014 30 min",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
@@ -4925,51 +5064,12 @@
       "duration_formatted": "30m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Recovery after the Sep 20\u201321 block. Very easy; HR-led.\n- Easy 30m easy"
+      "description_preview": "30 min very easy recovery run. Keep it conversational and below ~151 bpm."
     },
     {
-      "id": 122497819,
+      "id": 135758835,
       "date": "2026-09-23",
-      "name": "\ud83c\udfc3 VO2 Run \u2014 5 \u00d7 1 km",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 1.03,
-      "duration_formatted": "1h1m45s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "Primary speed session. 5 \u00d7 1 km at approximately 4:05\u20134:15/km with 2\u20132:30 min easy jog recoveries. Pace is secondary to consistent mechanics, RPE and HR response. Finish with one rep in reserve.\n- 2km easy warm-up\n- 1km 4:05-4:15/km"
-    },
-    {
-      "id": 122497847,
-      "date": "2026-09-24",
-      "name": "\ud83d\udeb4 Race-Pace Bike 60 min \u2014 controlled",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 46,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "Aerobic support after run speed. Controlled race-specific power, not a hard session.\n- Warm-up 15m 55-70%\n- Race power 30m 70-75%"
-    },
-    {
-      "id": 122497853,
-      "date": "2026-09-25",
-      "name": "Z2 Run 35 min \u2014 easy",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.58,
-      "duration_formatted": "35m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "Easy aerobic recovery before the final long run. Keep it genuinely easy; no pace target.\n- Easy 35m easy"
-    },
-    {
-      "id": 135524721,
-      "date": "2026-09-26",
-      "name": "\ud83c\udfc3 Long Run 18 km \u2014 Z2 + progression",
+      "name": "\ud83c\udfc3 VO2 Run \u2014 5\u00d71 km",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
@@ -4977,20 +5077,59 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Final substantial standalone long run. First 14\u201315 km easy Z2. If feeling good, progressively lift the final 3\u20134 km toward steady effort, but do not turn it into a race. Fuel as for a long race-prep run."
+      "description_preview": "2 km easy warm-up. 5\u00d71 km @ 4:05\u20134:15/km with 2:30 easy jog recoveries. 2 km easy cool-down. Pace secondary to relaxed mechanics and controlled effort."
+    },
+    {
+      "id": 122497847,
+      "date": "2026-09-24",
+      "name": "\ud83d\udeb4 Race-Power Bike \u2014 60 min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 50,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- Warm up 15m 55-70%\n- Race power 30m 76-80%\n- Easy 10m 60-65%"
+    },
+    {
+      "id": 122497853,
+      "date": "2026-09-25",
+      "name": "\ud83c\udfc3 Easy Run \u2014 35 min",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "35 min easy aerobic run. Conversational effort, no intensity."
+    },
+    {
+      "id": 135524721,
+      "date": "2026-09-26",
+      "name": "\ud83c\udfc3 Long Run \u2014 18 km Z2 + progression",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "18 km. First 14\u201315 km easy Z2 (HR mostly \u2264151). Final 3\u20134 km steady only if legs feel good. Practice race fueling."
     },
     {
       "id": 122497889,
       "date": "2026-09-27",
-      "name": "\ud83d\udd04 Race-Specific Brick: Bike 75 min + 10 min run",
+      "name": "\ud83d\udeb4 + \ud83c\udfc3 Race-Specific Brick \u2014 75m + 10m",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 57,
+      "planned_tss": 63,
       "duration_hours": 1.25,
       "duration_formatted": "1h15m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Short race-specific brick. Bike controlled at 70\u201375% FTP, then 10 min easy run. Purpose is race rhythm, not fatigue.\n- Easy endurance 20m 60-70%\n- Race power 35m 70-75%"
+      "description_preview": "- Endurance 20m 60-70%\n- Race power 35m 76-80%\n- Easy finish 20m 55-65%"
     },
     {
       "id": 122497895,
@@ -5021,7 +5160,7 @@
     {
       "id": 122497913,
       "date": "2026-09-29",
-      "name": "\ud83c\udfc3 Race-Pace Run \u2014 3 \u00d7 3 km @ ~4:45/km",
+      "name": "\ud83c\udfc3 Race-Pace Test \u2014 3\u00d73 km @ 4:45/km",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
@@ -5029,51 +5168,38 @@
       "duration_formatted": "1h14m45s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Final key run before taper. 3 \u00d7 3 km around target 70.3 run pace, with 1 km easy between. This is a race-specific test, not a maximal effort. Keep mechanics controlled and use HR as a governor.\n- 2km easy\n- 3km ~4:45/km"
-    },
-    {
-      "id": 135524736,
-      "date": "2026-09-29",
-      "name": "temp",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h14m45s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "Final key run before taper. 3 \u00d7 3 km around target 70.3 run pace, with 1 km easy between. This is a race-specific test, not a maximal effort. Keep mechanics controlled and use HR as a governor.\n- 2km easy\n- 3km ~4:45/km"
+      "description_preview": "2 km easy warm-up. 3\u00d73 km @ ~4:45/km with 1 km easy between. 1\u20132 km easy cool-down. Key test: assess sustainable race pace and HR control after training load."
     },
     {
       "id": 122497924,
       "date": "2026-09-30",
-      "name": "\ud83d\udeb4 Final Race-Specific Bike 2h15",
+      "name": "\ud83d\udeb4 Easy Recovery Spin \u2014 60 min",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 105,
+      "planned_tss": 35,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- Easy endurance 50m 55-65%\n- Cool down 10m 50-60%"
+    },
+    {
+      "id": 135758842,
+      "date": "2026-10-01",
+      "name": "\ud83d\udeb4 Final Race-Specific Bike \u2014 2h15",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 115,
       "duration_hours": 2.25,
       "duration_formatted": "2h15m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Final substantial bike before taper. Mostly endurance with 60 min accumulated at 70\u201375% FTP. Practice race fueling exactly as planned. No hard threshold work.\n- Endurance 45m 60-70%\n- Race power 30m 70-75%"
+      "description_preview": "Final substantial bike before taper. Mostly endurance with 60 min accumulated at 200\u2013210 W. Practice race fueling exactly as planned. No hard threshold work.\n- Endurance 45m 60-70%\n- Race power 30m 76-80%"
     },
     {
-      "id": 135524740,
-      "date": "2026-09-30",
-      "name": "\ud83d\udeb4 Final Race-Specific Bike 2h15",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 105,
-      "duration_hours": 2.25,
-      "duration_formatted": "2h15m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "Final substantial bike before taper. Mostly endurance with 60 min accumulated at 70\u201375% FTP. Practice race fueling exactly as planned. No hard threshold work.\n- Endurance 45m 60-70%\n- Race power 30m 70-75%"
-    },
-    {
-      "id": 122497934,
+      "id": 135758855,
       "date": "2026-10-01",
-      "name": "\ud83c\udfc3 Easy Run 40 min",
+      "name": "\ud83c\udfc3 Easy Run \u2014 25 min",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
@@ -5081,38 +5207,12 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Easy aerobic run after final substantial bike. Keep HR in Z2 and legs relaxed."
+      "description_preview": "Very easy taper run. Keep short and relaxed after the final substantial bike."
     },
     {
-      "id": 122497946,
-      "date": "2026-10-01",
-      "name": "\ud83c\udfc3 Easy Run 25 min \u2014 very easy",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "Very easy taper run. Keep short and relaxed."
-    },
-    {
-      "id": 135524746,
-      "date": "2026-10-01",
-      "name": "\ud83c\udfc3 Easy Run 40 min",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "Easy aerobic run after final substantial bike. Keep HR in Z2 and legs relaxed."
-    },
-    {
-      "id": 122497958,
+      "id": 135758860,
       "date": "2026-10-02",
-      "name": "\ud83c\udfca Swim 35 min \u2014 relaxed race rhythm",
+      "name": "\ud83c\udfca Race-Rhythm Swim \u2014 35 min",
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": null,
@@ -5121,21 +5221,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description_preview": "Last swim before race. Easy technique with a few short race-pace efforts. No fatigue."
-    },
-    {
-      "id": 135524800,
-      "date": "2026-10-02",
-      "name": "\ud83c\udfca Swim 35 min \u2014 relaxed race rhythm",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "indoor": true,
-      "description_preview": "Last swim before race. Easy technique with a few short race-pace efforts. No fatigue."
+      "description_preview": "Relaxed race-rhythm swim. Technique first, controlled aerobic effort, no hard work. Finish fresh."
     },
     {
       "id": 135524753,
@@ -5148,12 +5234,12 @@
       "duration_formatted": "1h1m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Last meaningful bike before taper. 3 \u00d7 8 min at 70\u201375% FTP, with easy endurance between. Finish with 3 \u00d7 1 min high-cadence openers, not maximal.\n- Warm-up 20m 55-70%\nRace power 3x"
+      "description_preview": "Final bike sharpening before taper. 15 min easy, 3\u00d7(8 min at 200\u2013210 W + 4 min easy), 12 min easy, 3\u00d7(1 min high-cadence opener + 1 min easy), 21 min easy. No fatigue."
     },
     {
-      "id": 122497977,
+      "id": 135758865,
       "date": "2026-10-04",
-      "name": "\ud83c\udfc3 Easy Run 45 min \u2014 taper starts",
+      "name": "\ud83c\udfc3 Taper Easy Run \u2014 45 min",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
@@ -5161,25 +5247,12 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Taper begins. Easy aerobic run only. Keep it relaxed and finish fresh."
+      "description_preview": "45 min easy aerobic run. Keep it relaxed and fresh; taper begins."
     },
     {
-      "id": 135524758,
-      "date": "2026-10-04",
-      "name": "\ud83c\udfc3 Easy Run 45 min \u2014 taper starts",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "Taper begins. Easy aerobic run only. Keep it relaxed and finish fresh."
-    },
-    {
-      "id": 122497983,
+      "id": 135758946,
       "date": "2026-10-05",
-      "name": "\ud83c\udfc3 Taper Quality \u2014 6 \u00d7 2 min @ 4:25\u20134:35/km",
+      "name": "\ud83c\udfc3 Taper Quality \u2014 6\u00d72 min @ 4:25\u20134:35/km",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
@@ -5187,38 +5260,12 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Final meaningful running intensity. 6 \u00d7 2 min around controlled 10K/threshold feel, 2 min easy between. Finish feeling sharp, not fatigued."
+      "description_preview": "Easy warm-up. 6\u00d72 min @ 4:25\u20134:35/km with 2 min easy jog recoveries. Easy cool-down. Keep it crisp, never maximal."
     },
     {
-      "id": 135524763,
-      "date": "2026-10-05",
-      "name": "\ud83c\udfc3 Taper Quality \u2014 6 \u00d7 2 min @ 4:25\u20134:35/km",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.42,
-      "duration_formatted": "25m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "Final meaningful running intensity. 6 \u00d7 2 min around controlled 10K/threshold feel, 2 min easy between. Finish feeling sharp, not fatigued.\n- Warm-up 10m\nQuality 6x"
-    },
-    {
-      "id": 122498147,
+      "id": 135758980,
       "date": "2026-10-06",
-      "name": "Z2 Run 15\u201320 min easy",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "Last run"
-    },
-    {
-      "id": 135524770,
-      "date": "2026-10-06",
-      "name": "\ud83c\udfca Swim 35 min \u2014 relaxed race rhythm",
+      "name": "\ud83c\udfca Race-Rhythm Swim \u2014 35 min",
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": null,
@@ -5227,12 +5274,12 @@
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description_preview": "Weekly swim during taper. Technique and short race-pace efforts; leave the pool feeling better than you arrived."
+      "description_preview": "35 min relaxed race-rhythm swim. Technique and feel for the water only; finish fresh."
     },
     {
-      "id": 122498154,
+      "id": 135759036,
       "date": "2026-10-07",
-      "name": "\ud83d\udeb4 Bike 45 min \u2014 race openers",
+      "name": "\ud83d\udeb4 Bike Opener \u2014 45 min",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": null,
@@ -5241,26 +5288,12 @@
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description_preview": "Taper opener. Mostly easy with 3 \u00d7 3 min at race power and 3 \u00d7 30 sec high-cadence openers. Stop while feeling fresh."
-    },
-    {
-      "id": 135524774,
-      "date": "2026-10-07",
-      "name": "\ud83d\udeb4 Bike 45 min \u2014 race openers",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 21,
-      "duration_hours": 0.57,
-      "duration_formatted": "34m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "indoor": true,
-      "description_preview": "Taper opener. Mostly easy with 3 \u00d7 3 min at race power and 3 \u00d7 30 sec high-cadence openers. Stop while feeling fresh.\n- Easy 20m 55-65%\nRace power 3x"
+      "description_preview": "Taper opener. 45 min total: mostly easy, with 3 \u00d7 3 min at race power (200\u2013210 W) and 3 \u00d7 30 sec high-cadence openers. Stop while feeling fresh."
     },
     {
       "id": 122498206,
       "date": "2026-10-08",
-      "name": "\ud83c\udfc3 Easy Run 25 min \u2014 race opener",
+      "name": "\ud83c\udfc3 Easy Run + Strides \u2014 25 min",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
@@ -5268,20 +5301,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Very easy 20\u201325 min with 4 \u00d7 20 sec relaxed strides. Finish fresh. No sustained intensity."
-    },
-    {
-      "id": 135524778,
-      "date": "2026-10-08",
-      "name": "\ud83c\udfc3 Easy Run 25 min \u2014 race opener",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "Very easy 20\u201325 min with 4 \u00d7 20 sec relaxed strides. Finish fresh. No sustained intensity."
+      "description_preview": "20 min easy Z1\u2013Z2, then 4\u00d720 sec relaxed strides with full easy recovery. Finish easy."
     },
     {
       "id": 135524781,
@@ -5297,38 +5317,67 @@
       "description_preview": "No training. Short mobility only if it helps you feel loose. Prioritize sleep, hydration, carbohydrate intake and race preparation."
     },
     {
-      "id": 121808825,
+      "id": 135762256,
       "date": "2026-10-10",
-      "name": "70.3 Vieux-Boucau-les-Bains, France",
-      "type": "WORKOUT",
+      "name": "70.3. CHALLENGE VIEUX BOUCAU",
+      "type": "RACE_A",
       "sport_type": "Other",
       "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "duration_hours": 5.0,
+      "duration_formatted": "5h",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Goal race."
+      "start_time": "08:00",
+      "description_preview": null
     }
   ],
   "workout_summary_stats": {
-    "attempted": 23,
+    "attempted": 10,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 17,
-    "bail_no_match": 23
+    "bail_no_workout_doc": 21,
+    "bail_no_match": 10
   },
   "weekly_summary": {
-    "total_training_hours": 10.06,
-    "total_training_formatted": "10h3m",
-    "total_tss": 367,
-    "activities_count": 7,
+    "total_training_hours": 11.27,
+    "total_training_formatted": "11h16m",
+    "total_tss": 449,
+    "activities_count": 8,
     "avg_hrv": null,
     "avg_resting_hr": 54.0
   },
   "race_calendar": {
-    "next_race": null,
-    "all_races": [],
+    "next_race": {
+      "name": "70.3. CHALLENGE VIEUX BOUCAU",
+      "date": "2026-10-10",
+      "category": "RACE_A",
+      "type": "Other",
+      "days_until": 27,
+      "moving_time_seconds": 18000,
+      "distance_meters": null,
+      "display": {
+        "distance": null
+      },
+      "has_terrain": false,
+      "start_time": "08:00"
+    },
+    "all_races": [
+      {
+        "name": "70.3. CHALLENGE VIEUX BOUCAU",
+        "date": "2026-10-10",
+        "category": "RACE_A",
+        "type": "Other",
+        "days_until": 27,
+        "moving_time_seconds": 18000,
+        "distance_meters": null,
+        "display": {
+          "distance": null
+        },
+        "has_terrain": false,
+        "start_time": "08:00"
+      }
+    ],
     "taper_alert": {
       "active": false
     },
