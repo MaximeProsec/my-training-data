@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T16:32:00.838516",
+  "generated_at": "2026-09-14T20:31:14.798666",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -894,6 +894,26 @@
           "max_hr": 188,
           "avg_cadence": 84.301605,
           "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i186716044",
+      "date": "2026-09-14",
+      "type": "Run",
+      "name": "\ud83c\udfc3 Easy Run + Mobility \u2014 30\u201340 min",
+      "interval_summary": [
+        "1x 34m23s 144bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2063s@144bpm83rpm",
+          "duration_secs": 2063,
+          "avg_hr": 144,
+          "max_hr": 158,
+          "avg_cadence": 82.736534,
+          "zone": 2
         }
       ]
     }
