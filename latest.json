@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-15T06:40:24.482392",
+    "last_updated": "2026-09-15T12:04:45.930838",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -113,13 +113,13 @@
       },
       "rhr": {
         "status": "green",
-        "value": 53,
-        "baseline_7d": 54.5,
-        "delta_bpm": -1.5
+        "value": 54,
+        "baseline_7d": 54.7,
+        "delta_bpm": -0.7
       },
       "sleep": {
-        "status": "amber",
-        "hours": 6.63,
+        "status": "green",
+        "hours": 7.5,
         "quality": null
       },
       "acwr": {
@@ -137,8 +137,8 @@
       }
     },
     "signal_summary": {
-      "green": 3,
-      "amber": 1,
+      "green": 4,
+      "amber": 0,
       "red": 0,
       "unavailable": 2
     },
@@ -150,7 +150,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 3 green, 1 amber (threshold 3), 0 red.",
+    "reason": "P3 green light. 4 green, 0 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -265,11 +265,11 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 53,
+      "resting_hr": 54,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": 6.63,
-      "sleep_formatted": "6h38m",
+      "sleep_hours": 7.5,
+      "sleep_formatted": "7h30m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -302,11 +302,11 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 54.5,
+    "rhr_baseline_7d": 54.7,
     "hrv_baseline_28d": null,
     "rhr_baseline_28d": 54.6,
     "latest_hrv": null,
-    "latest_rhr": 53,
+    "latest_rhr": 54,
     "acwr": 0.8,
     "acwr_interpretation": "optimal",
     "monotony": 1.34,
@@ -633,7 +633,7 @@
           "current_week_hard_days_total": 4,
           "race_proximity": 25,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 1.12,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
@@ -667,7 +667,7 @@
     "p_max": 1051,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 55.87,
-    "calculation_timestamp": "2026-09-15T06:40:24.481155",
+    "calculation_timestamp": "2026-09-15T12:04:45.929592",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
@@ -4870,11 +4870,11 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 53,
+      "resting_hr": 54,
       "hrv_rmssd": null,
-      "hrv_sdnn": 70.43602,
-      "sleep_hours": 6.63,
-      "sleep_formatted": "6h38m",
+      "hrv_sdnn": 62.810616,
+      "sleep_hours": 7.5,
+      "sleep_formatted": "7h30m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -4922,6 +4922,19 @@
       "description": "- Easy endurance 15m 60-70%\n- Endurance 35m 65-72%\n- Cool down 15m 55-65%"
     },
     {
+      "id": 136343602,
+      "date": "2026-09-15",
+      "name": "\ud83c\udfc3 Easy Run \u2014 30 min",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "10K easy Z2 run. Keep HR mostly \u2264151 bpm. This is aerobic volume only."
+    },
+    {
       "id": 122497738,
       "date": "2026-09-16",
       "name": "\ud83c\udfca Swim \u2014 55 min Race Technique",
@@ -4942,8 +4955,8 @@
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
       "workout_summary": null,
       "has_terrain": false,
       "description": "30 min easy Z2 run. Keep HR mostly \u2264151 bpm. This is aerobic volume only."
@@ -4982,8 +4995,8 @@
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
       "workout_summary": null,
       "has_terrain": false,
       "description": "35 min easy aerobic run. Keep it genuinely easy; this is a volume/recovery day before the Sep 20 race-sim brick."
@@ -5310,7 +5323,7 @@
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 20,
+    "bail_no_workout_doc": 21,
     "bail_no_match": 9
   },
   "weekly_summary": {
@@ -5319,7 +5332,7 @@
     "total_tss": 325,
     "activities_count": 9,
     "avg_hrv": null,
-    "avg_resting_hr": 54.5
+    "avg_resting_hr": 54.7
   },
   "race_calendar": {
     "next_race": {
