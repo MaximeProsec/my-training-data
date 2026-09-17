@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T19:54:30.455511",
+  "generated_at": "2026-09-17T22:28:33.974463",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1180,6 +1180,54 @@
           "max_hr": 145,
           "avg_cadence": 47.0,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i187765379",
+      "date": "2026-09-17",
+      "type": "VirtualRide",
+      "name": "\ud83d\udeb4 Race-Specific Bike \u2014 90 min",
+      "interval_summary": [
+        "1x 44m57s 199w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1103,
+          "avg_power": 155,
+          "max_power": 203,
+          "avg_hr": 132,
+          "max_hr": 143,
+          "avg_cadence": 89.54295,
+          "zone": 2,
+          "training_load": 9.81794,
+          "decoupling": 2.8753192
+        },
+        {
+          "type": "WORK",
+          "label": "2697s@199w96rpm",
+          "duration_secs": 2697,
+          "avg_power": 199,
+          "max_power": 205,
+          "avg_hr": 152,
+          "max_hr": 165,
+          "avg_cadence": 95.628845,
+          "zone": 3,
+          "training_load": 47.565384,
+          "decoupling": 0.0791797
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1884,
+          "avg_power": 142,
+          "max_power": 188,
+          "avg_hr": 131,
+          "max_hr": 153,
+          "avg_cadence": 82.80308,
+          "zone": 2,
+          "training_load": 18.69018,
+          "decoupling": 9.520355
         }
       ]
     }
