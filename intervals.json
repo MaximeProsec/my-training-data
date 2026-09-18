@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T05:09:33.668792",
+  "generated_at": "2026-09-18T09:40:52.297197",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1076,6 +1076,60 @@
           "zone": 2,
           "training_load": 18.69018,
           "decoupling": 9.520355
+        }
+      ]
+    },
+    {
+      "activity_id": "i187823511",
+      "date": "2026-09-18",
+      "type": "Run",
+      "name": "\ud83c\udfc3 Tempo Run \u2014 10 km",
+      "interval_summary": [
+        "1x 13m22s 177bpm",
+        "1x 8m43s 179bpm"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 693,
+          "avg_hr": 142,
+          "max_hr": 156,
+          "avg_cadence": 85.07826,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "802s@177bpm90rpm",
+          "duration_secs": 802,
+          "avg_hr": 177,
+          "max_hr": 186,
+          "avg_cadence": 90.13591,
+          "zone": 4
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 347,
+          "avg_hr": 154,
+          "max_hr": 182,
+          "avg_cadence": 83.95389,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "523s@179bpm91rpm",
+          "duration_secs": 523,
+          "avg_hr": 179,
+          "max_hr": 188,
+          "avg_cadence": 90.5392,
+          "zone": 4
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 469,
+          "avg_hr": 163,
+          "max_hr": 190,
+          "avg_cadence": 86.15778,
+          "zone": 3
         }
       ]
     }
