@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-20T18:11:05.057230",
+    "last_updated": "2026-09-20T20:45:38.472183",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -692,7 +692,7 @@
     "p_max": 1051,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 57.0,
-    "calculation_timestamp": "2026-09-20T18:11:05.056428",
+    "calculation_timestamp": "2026-09-20T20:45:38.470941",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -833,10 +833,10 @@
       }
     },
     {
-      "id": "i188617410",
+      "id": "i188662370",
       "date": "2026-09-20T16:39:59",
       "type": "Ride",
-      "name": "Muide - Neerhoek",
+      "name": "Cycling",
       "duration_hours": 2.24,
       "distance_km": 72.32,
       "tss": 177,
@@ -851,11 +851,11 @@
       "max_speed": 40.9,
       "max_speed_unit": "KPH",
       "avg_pace": null,
-      "avg_temp": 17.578243,
+      "avg_temp": 17.787386,
       "avg_temp_unit": "C",
       "weather": null,
       "humidity": null,
-      "wind_speed": 3.419609,
+      "wind_speed": 3.2149081,
       "wind_speed_unit": "KMH",
       "work_kj": 1811.7,
       "calories": 1809,
@@ -910,13 +910,13 @@
       "terrain_summary": {
         "source": "activity_streams",
         "total_distance_km": 72.2,
-        "total_elevation_m": 219,
-        "elevation_per_km": 3.0,
+        "total_elevation_m": 209,
+        "elevation_per_km": 2.9,
         "course_character": "flat",
-        "max_grade_pct": 3.0,
+        "max_grade_pct": 2.9,
         "grade_distribution": {
-          "flat_pct": 97.2,
-          "gentle_pct": 2.8,
+          "flat_pct": 96.9,
+          "gentle_pct": 3.1,
           "moderate_pct": 0.0,
           "steep_pct": 0.0
         },
@@ -932,7 +932,7 @@
             "unit": "km"
           },
           "total_elevation": {
-            "value": 219,
+            "value": 209,
             "unit": "m"
           },
           "elevation_per_distance": {
@@ -948,19 +948,19 @@
           "temp": "c",
           "rain": "mm"
         },
-        "avg_wind_speed": 3.42,
-        "avg_wind_gust": 7.92,
+        "avg_wind_speed": 3.21,
+        "avg_wind_gust": 6.39,
         "prevailing_wind_deg": 315,
-        "headwind_pct": 25.02,
-        "tailwind_pct": 26.61,
-        "avg_temp": 17.58,
+        "headwind_pct": 33.07,
+        "tailwind_pct": 29.46,
+        "avg_temp": 17.79,
         "avg_temp_device": 15.07,
-        "avg_feels_like": 15.73,
-        "min_feels_like": 15.13,
-        "max_feels_like": 16.26,
-        "min_temp": 16.82,
-        "max_temp": 18.79,
-        "clouds_pct": 65,
+        "avg_feels_like": 16.05,
+        "min_feels_like": 15.32,
+        "max_feels_like": 16.61,
+        "min_temp": 17.22,
+        "max_temp": 18.74,
+        "clouds_pct": 19,
         "rain": 0.0,
         "snow": 0.0
       }
