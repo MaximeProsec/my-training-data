@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T23:32:50.824939",
+  "generated_at": "2026-09-20T01:35:32.279051",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -64,92 +64,6 @@
           "zone": 1,
           "training_load": 16.273737,
           "decoupling": -8.49575
-        }
-      ]
-    },
-    {
-      "activity_id": "i183983618",
-      "date": "2026-09-05",
-      "type": "Ride",
-      "name": "Plainfaing - Fraize",
-      "interval_summary": [
-        "1x 11s ",
-        "1x 4m10s 130bpm",
-        "1x 4m11s 105bpm",
-        "1x 3m34s 108bpm",
-        "1x 3m4s 131bpm",
-        "1x 3m27s 140bpm",
-        "1x 3m55s 150bpm",
-        "1x 20s 147bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "11s@4.27mps",
-          "duration_secs": 11
-        },
-        {
-          "type": "WORK",
-          "label": "250s@130bpm",
-          "duration_secs": 250,
-          "avg_hr": 130,
-          "max_hr": 158,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "251s@105bpm",
-          "duration_secs": 251,
-          "avg_hr": 105,
-          "max_hr": 124,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "214s@108bpm",
-          "duration_secs": 214,
-          "avg_hr": 108,
-          "max_hr": 134,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "184s@131bpm",
-          "duration_secs": 184,
-          "avg_hr": 131,
-          "max_hr": 143,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "207s@140bpm",
-          "duration_secs": 207,
-          "avg_hr": 140,
-          "max_hr": 158,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "235s@150bpm",
-          "duration_secs": 235,
-          "avg_hr": 150,
-          "max_hr": 165,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "20s@147bpm",
-          "duration_secs": 20,
-          "avg_hr": 147,
-          "max_hr": 150,
-          "zone": 2
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 142,
-          "max_hr": 142,
-          "zone": 2
         }
       ]
     },
