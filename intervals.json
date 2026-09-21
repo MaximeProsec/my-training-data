@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T16:39:06.913235",
+  "generated_at": "2026-09-21T20:33:17.390585",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1353,6 +1353,34 @@
           "zone": 2,
           "training_load": 5.913266,
           "decoupling": 14.56705
+        }
+      ]
+    },
+    {
+      "activity_id": "i188975647",
+      "date": "2026-09-21",
+      "type": "Run",
+      "name": "\ud83c\udfc3 Long Run \u2014 15\u201317 km Z2",
+      "interval_summary": [
+        "1x 1h41m 149bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "6062s@149bpm87rpm",
+          "duration_secs": 6062,
+          "avg_hr": 149,
+          "max_hr": 170,
+          "avg_cadence": 86.52441,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 146,
+          "max_hr": 146,
+          "avg_cadence": 83.0,
+          "zone": 2
         }
       ]
     }
