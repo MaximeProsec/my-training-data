@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-22T12:08:50.237193",
+    "last_updated": "2026-09-22T16:52:28.902345",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -100,17 +100,7 @@
     "years_on_platform": 1
   },
   "athlete_notes": null,
-  "alerts": [
-    {
-      "metric": "rhr",
-      "value": 63,
-      "severity": "warning",
-      "threshold": "\u2191\u22655bpm vs baseline (54.6)",
-      "context": "RHR 63 is 8.4bpm above baseline. Monitor \u2014 alarm if persists >2 days.",
-      "persistence_days": 1,
-      "tier": 1
-    }
-  ],
+  "alerts": [],
   "readiness_decision": {
     "recommendation": "modify",
     "priority": 2,
@@ -122,10 +112,10 @@
         "delta_pct": null
       },
       "rhr": {
-        "status": "red",
-        "value": 63,
-        "baseline_7d": 54.6,
-        "delta_bpm": 8.4
+        "status": "amber",
+        "value": 58,
+        "baseline_7d": 53.9,
+        "delta_bpm": 4.1
       },
       "sleep": {
         "status": "amber",
@@ -148,8 +138,8 @@
     },
     "signal_summary": {
       "green": 1,
-      "amber": 2,
-      "red": 1,
+      "amber": 3,
+      "red": 0,
       "unavailable": 2
     },
     "phase_context": {
@@ -171,7 +161,7 @@
         "cap_zone": null
       }
     },
-    "reason": "P2 signal count. 1 red (rhr), 2 amber (sleep, tsb).",
+    "reason": "P2 signal count. 3 amber (rhr, sleep, tsb) >= threshold 2.",
     "alarm_refs": []
   },
   "history": {
@@ -250,7 +240,7 @@
       "w_prime": 20345,
       "w_prime_kj": 20.3,
       "p_max": 1051,
-      "vo2max": 56.675,
+      "vo2max": 56.66,
       "sports": {
         "cycling": {
           "lthr": 185,
@@ -286,7 +276,7 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 63,
+      "resting_hr": 58,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": 6.88,
@@ -305,7 +295,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": 12.505953,
+      "respiration": 12.055555,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -323,11 +313,11 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 54.6,
+    "rhr_baseline_7d": 53.9,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 54.8,
+    "rhr_baseline_28d": 54.6,
     "latest_hrv": null,
-    "latest_rhr": 63,
+    "latest_rhr": 58,
     "acwr": 1.27,
     "acwr_interpretation": "optimal",
     "monotony": 1.21,
@@ -695,8 +685,8 @@
     "w_prime_kj": 20.3,
     "p_max": 1051,
     "power_model_source": "wellness.sportInfo",
-    "vo2max": 56.675,
-    "calculation_timestamp": "2026-09-22T12:08:50.235950",
+    "vo2max": 56.66,
+    "calculation_timestamp": "2026-09-22T16:52:28.901100",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -5165,7 +5155,7 @@
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": 56.675,
+      "vo2max": 56.66,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -5198,16 +5188,16 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 63,
+      "resting_hr": 58,
       "hrv_rmssd": null,
-      "hrv_sdnn": 93.109924,
+      "hrv_sdnn": 82.49036,
       "sleep_hours": 6.88,
       "sleep_formatted": "6h52m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": 56.675,
+      "vo2max": 56.66,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -5221,7 +5211,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": 12.505953,
+      "respiration": 12.055555,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -5528,7 +5518,7 @@
     "total_tss": 640,
     "activities_count": 8,
     "avg_hrv": null,
-    "avg_resting_hr": 54.6
+    "avg_resting_hr": 53.9
   },
   "race_calendar": {
     "next_race": {
