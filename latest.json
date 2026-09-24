@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-24T09:30:17.765350",
+    "last_updated": "2026-09-24T14:24:12.164339",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -113,9 +113,9 @@
       },
       "rhr": {
         "status": "green",
-        "value": 55,
-        "baseline_7d": 53.6,
-        "delta_bpm": 1.4
+        "value": 52,
+        "baseline_7d": 53.1,
+        "delta_bpm": -1.1
       },
       "sleep": {
         "status": "amber",
@@ -263,7 +263,7 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 55,
+      "resting_hr": 52,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": 5.3,
@@ -300,11 +300,11 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 53.6,
+    "rhr_baseline_7d": 53.1,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 54.4,
+    "rhr_baseline_28d": 54.3,
     "latest_hrv": null,
-    "latest_rhr": 55,
+    "latest_rhr": 52,
     "acwr": 1.2,
     "acwr_interpretation": "optimal",
     "monotony": 1.26,
@@ -673,7 +673,7 @@
     "p_max": 1051,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 56.67,
-    "calculation_timestamp": "2026-09-24T09:30:17.764188",
+    "calculation_timestamp": "2026-09-24T14:24:12.163108",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -5313,9 +5313,9 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 55,
+      "resting_hr": 52,
       "hrv_rmssd": null,
-      "hrv_sdnn": 61.862965,
+      "hrv_sdnn": 61.767498,
       "sleep_hours": 5.3,
       "sleep_formatted": "5h17m",
       "sleep_quality": null,
@@ -5535,22 +5535,8 @@
       "description_preview": "Easy warm-up. 6\u00d72 min @ 4:25\u20134:35/km with 2 min easy jog recoveries. Easy cool-down. Keep it crisp, never maximal."
     },
     {
-      "id": 135758980,
-      "date": "2026-10-06",
-      "name": "\ud83c\udfca Race-Rhythm Swim \u2014 35 min",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "indoor": true,
-      "description_preview": "35 min relaxed race-rhythm swim. Technique and feel for the water only; finish fresh."
-    },
-    {
       "id": 135759036,
-      "date": "2026-10-07",
+      "date": "2026-10-06",
       "name": "\ud83d\udeb4 Bike Opener \u2014 45 min",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -5561,6 +5547,20 @@
       "has_terrain": false,
       "indoor": true,
       "description_preview": "Taper opener. 45 min total: mostly easy, with 3 \u00d7 3 min at race power (200\u2013210 W) and 3 \u00d7 30 sec high-cadence openers. Stop while feeling fresh."
+    },
+    {
+      "id": 135758980,
+      "date": "2026-10-07",
+      "name": "\ud83c\udfca Race-Rhythm Swim \u2014 35 min",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "35 min relaxed race-rhythm swim. Technique and feel for the water only; finish fresh."
     },
     {
       "id": 122498206,
@@ -5617,7 +5617,7 @@
     "total_tss": 632,
     "activities_count": 8,
     "avg_hrv": null,
-    "avg_resting_hr": 53.6
+    "avg_resting_hr": 53.1
   },
   "race_calendar": {
     "next_race": {
