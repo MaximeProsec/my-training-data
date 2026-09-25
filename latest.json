@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-25T08:57:49.853961",
+    "last_updated": "2026-09-25T14:21:27.024042",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -113,9 +113,9 @@
       },
       "rhr": {
         "status": "green",
-        "value": 53,
-        "baseline_7d": 52.9,
-        "delta_bpm": 0.1
+        "value": 51,
+        "baseline_7d": 52.6,
+        "delta_bpm": -1.6
       },
       "sleep": {
         "status": "green",
@@ -253,7 +253,7 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 53,
+      "resting_hr": 51,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": 7.03,
@@ -290,11 +290,11 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 52.9,
+    "rhr_baseline_7d": 52.6,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 54.0,
+    "rhr_baseline_28d": 53.9,
     "latest_hrv": null,
-    "latest_rhr": 53,
+    "latest_rhr": 51,
     "acwr": 1.14,
     "acwr_interpretation": "optimal",
     "monotony": 1.14,
@@ -663,7 +663,7 @@
     "p_max": 1051,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 56.84,
-    "calculation_timestamp": "2026-09-25T08:57:49.852751",
+    "calculation_timestamp": "2026-09-25T14:21:27.022883",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -5303,9 +5303,9 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 53,
+      "resting_hr": 51,
       "hrv_rmssd": null,
-      "hrv_sdnn": 71.94429,
+      "hrv_sdnn": 71.03801,
       "sleep_hours": 7.03,
       "sleep_formatted": "7h1m",
       "sleep_quality": null,
@@ -5420,17 +5420,18 @@
       "description": "2 km easy warm-up. 3\u00d73 km @ ~4:45/km with 1 km easy between. 1\u20132 km easy cool-down. Key test: assess sustainable race pace and HR control after training load."
     },
     {
-      "id": 122497924,
+      "id": 135758860,
       "date": "2026-09-30",
-      "name": "\ud83d\udeb4 Easy Recovery Spin \u2014 60 min",
+      "name": "\ud83c\udfca Race-Rhythm Swim \u2014 35 min",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 35,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "sport_type": "Swim",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- Easy endurance 50m 55-65%\n- Cool down 10m 50-60%"
+      "indoor": true,
+      "description": "Relaxed race-rhythm swim. Technique first, controlled aerobic effort, no hard work. Finish fresh."
     },
     {
       "id": 135758842,
@@ -5459,18 +5460,17 @@
       "description": "Very easy taper run. Keep short and relaxed after the final substantial bike."
     },
     {
-      "id": 135758860,
+      "id": 122497924,
       "date": "2026-10-02",
-      "name": "\ud83c\udfca Race-Rhythm Swim \u2014 35 min",
+      "name": "\ud83d\udeb4 Easy Recovery Spin \u2014 60 min",
       "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "sport_type": "Ride",
+      "planned_tss": 35,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "indoor": true,
-      "description": "Relaxed race-rhythm swim. Technique first, controlled aerobic effort, no hard work. Finish fresh."
+      "description": "- Easy endurance 50m 55-65%\n- Cool down 10m 50-60%"
     },
     {
       "id": 135524753,
@@ -5483,7 +5483,7 @@
       "duration_formatted": "1h1m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Final bike sharpening before taper. 15 min easy, 3\u00d7(8 min at 200\u2013210 W + 4 min easy), 12 min easy, 3\u00d7(1 min high-cadence opener + 1 min easy), 21 min easy. No fatigue."
+      "description_preview": "Final bike sharpening before taper. 1\n- 5 min easy,\n3\u00d7"
     },
     {
       "id": 135758865,
@@ -5594,7 +5594,7 @@
     "total_tss": 593,
     "activities_count": 8,
     "avg_hrv": null,
-    "avg_resting_hr": 52.9
+    "avg_resting_hr": 52.6
   },
   "race_calendar": {
     "next_race": {
