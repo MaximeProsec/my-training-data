@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:21:51.337877",
+  "generated_at": "2026-10-01T21:07:51.820083",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1829,6 +1829,153 @@
           "max_hr": 174,
           "avg_cadence": 21.66154,
           "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i192411337",
+      "date": "2026-10-01",
+      "type": "Run",
+      "name": "Muide - Kerkstraat",
+      "interval_summary": [
+        "5x 4m30s 171bpm",
+        "1x 7s 175bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "270s@171bpm90rpm",
+          "duration_secs": 267,
+          "avg_hr": 162,
+          "max_hr": 171,
+          "avg_cadence": 88.443184,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "270s@171bpm90rpm",
+          "duration_secs": 272,
+          "avg_hr": 171,
+          "max_hr": 176,
+          "avg_cadence": 90.17279,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "270s@171bpm90rpm",
+          "duration_secs": 270,
+          "avg_hr": 173,
+          "max_hr": 176,
+          "avg_cadence": 90.71111,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "270s@171bpm90rpm",
+          "duration_secs": 268,
+          "avg_hr": 174,
+          "max_hr": 177,
+          "avg_cadence": 91.24627,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "270s@171bpm90rpm",
+          "duration_secs": 272,
+          "avg_hr": 174,
+          "max_hr": 178,
+          "avg_cadence": 88.86029,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "7s@175bpm69rpm",
+          "duration_secs": 7,
+          "avg_hr": 175,
+          "max_hr": 176,
+          "avg_cadence": 69.14286,
+          "zone": 4
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 176,
+          "max_hr": 176,
+          "avg_cadence": 81.0,
+          "zone": 4
+        }
+      ]
+    },
+    {
+      "activity_id": "i192411320",
+      "date": "2026-10-01",
+      "type": "VirtualRide",
+      "name": "\ud83d\udeb4 Final Race-Specific Bike \u2014 2h15",
+      "interval_summary": [
+        "2x 29m24s 194w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2771,
+          "avg_power": 165,
+          "max_power": 203,
+          "avg_hr": 125,
+          "max_hr": 136,
+          "avg_cadence": 90.53988,
+          "zone": 2,
+          "training_load": 33.262466,
+          "decoupling": 0.1867074
+        },
+        {
+          "type": "WORK",
+          "label": "1764s@194w85rpm",
+          "duration_secs": 1731,
+          "avg_power": 194,
+          "max_power": 211,
+          "avg_hr": 136,
+          "max_hr": 147,
+          "avg_cadence": 86.414215,
+          "zone": 3,
+          "training_load": 29.021265,
+          "decoupling": 2.5415893
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1801,
+          "avg_power": 158,
+          "max_power": 190,
+          "avg_hr": 128,
+          "max_hr": 138,
+          "avg_cadence": 83.19156,
+          "zone": 2,
+          "training_load": 20.328424,
+          "decoupling": 0.7294846
+        },
+        {
+          "type": "WORK",
+          "label": "1764s@194w85rpm",
+          "duration_secs": 1797,
+          "avg_power": 194,
+          "max_power": 208,
+          "avg_hr": 138,
+          "max_hr": 147,
+          "avg_cadence": 84.3823,
+          "zone": 3,
+          "training_load": 29.819586,
+          "decoupling": 3.7781003
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 7,
+          "avg_power": 129,
+          "max_power": 201,
+          "avg_hr": 147,
+          "max_hr": 148,
+          "avg_cadence": 85.28571,
+          "zone": 1,
+          "training_load": 0.114964224,
+          "decoupling": 19.127375
         }
       ]
     }
