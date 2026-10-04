@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T10:14:41.945050",
+  "generated_at": "2026-10-04T15:22:02.350231",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1887,6 +1887,116 @@
           "avg_cadence": 57.42787,
           "zone": 1,
           "training_load": 16.065195
+        }
+      ]
+    },
+    {
+      "activity_id": "i193421582",
+      "date": "2026-10-04",
+      "type": "Run",
+      "name": "Nieuwpoort-Bad - Nieuwpoort",
+      "interval_summary": [
+        "9x 5m36s 144bpm",
+        "1x 57s 166bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "336s@144bpm88rpm",
+          "duration_secs": 323,
+          "avg_hr": 135,
+          "max_hr": 145,
+          "avg_cadence": 87.546875,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "336s@144bpm88rpm",
+          "duration_secs": 366,
+          "avg_hr": 142,
+          "max_hr": 149,
+          "avg_cadence": 88.13018,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "336s@144bpm88rpm",
+          "duration_secs": 333,
+          "avg_hr": 141,
+          "max_hr": 148,
+          "avg_cadence": 88.20721,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "336s@144bpm88rpm",
+          "duration_secs": 341,
+          "avg_hr": 142,
+          "max_hr": 147,
+          "avg_cadence": 88.79179,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "336s@144bpm88rpm",
+          "duration_secs": 342,
+          "avg_hr": 143,
+          "max_hr": 149,
+          "avg_cadence": 88.192986,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "336s@144bpm88rpm",
+          "duration_secs": 338,
+          "avg_hr": 146,
+          "max_hr": 156,
+          "avg_cadence": 88.15976,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "336s@144bpm88rpm",
+          "duration_secs": 341,
+          "avg_hr": 144,
+          "max_hr": 148,
+          "avg_cadence": 89.02346,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "336s@144bpm88rpm",
+          "duration_secs": 332,
+          "avg_hr": 151,
+          "max_hr": 158,
+          "avg_cadence": 88.42771,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "336s@144bpm88rpm",
+          "duration_secs": 310,
+          "avg_hr": 156,
+          "max_hr": 162,
+          "avg_cadence": 89.435486,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "57s@166bpm86rpm",
+          "duration_secs": 57,
+          "avg_hr": 166,
+          "max_hr": 170,
+          "avg_cadence": 86.31579,
+          "zone": 3
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 168,
+          "max_hr": 168,
+          "avg_cadence": 94.0,
+          "zone": 4
         }
       ]
     }
