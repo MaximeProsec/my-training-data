@@ -1,38 +1,10 @@
 {
-  "generated_at": "2026-10-05T12:58:04.255791",
+  "generated_at": "2026-10-06T01:33:49.184819",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i188975647",
-      "date": "2026-09-21",
-      "type": "Run",
-      "name": "\ud83c\udfc3 Long Run \u2014 15\u201317 km Z2",
-      "interval_summary": [
-        "1x 1h41m 149bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "6062s@149bpm87rpm",
-          "duration_secs": 6062,
-          "avg_hr": 149,
-          "max_hr": 170,
-          "avg_cadence": 86.52441,
-          "zone": 2
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 146,
-          "max_hr": 146,
-          "avg_cadence": 83.0,
-          "zone": 2
-        }
-      ]
-    },
     {
       "activity_id": "i189340754",
       "date": "2026-09-22",
@@ -1562,6 +1534,80 @@
           "max_hr": 168,
           "avg_cadence": 94.0,
           "zone": 4
+        }
+      ]
+    },
+    {
+      "activity_id": "i193989256",
+      "date": "2026-10-05",
+      "type": "Run",
+      "name": "Muide - Kolegem",
+      "interval_summary": [
+        "1x 5m30s 132bpm",
+        "5x 4m49s 156bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "330s@132bpm86rpm",
+          "duration_secs": 330,
+          "avg_hr": 132,
+          "max_hr": 147,
+          "avg_cadence": 86.15596,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "289s@156bpm90rpm",
+          "duration_secs": 293,
+          "avg_hr": 150,
+          "max_hr": 161,
+          "avg_cadence": 89.320816,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "289s@156bpm90rpm",
+          "duration_secs": 292,
+          "avg_hr": 154,
+          "max_hr": 166,
+          "avg_cadence": 90.188354,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "289s@156bpm90rpm",
+          "duration_secs": 293,
+          "avg_hr": 158,
+          "max_hr": 171,
+          "avg_cadence": 89.57679,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "289s@156bpm90rpm",
+          "duration_secs": 296,
+          "avg_hr": 157,
+          "max_hr": 171,
+          "avg_cadence": 89.75338,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "289s@156bpm90rpm",
+          "duration_secs": 270,
+          "avg_hr": 160,
+          "max_hr": 173,
+          "avg_cadence": 89.94815,
+          "zone": 3
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 151,
+          "max_hr": 151,
+          "avg_cadence": 92.0,
+          "zone": 2
         }
       ]
     }
