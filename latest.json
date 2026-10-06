@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-06T15:04:50.591010",
+    "last_updated": "2026-10-06T20:13:20.996701",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -645,9 +645,9 @@
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 3,
+          "hard_sessions_planned": 4,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 3,
+          "current_week_hard_days_total": 4,
           "race_proximity": 4,
           "next_week_load": null,
           "plan_coverage_current_week": 0.56,
@@ -686,7 +686,7 @@
     "p_max": 1048,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-06T15:04:50.589785",
+    "calculation_timestamp": "2026-10-06T20:13:20.995465",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
@@ -5381,13 +5381,13 @@
       "name": "\ud83d\udeb4 Bike Opener \u2014 45 min",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
+      "planned_tss": 39,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": "13m @169W | 3\u00d73m @213W / 2m rec | 3m @213W | 2m @138W | 12m @175W",
       "has_terrain": false,
       "indoor": true,
-      "description": "Taper opener. 45 min total: mostly easy, with 3 \u00d7 3 min at race power (200\u2013210 W) and 3 \u00d7 30 sec high-cadence openers. Stop while feeling fresh."
+      "description": "Taper opener. 45 min total: mostly easy, with \n\n- 13m ramp 60%-75%\n\n3x\n  - Sweet spot 3m 85%\n  - Recovery 2m 55%\n\n- 3m 85%\n- Recovery 2m 55%\n- 12m ramp 80%-60%"
     },
     {
       "id": 135758980,
@@ -5445,11 +5445,11 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 1,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
-    "bail_no_workout_doc": 4,
+    "bail_no_workout_doc": 3,
     "bail_no_match": 0
   },
   "weekly_summary": {
