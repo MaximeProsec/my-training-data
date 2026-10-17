@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T18:36:22.969355",
+  "generated_at": "2026-10-17T20:55:46.245277",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1145,6 +1145,80 @@
           "max_hr": 154,
           "avg_cadence": 80.0,
           "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i198434312",
+      "date": "2026-10-17",
+      "type": "Run",
+      "name": "Muide - Kolegem",
+      "interval_summary": [
+        "5x 5m14s 147bpm",
+        "1x 8s 168bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "314s@147bpm88rpm",
+          "duration_secs": 330,
+          "avg_hr": 136,
+          "max_hr": 150,
+          "avg_cadence": 85.23781,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "314s@147bpm88rpm",
+          "duration_secs": 321,
+          "avg_hr": 146,
+          "max_hr": 152,
+          "avg_cadence": 87.62617,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "314s@147bpm88rpm",
+          "duration_secs": 323,
+          "avg_hr": 145,
+          "max_hr": 150,
+          "avg_cadence": 87.47987,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "314s@147bpm88rpm",
+          "duration_secs": 309,
+          "avg_hr": 150,
+          "max_hr": 158,
+          "avg_cadence": 88.368935,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "314s@147bpm88rpm",
+          "duration_secs": 289,
+          "avg_hr": 160,
+          "max_hr": 169,
+          "avg_cadence": 88.868515,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "8s@168bpm90rpm",
+          "duration_secs": 8,
+          "avg_hr": 168,
+          "max_hr": 168,
+          "avg_cadence": 89.625,
+          "zone": 4
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 168,
+          "max_hr": 168,
+          "avg_cadence": 90.0,
+          "zone": 4
         }
       ]
     }
