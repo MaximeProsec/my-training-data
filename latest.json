@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-18T18:54:02.757989",
+    "last_updated": "2026-10-18T21:06:25.558970",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -632,9 +632,7 @@
     "phase_detection": {
       "phase": "Build",
       "confidence": "medium",
-      "reason_codes": [
-        "NO_PLANNED_WORKOUTS"
-      ],
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": null,
@@ -648,9 +646,9 @@
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 0,
           "race_proximity": 63,
-          "next_week_load": null,
+          "next_week_load": 0.38,
           "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 0.7
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -661,9 +659,7 @@
       "dossier_agreement": null
     },
     "phase_detected": "Build",
-    "phase_triggers": [
-      "NO_PLANNED_WORKOUTS"
-    ],
+    "phase_triggers": [],
     "seasonal_context": "Late Season / Transition",
     "benchmark_indoor": {
       "current_ftp": 251,
@@ -685,7 +681,7 @@
     "p_max": 1043,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 56.98,
-    "calculation_timestamp": "2026-10-18T18:54:02.756686",
+    "calculation_timestamp": "2026-10-18T21:06:25.557729",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -4664,14 +4660,110 @@
       "readiness": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 145886854,
+      "date": "2026-10-19",
+      "name": "Indoor FTP Test \u2014 20 min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 26,
+      "duration_hours": 0.85,
+      "duration_formatted": "51m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description": "Indoor FTP test. Warm up progressively, then complete a 20-minute maximal sustainable effort with even pacing. Record average power, HR, cadence and RPE. Cool down easily.\n- 15m Z2 Power\n- 3m Z3 Power\n- 3m Z1 Power\n- 20m RPE 10\n- 10m Z1 Power"
+    },
+    {
+      "id": 145886866,
+      "date": "2026-10-20",
+      "name": "Recovery Spin + Upper Body",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 16,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description": "Very easy recovery spin. Optional moderate upper-body strength afterwards; avoid hard lower-body work.\n- 40m Z1 Power"
+    },
+    {
+      "id": 145886872,
+      "date": "2026-10-21",
+      "name": "Easy Run + Strides",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 36,
+      "duration_hours": 0.59,
+      "duration_formatted": "35m15s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Easy conversational run. Finish with 4 relaxed, fast 15-second strides with full easy recovery between. Skip strides if legs feel heavy.\n- 25m Z2 Pace\n- 4 x 15s RPE 8\n- 10m Z1 Pace"
+    },
+    {
+      "id": 145886878,
+      "date": "2026-10-22",
+      "name": "Outdoor 5K Time Trial",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 31,
+      "duration_hours": 0.98,
+      "duration_formatted": "59m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Flat, accurately measured route. Warm up easily, include dynamic drills and 3\u20134 progressive strides, then run 5 km at maximal sustainable effort. Start controlled and aim to finish strongly. Cool down easily.\n- 20m Z2 Pace\n- 4 x 15s RPE 8\n- 5km RPE 10\n- 10m Z1 Pace"
+    },
+    {
+      "id": 145886894,
+      "date": "2026-10-23",
+      "name": "Optional Recovery Spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 12,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description": "Optional recovery spin only. Skip this and rest if legs are tired after the 5K test.\n- 30m Z1 Power"
+    },
+    {
+      "id": 145886918,
+      "date": "2026-10-24",
+      "name": "Easy Aerobic Bike or Row",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 20,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description": "Easy aerobic session. If rowing instead, keep stroke rate comfortable and effort conversational; do not chase power numbers.\n- 50m Z1 Power"
+    },
+    {
+      "id": 145886943,
+      "date": "2026-10-25",
+      "name": "Easy Zone 2 Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 45,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Easy conversational Zone 2 run. Only complete if recovered well from the 5K test; otherwise rest.\n- 40m Z2 Pace"
+    }
+  ],
   "workout_summary_stats": {
-    "attempted": 0,
+    "attempted": 7,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 5.92,
