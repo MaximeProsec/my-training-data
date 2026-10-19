@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T19:16:04.441897",
+  "generated_at": "2026-10-19T22:56:14.827419",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -1089,6 +1089,54 @@
           "max_hr": 168,
           "avg_cadence": 90.0,
           "zone": 4
+        }
+      ]
+    },
+    {
+      "activity_id": "i199215759",
+      "date": "2026-10-19",
+      "type": "VirtualRide",
+      "name": "Thimphu - Babesa",
+      "interval_summary": [
+        "1x 20m 284w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2701,
+          "avg_power": 154,
+          "max_power": 625,
+          "avg_hr": 126,
+          "max_hr": 157,
+          "avg_cadence": 90.91263,
+          "zone": 2,
+          "training_load": 28.481026,
+          "decoupling": -2.1029403
+        },
+        {
+          "type": "WORK",
+          "label": "1200s@284w89rpm",
+          "duration_secs": 1200,
+          "avg_power": 284,
+          "max_power": 551,
+          "avg_hr": 180,
+          "max_hr": 195,
+          "avg_cadence": 89.371666,
+          "zone": 4,
+          "training_load": 37.385567,
+          "decoupling": 7.510182
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 615,
+          "avg_power": 88,
+          "max_power": 183,
+          "avg_hr": 135,
+          "max_hr": 195,
+          "avg_cadence": 67.21626,
+          "zone": 1,
+          "training_load": 2.8660252,
+          "decoupling": -29.949825
         }
       ]
     }
