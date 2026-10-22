@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T15:37:18.440941",
+  "generated_at": "2026-10-22T19:27:07.613327",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -808,6 +808,80 @@
           "max_hr": 160,
           "avg_cadence": 86.0,
           "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i200484856",
+      "date": "2026-10-22",
+      "type": "Run",
+      "name": "Ekkergem - Basbeek",
+      "interval_summary": [
+        "5x 4m4s 195bpm",
+        "1x 33s 196bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "244s@195bpm90rpm",
+          "duration_secs": 229,
+          "avg_hr": 185,
+          "max_hr": 195,
+          "avg_cadence": 92.9956,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "244s@195bpm90rpm",
+          "duration_secs": 241,
+          "avg_hr": 195,
+          "max_hr": 198,
+          "avg_cadence": 90.60166,
+          "zone": 6
+        },
+        {
+          "type": "WORK",
+          "label": "244s@195bpm90rpm",
+          "duration_secs": 242,
+          "avg_hr": 198,
+          "max_hr": 199,
+          "avg_cadence": 90.21901,
+          "zone": 7
+        },
+        {
+          "type": "WORK",
+          "label": "244s@195bpm90rpm",
+          "duration_secs": 248,
+          "avg_hr": 198,
+          "max_hr": 201,
+          "avg_cadence": 89.59677,
+          "zone": 7
+        },
+        {
+          "type": "WORK",
+          "label": "244s@195bpm90rpm",
+          "duration_secs": 261,
+          "avg_hr": 199,
+          "max_hr": 200,
+          "avg_cadence": 87.9272,
+          "zone": 7
+        },
+        {
+          "type": "WORK",
+          "label": "33s@196bpm62rpm",
+          "duration_secs": 33,
+          "avg_hr": 196,
+          "max_hr": 200,
+          "avg_cadence": 62.151516,
+          "zone": 7
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 187,
+          "max_hr": 187,
+          "avg_cadence": 23.0,
+          "zone": 5
         }
       ]
     }
