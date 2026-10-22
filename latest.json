@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-22T05:31:13.797047",
+    "last_updated": "2026-10-22T10:36:28.343172",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -112,14 +112,14 @@
         "delta_pct": null
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 51.2,
-        "delta_bpm": null
+        "status": "green",
+        "value": 50,
+        "baseline_7d": 51,
+        "delta_bpm": -1
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "green",
+        "hours": 7.43,
         "quality": null
       },
       "acwr": {
@@ -137,10 +137,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 4,
       "amber": 0,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 2
     },
     "phase_context": {
       "phase": "Base",
@@ -150,7 +150,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 2), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 4 green, 0 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -229,7 +229,7 @@
       "w_prime": 22473,
       "w_prime_kj": 22.5,
       "p_max": 1038,
-      "vo2max": null,
+      "vo2max": 56.84,
       "sports": {
         "cycling": {
           "lthr": 185,
@@ -268,8 +268,8 @@
       "resting_hr": 50,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 7.43,
+      "sleep_formatted": "7h25m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -284,7 +284,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 12.195122,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -302,11 +302,11 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 51.2,
+    "rhr_baseline_7d": 51,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 51.5,
+    "rhr_baseline_28d": 51.4,
     "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_rhr": 50,
     "acwr": 0.51,
     "acwr_interpretation": "undertraining",
     "monotony": 0.91,
@@ -664,11 +664,11 @@
     "w_prime_kj": 22.5,
     "p_max": 1038,
     "power_model_source": "wellness.sportInfo",
-    "vo2max": null,
-    "calculation_timestamp": "2026-10-22T05:31:13.795792",
+    "vo2max": 56.84,
+    "calculation_timestamp": "2026-10-22T10:36:28.342347",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 6,
+      "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 34,
       "planned_workouts_7d": 2,
@@ -4191,14 +4191,14 @@
       },
       "resting_hr": 50,
       "hrv_rmssd": null,
-      "hrv_sdnn": 59.633427,
+      "hrv_sdnn": 59.835003,
       "sleep_hours": 7.68,
       "sleep_formatted": "7h40m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
+      "vo2max": 56.84,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -4212,7 +4212,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": 11.628205,
+      "respiration": 11.885417,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -4231,16 +4231,16 @@
       "display": {
         "weight": null
       },
-      "resting_hr": null,
+      "resting_hr": 50,
       "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "hrv_sdnn": 55.411213,
+      "sleep_hours": 7.43,
+      "sleep_formatted": "7h25m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
+      "vo2max": 56.84,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -4254,7 +4254,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 12.195122,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -4338,7 +4338,7 @@
     "total_tss": 192,
     "activities_count": 5,
     "avg_hrv": null,
-    "avg_resting_hr": 51.2
+    "avg_resting_hr": 51.0
   },
   "race_calendar": {
     "next_race": {
