@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-23T10:21:54.381171",
+    "last_updated": "2026-10-23T15:13:27.198523",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -113,9 +113,9 @@
       },
       "rhr": {
         "status": "green",
-        "value": 52,
-        "baseline_7d": 51,
-        "delta_bpm": 1
+        "value": 54,
+        "baseline_7d": 51.3,
+        "delta_bpm": 2.7
       },
       "sleep": {
         "status": "green",
@@ -265,7 +265,7 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 52,
+      "resting_hr": 54,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": 7.36,
@@ -302,11 +302,11 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 51,
+    "rhr_baseline_7d": 51.3,
     "hrv_baseline_28d": null,
     "rhr_baseline_28d": 51.5,
     "latest_hrv": null,
-    "latest_rhr": 52,
+    "latest_rhr": 54,
     "acwr": 0.67,
     "acwr_interpretation": "undertraining",
     "monotony": 1.24,
@@ -631,7 +631,7 @@
           "race_proximity": 58,
           "next_week_load": null,
           "plan_coverage_current_week": 0.22,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -664,7 +664,7 @@
     "p_max": 1037,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 56.82,
-    "calculation_timestamp": "2026-10-23T10:21:54.379926",
+    "calculation_timestamp": "2026-10-23T15:13:27.197348",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -4290,9 +4290,9 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 52,
+      "resting_hr": 54,
       "hrv_rmssd": null,
-      "hrv_sdnn": 79.26675,
+      "hrv_sdnn": 75.575775,
       "sleep_hours": 7.36,
       "sleep_formatted": "7h21m",
       "sleep_quality": null,
@@ -4354,15 +4354,264 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "Easy conversational Zone 2 run. Only complete if recovered well from the 5K test; otherwise rest.\n- 40m Z2 Pace"
+    },
+    {
+      "id": 147465916,
+      "date": "2026-10-26",
+      "name": "Easy aerobic run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Easy aerobic run, 40 min. Conversational effort and relaxed stride throughout. Shorten or stop if knee pain changes your stride. Suggested structure: 8 min very easy, 27 min easy Z2, 5 min very easy."
+    },
+    {
+      "id": 147465935,
+      "date": "2026-10-26",
+      "name": "Upper body + core",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Upper-body strength and trunk stability, 40 min. Avoid dips due to shoulder irritation. Keep 2\u20133 reps in reserve; do not chase failure. Include a brief warm-up, 25 min strength work, then core and cool-down."
+    },
+    {
+      "id": 147465938,
+      "date": "2026-10-27",
+      "name": "Run threshold intervals",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Controlled threshold session, 50 min total. Warm up easily for 15 min, then 3 \u00d7 8 min at controlled threshold (pace guide 4:35\u20134:50/km) with 2 min easy jog between reps, then cool down easily for 9 min. Even pacing; no sprint finish. Adjust for conditions and fatigue."
+    },
+    {
+      "id": 147465942,
+      "date": "2026-10-28",
+      "name": "Easy technique swim",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Easy technique swim, 35 min. Relaxed breathing and efficient strokes; this should leave you fresher, not tired. Suggested structure: 5 min easy, 6 \u00d7 4 min technique-focused easy swimming with about 30 sec rest, then 5 min easy."
+    },
+    {
+      "id": 147465950,
+      "date": "2026-10-28",
+      "name": "Lower-body strength + sled technique",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Moderate lower-body strength and sled technique, 50 min. Prioritize quality, controlled eccentrics and good knee tracking. Keep 2\u20133 reps in reserve; no grinding reps. Suggested structure: 8 min warm-up/mobility, 25 min lower-body strength, 12 min controlled sled technique, 5 min core/cool-down."
+    },
+    {
+      "id": 147465958,
+      "date": "2026-10-29",
+      "name": "Recovery bike",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 23,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description": "Very easy recovery spin, 35 min, light gears and relaxed cadence. This is optional recovery, not training stress.\n- Easy warm-up 5m 55%\n- Easy aerobic spin 25m 60-70%\n- Easy cool-down 5m 55%"
+    },
+    {
+      "id": 147465963,
+      "date": "2026-10-30",
+      "name": "Bike threshold intervals",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 57,
+      "duration_hours": 0.97,
+      "duration_formatted": "58m",
+      "workout_summary": "4m @135W | 4m @162W | 4m @189W | 3\u00d78m @250W / 4m rec",
+      "has_terrain": false,
+      "indoor": true,
+      "description": "Indoor bike threshold, 58 min total. FTP reference 271 W. Work reps at 243\u2013257 W (90\u201395% FTP), smooth cadence; controlled effort.\n- Warm-up 4m 50%\n- Build 4m 60%\n- Build 4m 70%\n- Threshold rep 1 8m 90-95%\n- Recovery 4m 50-60%\n- Threshold rep 2 8m 90-95%\n- Recovery 4m 50-60%\n- Threshold rep 3 8m 90-95%\n- Cool-down 14m 50%"
+    },
+    {
+      "id": 147465980,
+      "date": "2026-10-31",
+      "name": "Long easy run + steady finish",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Long run, 73 min total, mostly conversational Z2. Start easy for 15 min. Include 3 \u00d7 5 min steady but controlled, with 3 min easy between, then complete the remaining time easy. Do not turn the steady sections into threshold. Reduce to 60\u201365 min if sore or if knee symptoms appear."
+    },
+    {
+      "id": 147466040,
+      "date": "2026-11-01",
+      "name": "Endurance ride + tempo",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 68,
+      "duration_hours": 1.42,
+      "duration_formatted": "1h25m",
+      "workout_summary": "5m @131W | 5m @157W | 5m @183W | 3\u00d78m @213W / 5m rec | 26m @176W | 5m @131W",
+      "has_terrain": false
+    },
+    {
+      "id": 147466060,
+      "date": "2026-11-02",
+      "name": "Easy aerobic run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Easy conversational run, 40 min. Keep the effort relaxed and stride smooth. Shorten or stop if knee pain changes your stride. Suggested structure: 8 min very easy, 27 min easy Z2, 5 min very easy."
+    },
+    {
+      "id": 147466072,
+      "date": "2026-11-02",
+      "name": "Upper body + core",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Upper-body strength and trunk stability, 40 min. Avoid dips due to shoulder irritation. Keep 2\u20133 reps in reserve; no failure sets. Include a brief warm-up, 25 min strength work, then core and cool-down."
+    },
+    {
+      "id": 147466076,
+      "date": "2026-11-03",
+      "name": "Bike VO2max intervals",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 66,
+      "duration_hours": 0.97,
+      "duration_formatted": "58m",
+      "workout_summary": "5m @135W | 5m @162W | 5m @189W | 5\u00d73m @304W / 3m rec",
+      "has_terrain": false,
+      "indoor": true
+    },
+    {
+      "id": 147466081,
+      "date": "2026-11-04",
+      "name": "Easy technique swim",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Easy technique swim, 35 min. Focus on relaxed breathing, body position and efficient strokes; keep this restorative. Suggested structure: 5 min easy, 6 \u00d7 4 min technique-focused easy swimming with about 30 sec rest, then 5 min easy."
+    },
+    {
+      "id": 147466106,
+      "date": "2026-11-04",
+      "name": "Lower-body strength + station technique",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Moderate lower-body strength plus Hyrox station technique, 45 min. Maintain clean movement and 2\u20133 reps in reserve. Avoid heavy eccentric soreness before Thursday's compromised run. Suggested structure: 8 min warm-up/mobility, 22 min strength, 10 min station technique at controlled load, 5 min core/cool-down."
+    },
+    {
+      "id": 147466133,
+      "date": "2026-11-05",
+      "name": "Easy recovery session",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 23,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "Optional easy recovery spin, 35 min. Keep it genuinely easy; if fatigued, replace with mobility or take full rest.\n- Easy warm-up 5m 55%\n- Easy aerobic spin 25m 60-70%"
+    },
+    {
+      "id": 147466144,
+      "date": "2026-11-05",
+      "name": "Hyrox compromised running",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Controlled Hyrox compromised running, 58 min total; not a race simulation. Warm up for 12 min, then 4 rounds of 800 m at controlled fast effort (around 4:15\u20134:30/km only if controlled) followed by 60\u201390 sec station work (sled, wall balls or lunges) and 2 min easy jog as needed. Cool down for about 10 min. Keep transitions smooth; reduce pace/load if form degrades."
+    },
+    {
+      "id": 147466152,
+      "date": "2026-11-06",
+      "name": "Recovery bike",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 26,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "Easy recovery ride, 40 min, predominantly low Z1\u2013Z2. No intervals; relaxed cadence. If Thursday's session left residual fatigue, keep this to 25\u201330 min or rest.\n- Easy warm-up 5m 55%\n- Easy aerobic ride 30m 60-70%"
+    },
+    {
+      "id": 147466156,
+      "date": "2026-11-07",
+      "name": "Long easy run + steady finish",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Long run, 78 min total, predominantly easy Z2. If feeling good, finish with 10\u201315 min steady but controlled, not threshold. Repeat 60\u201370 min instead if sore or fatigued; stop if knee pain changes your stride. Suggested structure: 15 min easy, 48 min easy Z2, optional 10 min steady, 5 min easy."
+    },
+    {
+      "id": 147466164,
+      "date": "2026-11-08",
+      "name": "Endurance ride + tempo",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 74,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": "5m @131W | 5m @157W | 5m @183W | 3\u00d710m @213W / 5m rec | 25m @176W | 5m @131W",
+      "has_terrain": false
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
-    "success": 0,
+    "attempted": 9,
+    "success": 4,
     "patternA": 0,
-    "patternB": 0,
-    "bail_no_workout_doc": 0,
-    "bail_no_match": 2
+    "patternB": 4,
+    "bail_no_workout_doc": 12,
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 4.41,
@@ -4370,7 +4619,7 @@
     "total_tss": 257,
     "activities_count": 7,
     "avg_hrv": null,
-    "avg_resting_hr": 51.0
+    "avg_resting_hr": 51.3
   },
   "race_calendar": {
     "next_race": {
