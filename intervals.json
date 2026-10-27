@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T06:48:37.095814",
+  "generated_at": "2026-10-27T12:47:13.706389",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -612,6 +612,105 @@
           "max_hr": 156,
           "avg_cadence": 83.0,
           "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i202192712",
+      "date": "2026-10-27",
+      "type": "Run",
+      "name": "Muide - Kerkstraat",
+      "interval_summary": [
+        "2x 5m40s 148bpm",
+        "3x 8m 180bpm",
+        "1x 12m47s 129bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "340s@148bpm84rpm",
+          "duration_secs": 336,
+          "avg_hr": 146,
+          "max_hr": 153,
+          "avg_cadence": 83.645454,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "340s@148bpm84rpm",
+          "duration_secs": 343,
+          "avg_hr": 149,
+          "max_hr": 154,
+          "avg_cadence": 83.72303,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 223,
+          "avg_hr": 152,
+          "max_hr": 157,
+          "avg_cadence": 82.21525,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "480s@180bpm89rpm",
+          "duration_secs": 480,
+          "avg_hr": 176,
+          "max_hr": 182,
+          "avg_cadence": 87.3375,
+          "zone": 4
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 115,
+          "avg_hr": 168,
+          "max_hr": 182,
+          "avg_cadence": 85.07826,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "480s@180bpm89rpm",
+          "duration_secs": 480,
+          "avg_hr": 180,
+          "max_hr": 184,
+          "avg_cadence": 89.03125,
+          "zone": 4
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 127,
+          "avg_hr": 172,
+          "max_hr": 183,
+          "avg_cadence": 84.33071,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "480s@180bpm89rpm",
+          "duration_secs": 480,
+          "avg_hr": 183,
+          "max_hr": 188,
+          "avg_cadence": 89.2625,
+          "zone": 4
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 166,
+          "avg_hr": 176,
+          "max_hr": 188,
+          "avg_cadence": 82.945786,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "767s@129bpm40rpm",
+          "duration_secs": 767,
+          "avg_hr": 129,
+          "max_hr": 175,
+          "avg_cadence": 39.552505,
+          "zone": 2
         }
       ]
     }
