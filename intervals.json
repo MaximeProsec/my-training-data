@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T15:39:49.803694",
+  "generated_at": "2026-10-29T20:34:08.137413",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -636,6 +636,34 @@
           "avg_hr": 129,
           "max_hr": 175,
           "avg_cadence": 39.552505,
+          "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i203332817",
+      "date": "2026-10-29",
+      "type": "Run",
+      "name": "Mariakerke-Bad - Turkijen",
+      "interval_summary": [
+        "1x 58m21s 148bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3501s@148bpm85rpm",
+          "duration_secs": 3501,
+          "avg_hr": 148,
+          "max_hr": 161,
+          "avg_cadence": 85.26329,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 151,
+          "max_hr": 151,
+          "avg_cadence": 63.0,
           "zone": 2
         }
       ]
