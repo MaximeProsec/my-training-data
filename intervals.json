@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T02:50:42.982124",
+  "generated_at": "2026-11-01T09:48:35.758220",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -689,6 +689,134 @@
           "zone": 1,
           "training_load": 6.3465776,
           "decoupling": -6.841524
+        }
+      ]
+    },
+    {
+      "activity_id": "i204240919",
+      "date": "2026-11-01",
+      "type": "Run",
+      "name": "De Panne - Koksijde",
+      "interval_summary": [
+        "11x 4m57s 162bpm",
+        "1x 2m7s 184bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "297s@162bpm89rpm",
+          "duration_secs": 321,
+          "avg_hr": 143,
+          "max_hr": 153,
+          "avg_cadence": 84.462265,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "297s@162bpm89rpm",
+          "duration_secs": 307,
+          "avg_hr": 154,
+          "max_hr": 158,
+          "avg_cadence": 87.436485,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "297s@162bpm89rpm",
+          "duration_secs": 311,
+          "avg_hr": 156,
+          "max_hr": 162,
+          "avg_cadence": 88.07395,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "297s@162bpm89rpm",
+          "duration_secs": 306,
+          "avg_hr": 156,
+          "max_hr": 164,
+          "avg_cadence": 88.05882,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "297s@162bpm89rpm",
+          "duration_secs": 298,
+          "avg_hr": 162,
+          "max_hr": 169,
+          "avg_cadence": 89.31544,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "297s@162bpm89rpm",
+          "duration_secs": 302,
+          "avg_hr": 164,
+          "max_hr": 168,
+          "avg_cadence": 89.21523,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "297s@162bpm89rpm",
+          "duration_secs": 287,
+          "avg_hr": 166,
+          "max_hr": 170,
+          "avg_cadence": 89.85366,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "297s@162bpm89rpm",
+          "duration_secs": 292,
+          "avg_hr": 169,
+          "max_hr": 172,
+          "avg_cadence": 89.51712,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "297s@162bpm89rpm",
+          "duration_secs": 294,
+          "avg_hr": 164,
+          "max_hr": 172,
+          "avg_cadence": 89.63265,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "297s@162bpm89rpm",
+          "duration_secs": 280,
+          "avg_hr": 171,
+          "max_hr": 174,
+          "avg_cadence": 90.90357,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "297s@162bpm89rpm",
+          "duration_secs": 271,
+          "avg_hr": 175,
+          "max_hr": 181,
+          "avg_cadence": 91.27676,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "127s@184bpm93rpm",
+          "duration_secs": 127,
+          "avg_hr": 184,
+          "max_hr": 189,
+          "avg_cadence": 93.244095,
+          "zone": 4
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 189,
+          "max_hr": 189,
+          "avg_cadence": 94.0,
+          "zone": 5
         }
       ]
     }
