@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-05T17:46:16.019052",
+    "last_updated": "2026-11-05T22:56:38.754654",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -643,7 +643,7 @@
     "p_max": 1024,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 55.36,
-    "calculation_timestamp": "2026-11-05T17:46:16.017980",
+    "calculation_timestamp": "2026-11-05T22:56:38.753744",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -3685,13 +3685,13 @@
       "name": "Z2 aerobic bike",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 42,
-      "duration_hours": 1.17,
-      "duration_formatted": "1h10m",
+      "planned_tss": 56,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description": "70 min aerobic endurance ride. Indoor FTP reference 271 W. Main block 60\u201375% FTP (163\u2013203 W), smooth cadence, no tempo or intervals.\n\n- Warm-up 10m\n- Z2 endurance 50m\n- Cool-down 10m"
+      "description": "70 min aerobic endurance ride. Indoor FTP reference 271 W. Main block 60\u201375% FTP (163\u2013203 W), smooth cadence, no tempo or intervals.\n\n- Warm-up 10m\n- Z2 endurance 70m @75%\n- Cool-down 10m"
     },
     {
       "id": 151988705,
