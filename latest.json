@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-05T09:57:11.283717",
+    "last_updated": "2026-11-05T17:46:16.019052",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 0.7
+        "value": 5.9
       }
     },
     "signal_summary": {
@@ -194,17 +194,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 53.86,
-      "atl": 53.2,
-      "tsb": 0.66,
-      "ramp_rate": 0.11,
+      "ctl": 52.73,
+      "atl": 46.81,
+      "tsb": 5.92,
+      "ramp_rate": -1.02,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 266.7,
-      "w_prime": 22183,
+      "eftp": 266.4,
+      "w_prime": 22161,
       "w_prime_kj": 22.2,
-      "p_max": 1025,
+      "p_max": 1024,
       "vo2max": 55.36,
       "sports": {
         "cycling": {
@@ -569,25 +569,22 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 271,
-          "w_prime_used": 22183,
+          "w_prime_used": 22161,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.33,
+    "consistency_index": 0.67,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 3,
       "completed_days": 2,
       "matched_days": 2,
       "planned_dates": [
         "2026-10-30",
         "2026-11-01",
-        "2026-11-02",
-        "2026-11-03",
-        "2026-11-04",
-        "2026-11-05"
+        "2026-11-03"
       ],
       "completed_dates": [
         "2026-10-30",
@@ -606,13 +603,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.57,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": null,
+          "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 2,
-          "current_week_hard_days_total": 3,
+          "current_week_hard_days_total": 2,
           "race_proximity": 45,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.86,
+          "plan_coverage_current_week": 0.71,
           "plan_coverage_next_week": 1.43
         },
         "data_quality": "good",
@@ -640,19 +637,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 266.7,
-    "w_prime": 22183,
+    "eftp": 266.4,
+    "w_prime": 22161,
     "w_prime_kj": 22.2,
-    "p_max": 1025,
+    "p_max": 1024,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 55.36,
-    "calculation_timestamp": "2026-11-05T09:57:11.282534",
+    "calculation_timestamp": "2026-11-05T17:46:16.017980",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 28,
-      "planned_workouts_7d": 8,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 190,
         "outdoor": 190
@@ -3527,7 +3524,7 @@
       },
       "resting_hr": 55,
       "hrv_rmssd": null,
-      "hrv_sdnn": 69.64423,
+      "hrv_sdnn": 62.49097,
       "sleep_hours": 6.59,
       "sleep_formatted": "6h35m",
       "sleep_quality": null,
@@ -3563,19 +3560,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 147466133,
-      "date": "2026-11-05",
-      "name": "Threshold run \u2014 3 \u00d7 10 min",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 48,
-      "duration_hours": 0.98,
-      "duration_formatted": "59m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "Threshold progression, 59 min total. 15 min easy warm-up; 3 \u00d7 10 min at 4:40\u20134:45/km with 2 min easy jog after reps 1 and 2; 10 min easy cool-down. Start controlled, RPE 7\u20138/10 by the final rep. If the warm-up feels unusually poor, do 3 \u00d7 8 min instead.\n- 15m easy warm-up\n- 10m threshold 4:40-4:45/km\n- 2m easy jog\n- 10m threshold 4:40-4:45/km\n- 2m easy jog\n- 10m threshold 4:40-4:45/km\n- 10m easy cool-down"
-    },
     {
       "id": 147466152,
       "date": "2026-11-06",
@@ -3817,12 +3801,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 19,
+    "attempted": 18,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 19
+    "bail_no_match": 18
   },
   "weekly_summary": {
     "total_training_hours": 4.16,
