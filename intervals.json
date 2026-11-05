@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T02:55:19.417700",
+  "generated_at": "2026-11-05T09:57:10.784732",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -926,6 +926,76 @@
           "zone": 1,
           "training_load": 5.184243,
           "decoupling": -12.599129
+        }
+      ]
+    },
+    {
+      "activity_id": "i205998353",
+      "date": "2026-11-05",
+      "type": "Run",
+      "name": "Muide - Kerkstraat",
+      "interval_summary": [
+        "3x 10m 176bpm"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 606,
+          "avg_hr": 148,
+          "max_hr": 165,
+          "avg_cadence": 85.22351,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "600s@176bpm89rpm",
+          "duration_secs": 600,
+          "avg_hr": 172,
+          "max_hr": 182,
+          "avg_cadence": 89.04667,
+          "zone": 4
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 117,
+          "avg_hr": 170,
+          "max_hr": 178,
+          "avg_cadence": 85.59829,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "600s@176bpm89rpm",
+          "duration_secs": 600,
+          "avg_hr": 179,
+          "max_hr": 184,
+          "avg_cadence": 89.095,
+          "zone": 4
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 118,
+          "avg_hr": 162,
+          "max_hr": 179,
+          "avg_cadence": 83.40678,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "600s@176bpm89rpm",
+          "duration_secs": 600,
+          "avg_hr": 177,
+          "max_hr": 182,
+          "avg_cadence": 89.70333,
+          "zone": 4
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 289,
+          "avg_hr": 159,
+          "max_hr": 179,
+          "avg_cadence": 71.50865,
+          "zone": 3
         }
       ]
     }
