@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:27:49.115565",
+  "generated_at": "2026-11-06T22:13:42.285706",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -922,6 +922,27 @@
           "max_hr": 179,
           "avg_cadence": 71.50865,
           "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i206742705",
+      "date": "2026-11-06",
+      "type": "VirtualRide",
+      "name": "Z2 aerobic bike",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3631,
+          "avg_power": 181,
+          "max_power": 193,
+          "avg_hr": 129,
+          "max_hr": 143,
+          "avg_cadence": 78.53208,
+          "zone": 2,
+          "training_load": 45.992535,
+          "decoupling": -0.94270706
         }
       ]
     }
