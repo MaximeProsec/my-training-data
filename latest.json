@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-12T04:10:19.599848",
+    "last_updated": "2026-11-12T12:35:27.915983",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -112,14 +112,14 @@
         "delta_pct": null
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 51.3,
-        "delta_bpm": null
+        "status": "green",
+        "value": 49,
+        "baseline_7d": 51,
+        "delta_bpm": -2
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "green",
+        "hours": 8.14,
         "quality": null
       },
       "acwr": {
@@ -137,10 +137,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 4,
       "amber": 0,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 2
     },
     "phase_context": {
       "phase": "Build",
@@ -150,7 +150,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 4 green, 0 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -229,7 +229,7 @@
       "w_prime": 22028,
       "w_prime_kj": 22.0,
       "p_max": 1018,
-      "vo2max": null,
+      "vo2max": 55.92,
       "sports": {
         "cycling": {
           "lthr": 193,
@@ -265,11 +265,11 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 54,
+      "resting_hr": 49,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 8.14,
+      "sleep_formatted": "8h8m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -284,7 +284,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 12.72093,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -302,11 +302,11 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 51.3,
+    "rhr_baseline_7d": 51,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 51.7,
+    "rhr_baseline_28d": 51.6,
     "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_rhr": 49,
     "acwr": 1.09,
     "acwr_interpretation": "optimal",
     "monotony": 1.61,
@@ -670,14 +670,14 @@
     "w_prime_kj": 22.0,
     "p_max": 1018,
     "power_model_source": "wellness.sportInfo",
-    "vo2max": null,
-    "calculation_timestamp": "2026-11-12T04:10:19.598928",
+    "vo2max": 55.92,
+    "calculation_timestamp": "2026-11-12T12:35:27.915071",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 6,
+      "rhr_data_points": 7,
       "activities_7d": 8,
       "activities_28d": 26,
-      "planned_workouts_7d": 11,
+      "planned_workouts_7d": 10,
       "ftp_history_days": {
         "indoor": 197,
         "outdoor": 197
@@ -3259,7 +3259,7 @@
       },
       "resting_hr": 54,
       "hrv_rmssd": null,
-      "hrv_sdnn": 58.087086,
+      "hrv_sdnn": 60.33516,
       "sleep_hours": 6.11,
       "sleep_formatted": "6h6m",
       "sleep_quality": null,
@@ -3280,7 +3280,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": 11.931818,
+      "respiration": 12.893442,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -3299,16 +3299,16 @@
       "display": {
         "weight": null
       },
-      "resting_hr": null,
+      "resting_hr": 49,
       "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "hrv_sdnn": 87.078476,
+      "sleep_hours": 8.14,
+      "sleep_formatted": "8h8m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
+      "vo2max": 55.92,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -3322,7 +3322,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 12.72093,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -3343,13 +3343,13 @@
       "name": "Z2 aerobic bike",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 56,
+      "planned_tss": 77,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description": "70 min aerobic endurance ride. Indoor FTP reference 271 W. Main block 60\u201375% FTP (163\u2013203 W), smooth cadence, no tempo or intervals.\n\n- Warm-up 10m\n- Z2 endurance 70m @75%\n- Cool-down 10m"
+      "description": "70 min aerobic endurance ride. Indoor FTP reference 271 W. Main block 60\u201375% FTP (163\u2013203 W), smooth cadence, no tempo or intervals.\n\n- 10m ramp 50-60%\n- 70m endurance  75%\n- 10m ramp 60-50% (135-162w)"
     },
     {
       "id": 151988705,
@@ -3485,7 +3485,7 @@
     "total_tss": 333,
     "activities_count": 8,
     "avg_hrv": null,
-    "avg_resting_hr": 51.3
+    "avg_resting_hr": 51.0
   },
   "race_calendar": {
     "next_race": {
