@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-13T01:13:20.315695",
+    "last_updated": "2026-11-13T07:54:15.277845",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -112,14 +112,14 @@
         "delta_pct": null
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 51,
-        "delta_bpm": null
+        "status": "green",
+        "value": 47,
+        "baseline_7d": 50.4,
+        "delta_bpm": -3.4
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "green",
+        "hours": 8.09,
         "quality": null
       },
       "acwr": {
@@ -137,10 +137,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 4,
       "amber": 0,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 2
     },
     "phase_context": {
       "phase": "Build",
@@ -150,7 +150,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 4 green, 0 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -265,11 +265,11 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 49,
+      "resting_hr": 47,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 8.09,
+      "sleep_formatted": "8h5m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -284,7 +284,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 12.389474,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -302,11 +302,11 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 51,
+    "rhr_baseline_7d": 50.4,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 51.6,
+    "rhr_baseline_28d": 51.5,
     "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_rhr": 47,
     "acwr": 1.03,
     "acwr_interpretation": "optimal",
     "monotony": 1.61,
@@ -671,10 +671,10 @@
     "p_max": 1017,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-13T01:13:20.314281",
+    "calculation_timestamp": "2026-11-13T07:54:15.276902",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 6,
+      "rhr_data_points": 7,
       "activities_7d": 7,
       "activities_28d": 27,
       "planned_workouts_7d": 9,
@@ -3335,7 +3335,7 @@
       },
       "resting_hr": 49,
       "hrv_rmssd": null,
-      "hrv_sdnn": 75.32452,
+      "hrv_sdnn": 76.97539,
       "sleep_hours": 8.14,
       "sleep_formatted": "8h8m",
       "sleep_quality": null,
@@ -3356,7 +3356,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": 12.72093,
+      "respiration": 12.637255,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -3375,11 +3375,11 @@
       "display": {
         "weight": null
       },
-      "resting_hr": null,
+      "resting_hr": 47,
       "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "hrv_sdnn": 110.08961,
+      "sleep_hours": 8.09,
+      "sleep_formatted": "8h5m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -3398,7 +3398,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 12.389474,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -3534,7 +3534,7 @@
     "total_tss": 334,
     "activities_count": 7,
     "avg_hrv": null,
-    "avg_resting_hr": 51.0
+    "avg_resting_hr": 50.4
   },
   "race_calendar": {
     "next_race": {
