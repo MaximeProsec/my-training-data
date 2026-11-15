@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-15T09:59:25.398419",
+    "last_updated": "2026-11-15T16:48:08.302026",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -112,14 +112,14 @@
         "delta_pct": null
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 50.8,
-        "delta_bpm": null
+        "status": "green",
+        "value": 50,
+        "baseline_7d": 50.9,
+        "delta_bpm": -0.9
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "green",
+        "hours": 7.98,
         "quality": null
       },
       "acwr": {
@@ -137,10 +137,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 4,
       "amber": 0,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 2
     },
     "phase_context": {
       "phase": "Build",
@@ -150,7 +150,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 4 green, 0 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -253,7 +253,7 @@
       "w_prime": 22006,
       "w_prime_kj": 22.0,
       "p_max": 1017,
-      "vo2max": null,
+      "vo2max": 55.65,
       "sports": {
         "cycling": {
           "lthr": 193,
@@ -289,11 +289,11 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 52,
+      "resting_hr": 50,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 7.98,
+      "sleep_formatted": "7h58m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -308,7 +308,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 12.235294,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -326,11 +326,11 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 50.8,
+    "rhr_baseline_7d": 50.9,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 51.9,
+    "rhr_baseline_28d": 51.8,
     "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_rhr": 50,
     "acwr": 1.13,
     "acwr_interpretation": "optimal",
     "monotony": 1.44,
@@ -660,9 +660,9 @@
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 2,
           "race_proximity": 35,
-          "next_week_load": null,
+          "next_week_load": 0.08,
           "plan_coverage_current_week": 0.33,
-          "plan_coverage_next_week": 0.5
+          "plan_coverage_next_week": 0.67
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -694,11 +694,11 @@
     "w_prime_kj": 22.0,
     "p_max": 1017,
     "power_model_source": "wellness.sportInfo",
-    "vo2max": null,
-    "calculation_timestamp": "2026-11-15T09:59:25.397186",
+    "vo2max": 55.65,
+    "calculation_timestamp": "2026-11-15T16:48:08.300823",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 6,
+      "rhr_data_points": 7,
       "activities_7d": 8,
       "activities_28d": 27,
       "planned_workouts_7d": 9,
@@ -3357,9 +3357,9 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 52,
+      "resting_hr": 53,
       "hrv_rmssd": null,
-      "hrv_sdnn": 99.924286,
+      "hrv_sdnn": 89.19697,
       "sleep_hours": 7.06,
       "sleep_formatted": "7h3m",
       "sleep_quality": null,
@@ -3380,7 +3380,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": 11.81,
+      "respiration": 12.008772,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -3399,16 +3399,16 @@
       "display": {
         "weight": null
       },
-      "resting_hr": null,
+      "resting_hr": 50,
       "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "hrv_sdnn": 83.9725,
+      "sleep_hours": 7.98,
+      "sleep_formatted": "7h58m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
+      "vo2max": 55.65,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -3422,7 +3422,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 12.235294,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -3443,13 +3443,13 @@
       "name": "Z2 endurance ride",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 53,
-      "duration_hours": 1.42,
-      "duration_formatted": "1h25m",
+      "planned_tss": 63,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description": "85 min steady Z2 endurance ride. Indoor FTP reference 271 W. Main block 60\u201375% FTP (163\u2013203 W). No tempo work; keep it aerobic.\n\n- Warm-up 10m\n- Z2 endurance 1h5m\n- Cool-down 10m"
+      "description": "85 min steady Z2 endurance ride. Indoor FTP reference 271 W. Main block 60\u201375% FTP (163\u2013203 W). No tempo work; keep it aerobic.\n\n- 10m ramp 50-60% (135-162w)\n- 60m Z2 endurance 72%\n- 10m ramp 60-50% (135-162w)"
     },
     {
       "id": 151988812,
@@ -3505,6 +3505,71 @@
       "description": "Optional 35 min easy spin at 55\u201365% indoor FTP (149\u2013176 W). Skip if legs feel heavy or time is limited.\n\n- Easy spin 35m"
     },
     {
+      "id": 156136427,
+      "date": "2026-11-20",
+      "name": "HYROX compromised run \u2014 5 rounds",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 16,
+      "duration_hours": 1.13,
+      "duration_formatted": "1h8m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "HYROX compromised running \u2014 5 rounds. Run each 800m at 4:35\u20134:50/km. Stations in order: SkiErg 500m; sled push 25m; sled pull 25m; burpee broad jumps 20m; farmer's carry 100m. Keep RPE 7\u20138 and transitions controlled. The 5-minute station steps are work windows, not rest intervals.\n- 10m Z1 Pace\n- 800mtr RPE 7\n- 5m RPE 7\n- 800mtr RPE 7\n- 5m RPE 7\n- 800mtr RPE 7\n- 5m RPE 7\n- 800mtr RPE 7\n- 5m RPE 7\n- 800mtr RPE 7\n- 5m RPE 7\n- 10m Z1 Pace"
+    },
+    {
+      "id": 156136434,
+      "date": "2026-11-27",
+      "name": "HYROX compromised run \u2014 6 rounds",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 16,
+      "duration_hours": 1.29,
+      "duration_formatted": "1h17m36s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "HYROX compromised running \u2014 6 rounds. Run each 800m at 4:35\u20134:50/km. Stations in order: SkiErg 500m; sled push 25m; sled pull 25m; burpee broad jumps 20m; farmer's carry 100m; sandbag lunges 20m. Keep RPE 7\u20138 and transitions controlled. The 5-minute station steps are work windows, not rest intervals.\n- 10m Z1 Pace\n- 800mtr RPE 7"
+    },
+    {
+      "id": 156136446,
+      "date": "2026-12-04",
+      "name": "HYROX peak compromised run \u2014 6 \u00d7 1km",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 16,
+      "duration_hours": 1.41,
+      "duration_formatted": "1h24m30s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "HYROX peak-specific compromised running \u2014 6 rounds. Run each 1km at 4:35\u20134:50/km. Stations in order: SkiErg 500m; sled push 25m; sled pull 25m; burpee broad jumps 20m; farmer's carry 100m; sandbag lunges 20m. This is the biggest specific session, not a full race simulation. Keep RPE 7\u20138 and preserve run quality. The 5-minute station steps are work windows, not rest intervals.\n- 10m Z1 Pace\n- 1km RPE 7"
+    },
+    {
+      "id": 156136463,
+      "date": "2026-12-11",
+      "name": "HYROX compromised run \u2014 reduced 4 rounds",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 16,
+      "duration_hours": 0.84,
+      "duration_formatted": "50m24s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Reduced-volume HYROX compromised running \u2014 4 rounds. Run each 800m at 4:40\u20134:55/km. Reduced stations in order: SkiErg 300m; sled push 12.5m; sled pull 12.5m; burpee broad jumps 10m. Keep overall effort RPE 6\u20137 and finish feeling you could do more. The 3-minute station steps are work windows, not rest intervals.\n- 10m Z1 Pace\n- 800mtr RPE 6"
+    },
+    {
+      "id": 156136467,
+      "date": "2026-12-18",
+      "name": "HYROX race-week activation",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 20,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Race-week activation. Stay fresh; no fatigue or hard efforts. Easy running followed by light station technique only. No heavy sleds, hard burpee broad jumps, lunges to fatigue, or high-volume wall balls.\n- 10m Z1 Pace\n- 10m Z1 Pace"
+    },
+    {
       "id": 121541392,
       "date": "2026-12-20",
       "name": "Hyrox Gent Doubles",
@@ -3519,12 +3584,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 10,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 5
+    "bail_no_match": 10
   },
   "weekly_summary": {
     "total_training_hours": 6.68,
@@ -3532,7 +3597,7 @@
     "total_tss": 399,
     "activities_count": 8,
     "avg_hrv": null,
-    "avg_resting_hr": 50.8
+    "avg_resting_hr": 50.9
   },
   "race_calendar": {
     "next_race": {
