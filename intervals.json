@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T16:48:08.297611",
+  "generated_at": "2026-11-15T21:22:59.758985",
   "version": "3.109",
   "script_hash": "7a689a71c78d",
   "scan_hours": 72,
@@ -895,6 +895,27 @@
           "max_hr": 180,
           "avg_cadence": 89.0,
           "zone": 4
+        }
+      ]
+    },
+    {
+      "activity_id": "i210459087",
+      "date": "2026-11-15",
+      "type": "VirtualRide",
+      "name": "Z2 endurance ride",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2999,
+          "avg_power": 181,
+          "max_power": 320,
+          "avg_hr": 131,
+          "max_hr": 142,
+          "avg_cadence": 86.991,
+          "zone": 2,
+          "training_load": 39.242916,
+          "decoupling": -3.9423242
         }
       ]
     }
