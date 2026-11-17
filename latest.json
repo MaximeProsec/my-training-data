@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-17T09:09:05.829910",
+    "last_updated": "2026-11-17T18:29:24.758249",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -112,10 +112,10 @@
         "delta_pct": null
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 51.8,
-        "delta_bpm": null
+        "status": "green",
+        "value": 53,
+        "baseline_7d": 52,
+        "delta_bpm": 1
       },
       "sleep": {
         "status": "amber",
@@ -137,10 +137,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 3,
       "amber": 1,
       "red": 0,
-      "unavailable": 3
+      "unavailable": 2
     },
     "phase_context": {
       "phase": "Build",
@@ -150,7 +150,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 1 amber (threshold 3), 0 red.",
+    "reason": "P3 green light. 3 green, 1 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -289,7 +289,7 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 52,
+      "resting_hr": 53,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": 6.9,
@@ -308,7 +308,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": 11.968354,
+      "respiration": 12.152778,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -326,11 +326,11 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 51.8,
+    "rhr_baseline_7d": 52,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 51.7,
+    "rhr_baseline_28d": 51.8,
     "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_rhr": 53,
     "acwr": 0.96,
     "acwr_interpretation": "optimal",
     "monotony": 1.06,
@@ -654,14 +654,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.08,
+          "planned_tss_delta": 0.78,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 1,
           "race_proximity": 33,
-          "next_week_load": 0.07,
-          "plan_coverage_current_week": 0.5,
-          "plan_coverage_next_week": 0.12
+          "next_week_load": 1.06,
+          "plan_coverage_current_week": 0.88,
+          "plan_coverage_next_week": 0.88
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -694,10 +694,10 @@
     "p_max": 1016,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-17T09:09:05.828902",
+    "calculation_timestamp": "2026-11-17T18:29:24.757622",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 6,
+      "rhr_data_points": 7,
       "activities_7d": 7,
       "activities_28d": 27,
       "planned_workouts_7d": 8,
@@ -3398,9 +3398,9 @@
       "display": {
         "weight": null
       },
-      "resting_hr": null,
+      "resting_hr": 53,
       "hrv_rmssd": null,
-      "hrv_sdnn": 71.884705,
+      "hrv_sdnn": 66.17384,
       "sleep_hours": 6.9,
       "sleep_formatted": "6h53m",
       "sleep_quality": null,
@@ -3421,7 +3421,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": 11.968354,
+      "respiration": 12.152778,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -3477,6 +3477,19 @@
       "description": "Optional 35 min easy spin at 55\u201365% indoor FTP (149\u2013176 W). Skip if legs feel heavy or time is limited.\n\n- Easy spin 35m"
     },
     {
+      "id": 157313145,
+      "date": "2026-11-19",
+      "name": "Easy aerobic run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 46,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Easy conversational aerobic run. Keep effort comfortable.\n- 10m Z1 Pace\n- 30m Z2 Pace\n- 5m Z1 Pace"
+    },
+    {
       "id": 156136427,
       "date": "2026-11-20",
       "name": "HYROX compromised run \u2014 5 rounds",
@@ -3488,6 +3501,85 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "HYROX compromised running \u2014 5 rounds. Run each 800m at 4:35\u20134:50/km. Stations in order: SkiErg 500m; sled push 25m; sled pull 25m; burpee broad jumps 20m; farmer's carry 100m. Keep RPE 7\u20138 and transitions controlled. The 5-minute station steps are work windows, not rest intervals.\n- 10m Z1 Pace\n- 800mtr RPE 7\n- 5m RPE 7\n- 800mtr RPE 7\n- 5m RPE 7\n- 800mtr RPE 7\n- 5m RPE 7\n- 800mtr RPE 7\n- 5m RPE 7\n- 800mtr RPE 7\n- 5m RPE 7\n- 10m Z1 Pace"
+    },
+    {
+      "id": 157313283,
+      "date": "2026-11-21",
+      "name": "Upper body + core strength",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Upper-body strength maintenance and trunk stability. Dumbbell bench 3\u00d78; chest-supported row 3\u00d710; lat pulldown 3\u00d710; seated shoulder press 2\u00d78; farmer carry 3\u00d740m; dead bug and side plank. Keep 2\u20133 reps in reserve; no dips or failure.\n- 10m\n- 25m\n- 10m"
+    },
+    {
+      "id": 157313293,
+      "date": "2026-11-22",
+      "name": "Long easy aerobic run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 91,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "75\u201385 minutes easy aerobic running, conversational effort. No fast finish this week. Shorten if Friday's HYROX session leaves residual soreness or knee symptoms.\n- 80m Z2 Pace"
+    },
+    {
+      "id": 157313298,
+      "date": "2026-11-23",
+      "name": "Optional recovery spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 19,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description": "OPTIONAL recovery spin; rest is equally acceptable. 30\u201340 minutes very easy, approximately 135\u2013160 W, RPE 2/10. Finish fresher than you started.\n- 35m 55-60% FTP"
+    },
+    {
+      "id": 157313313,
+      "date": "2026-11-24",
+      "name": "Threshold run \u2014 2 \u00d7 17 min",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 75,
+      "duration_hours": 1.05,
+      "duration_formatted": "1h3m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "2\u00d717 minutes at 4:40\u20134:45/km, with 3 minutes easy jog between. RPE 7\u20138/10, controlled and even. If fatigue is high, repeat 2\u00d715 minutes instead.\n- 15m Z1 Pace\n- 17m Z4 Pace\n- 3m Z1 Pace\n- 17m Z4 Pace\n- 11m Z1 Pace"
+    },
+    {
+      "id": 157313329,
+      "date": "2026-11-25",
+      "name": "Lower-body strength + knee resilience",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Bulgarian split squat 3\u00d76/leg; single-leg RDL 3\u00d78/leg; hip thrust 3\u00d78; standing calf raise 3\u00d712; Pallof press 3\u00d712/side. Controlled tempo, 2\u20133 reps in reserve, no grinding.\n- 10m\n- 30m"
+    },
+    {
+      "id": 157313350,
+      "date": "2026-11-26",
+      "name": "Easy run + relaxed strides",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 51,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Easy conversational run, then 4\u00d720 seconds relaxed strides with full easy recovery. Strides are smooth and quick, not sprints. Keep total effort low before Friday.\n- 35m Z2 Pace\n- 5m Z3 Pace"
     },
     {
       "id": 156136434,
@@ -3503,6 +3595,85 @@
       "description_preview": "HYROX compromised running \u2014 6 rounds. Run each 800m at 4:35\u20134:50/km. Stations in order: SkiErg 500m; sled push 25m; sled pull 25m; burpee broad jumps 20m; farmer's carry 100m; sandbag lunges 20m. Keep RPE 7\u20138 and transitions controlled. The 5-minute station steps are work windows, not rest intervals.\n- 10m Z1 Pace\n- 800mtr RPE 7"
     },
     {
+      "id": 157313368,
+      "date": "2026-11-28",
+      "name": "Upper body + core strength",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Upper-body strength maintenance and trunk stability. Dumbbell bench 3\u00d78; chest-supported row 3\u00d710; lat pulldown 3\u00d710; seated shoulder press 2\u00d78; farmer carry 3\u00d740m; dead bug and side plank. Keep 2\u20133 reps in reserve.\n- 10m\n- 25m"
+    },
+    {
+      "id": 157313396,
+      "date": "2026-11-29",
+      "name": "Long easy aerobic run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 100,
+      "duration_hours": 1.47,
+      "duration_formatted": "1h28m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "85\u201390 minutes easy aerobic running, RPE 3\u20134/10. Keep pace secondary to relaxed breathing and stable mechanics. No fast finish; monitor knee response.\n- 88m Z2 Pace"
+    },
+    {
+      "id": 157313409,
+      "date": "2026-11-30",
+      "name": "Optional recovery spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 15,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "OPTIONAL recovery spin; take a rest day if needed. 30 minutes very easy at approximately 135\u2013160 W, RPE 2/10.\n- 30m 50-60% FTP"
+    },
+    {
+      "id": 157313427,
+      "date": "2026-12-01",
+      "name": "Threshold run \u2014 3 \u00d7 12 min",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 76,
+      "duration_hours": 1.03,
+      "duration_formatted": "1h2m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "3\u00d712 minutes at 4:40\u20134:45/km, with 2 minutes easy jog between. Keep reps even, RPE 7\u20138/10. Do not force pace if fatigued.\n- 15m Z1 Pace\n- 12m Z4 Pace"
+    },
+    {
+      "id": 157313449,
+      "date": "2026-12-02",
+      "name": "Lower-body strength \u2014 reduced volume",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.7,
+      "duration_formatted": "42m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Reduced-volume lower-body strength. Bulgarian split squat 2\u00d76/leg; single-leg RDL 2\u00d78/leg; hip thrust 2\u00d78; calf raise 2\u00d712; brief trunk stability. Keep 3 reps in reserve.\n- 10m\n- 24m"
+    },
+    {
+      "id": 157313461,
+      "date": "2026-12-03",
+      "name": "Easy aerobic run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 49,
+      "duration_hours": 0.72,
+      "duration_formatted": "43m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "40\u201345 minutes conversational easy running, RPE 3\u20134/10. No progression or hard finish. Arrive at Friday's peak HYROX session with fresh legs.\n- 43m Z2 Pace"
+    },
+    {
       "id": 156136446,
       "date": "2026-12-04",
       "name": "HYROX peak compromised run \u2014 6 \u00d7 1km",
@@ -3514,6 +3685,85 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "HYROX peak-specific compromised running \u2014 6 rounds. Run each 1km at 4:35\u20134:50/km. Stations in order: SkiErg 500m; sled push 25m; sled pull 25m; burpee broad jumps 20m; farmer's carry 100m; sandbag lunges 20m. This is the biggest specific session, not a full race simulation. Keep RPE 7\u20138 and preserve run quality. The 5-minute station steps are work windows, not rest intervals.\n- 10m Z1 Pace\n- 1km RPE 7"
+    },
+    {
+      "id": 157313476,
+      "date": "2026-12-05",
+      "name": "Upper body + core \u2014 maintenance",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Short upper-body and core maintenance. Moderate loads, 2\u20133 reps in reserve. No dips, no failure, and avoid soreness. Reduce or skip if Friday's peak session leaves significant fatigue.\n- 10m\n- 20m"
+    },
+    {
+      "id": 157313496,
+      "date": "2026-12-06",
+      "name": "Long easy aerobic run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 89,
+      "duration_hours": 1.3,
+      "duration_formatted": "1h18m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "75\u201380 minutes easy aerobic running, RPE 3\u20134/10. Reduced volume after the peak HYROX session. Fully conversational; no fast finish.\n- 78m Z2 Pace"
+    },
+    {
+      "id": 157313501,
+      "date": "2026-12-07",
+      "name": "Optional recovery spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 14,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "OPTIONAL very easy recovery spin or full rest. 25\u201330 minutes at approximately 135\u2013150 W, RPE 1\u20132/10. Skip if accumulated fatigue remains.\n- 30m 50-55% FTP"
+    },
+    {
+      "id": 157313513,
+      "date": "2026-12-08",
+      "name": "Threshold run \u2014 2 \u00d7 10 min",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 53,
+      "duration_hours": 0.8,
+      "duration_formatted": "48m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "2\u00d710 minutes at 4:40\u20134:45/km, with 3 minutes easy jog between. Controlled RPE 6\u20137/10; finish feeling you could do more.\n- 15m Z1 Pace\n- 10m Z4 Pace"
+    },
+    {
+      "id": 157313519,
+      "date": "2026-12-09",
+      "name": "Lower-body strength \u2014 taper",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.63,
+      "duration_formatted": "38m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Taper-phase strength: light loads and low volume. One or two easy sets each of split squat, RDL, hip thrust and calf raise, plus brief core. No eccentric overload, grinding or soreness.\n- 10m\n- 20m"
+    },
+    {
+      "id": 157313525,
+      "date": "2026-12-10",
+      "name": "Easy aerobic run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 31,
+      "duration_hours": 0.63,
+      "duration_formatted": "38m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "35\u201340 minutes easy conversational running, RPE 3/10. Keep the legs relaxed and finish fresh.\n- 38m Z1 Pace"
     },
     {
       "id": 156136463,
@@ -3529,6 +3779,85 @@
       "description_preview": "Reduced-volume HYROX compromised running \u2014 4 rounds. Run each 800m at 4:40\u20134:55/km. Reduced stations in order: SkiErg 300m; sled push 12.5m; sled pull 12.5m; burpee broad jumps 10m. Keep overall effort RPE 6\u20137 and finish feeling you could do more. The 3-minute station steps are work windows, not rest intervals.\n- 10m Z1 Pace\n- 800mtr RPE 6"
     },
     {
+      "id": 157313532,
+      "date": "2026-12-12",
+      "name": "Upper body + core \u2014 light maintenance",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.53,
+      "duration_formatted": "32m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Very light upper-body and core maintenance. Short sets, comfortable loads, no failure and no soreness. Skip any movement that causes fatigue or discomfort.\n- 10m\n- 17m"
+    },
+    {
+      "id": 157313587,
+      "date": "2026-12-13",
+      "name": "Easy aerobic run \u2014 taper",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 51,
+      "duration_hours": 1.05,
+      "duration_formatted": "1h3m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "60\u201365 minutes easy conversational running, RPE 3/10. Keep it relaxed and finish fresh; this is not a fitness-building long run.\n- 63m Z1 Pace"
+    },
+    {
+      "id": 157313604,
+      "date": "2026-12-14",
+      "name": "Optional recovery spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 11,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "OPTIONAL 25-minute very easy spin or full rest. Approximately 130\u2013145 W, RPE 1\u20132/10. Do not ride if it compromises freshness.\n- 25m 50-55% FTP"
+    },
+    {
+      "id": 157313612,
+      "date": "2026-12-15",
+      "name": "Run activation \u2014 3 \u00d7 5 min",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 41,
+      "duration_hours": 0.63,
+      "duration_formatted": "38m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Race-week run activation. 3\u00d75 minutes around current threshold effort, approximately 4:40\u20134:45/km, with 2 minutes easy jog. RPE 6/10; this is a sharpener, not a test.\n- 15m Z1 Pace\n- 5m Z4 Pace"
+    },
+    {
+      "id": 157313624,
+      "date": "2026-12-16",
+      "name": "Mobility + light strength",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Short mobility and activation only. Gentle hip, ankle and thoracic mobility; light glute and trunk activation. No heavy lifting, high-rep leg work or soreness.\n- 15m\n- 10m"
+    },
+    {
+      "id": 157313639,
+      "date": "2026-12-17",
+      "name": "Easy run + relaxed strides",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 25,
+      "duration_hours": 0.47,
+      "duration_formatted": "28m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "25\u201330 minutes very easy running, then 4\u00d720 seconds relaxed strides with full recovery. Smooth and controlled; the goal is freshness.\n- 20m Z1 Pace\n- 5m Z3 Pace"
+    },
+    {
       "id": 156136467,
       "date": "2026-12-18",
       "name": "HYROX race-week activation",
@@ -3540,6 +3869,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "Race-week activation. Stay fresh; no fatigue or hard efforts. Easy running followed by light station technique only. No heavy sleds, hard burpee broad jumps, lunges to fatigue, or high-volume wall balls.\n- 10m Z1 Pace\n- 10m Z1 Pace"
+    },
+    {
+      "id": 157313655,
+      "date": "2026-12-19",
+      "name": "Pre-race rest + mobility",
+      "type": "WORKOUT",
+      "sport_type": "Other",
+      "planned_tss": null,
+      "duration_hours": 0.25,
+      "duration_formatted": "15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Rest day before HYROX. Optional 10\u201315 minutes gentle mobility and an easy walk. Prepare kit, shoes, race nutrition and travel. No training session, strength work or testing.\n- 15m"
     },
     {
       "id": 121541392,
@@ -3556,12 +3898,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
+    "attempted": 34,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 8
+    "bail_no_match": 34
   },
   "weekly_summary": {
     "total_training_hours": 5.81,
@@ -3569,7 +3911,7 @@
     "total_tss": 327,
     "activities_count": 7,
     "avg_hrv": null,
-    "avg_resting_hr": 51.8
+    "avg_resting_hr": 52.0
   },
   "race_calendar": {
     "next_race": {
