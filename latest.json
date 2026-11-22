@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-22T07:27:19.312397",
+    "last_updated": "2026-11-22T15:29:42.889058",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -576,14 +576,13 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 5,
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
         "2026-11-17",
         "2026-11-18",
         "2026-11-19",
-        "2026-11-20",
         "2026-11-21",
         "2026-11-22"
       ],
@@ -641,13 +640,13 @@
     "p_max": 1011,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-22T07:27:19.310965",
+    "calculation_timestamp": "2026-11-22T15:29:42.887818",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 3,
       "activities_7d": 1,
       "activities_28d": 24,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 207,
         "outdoor": 207
