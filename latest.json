@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-24T16:07:41.618994",
+    "last_updated": "2026-11-25T00:35:54.595641",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.109"
@@ -114,7 +114,7 @@
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 53,
+        "baseline_7d": null,
         "delta_bpm": null
       },
       "sleep": {
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 24.9
+        "value": 19.4
       }
     },
     "signal_summary": {
@@ -156,7 +156,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-09-21",
-    "age_days": 64,
+    "age_days": 65,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -169,17 +169,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 43.77,
-      "atl": 18.86,
-      "tsb": 24.91,
-      "ramp_rate": -6.88,
+      "ctl": 44.46,
+      "atl": 25.01,
+      "tsb": 19.45,
+      "ramp_rate": -6.03,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 262.5,
-      "w_prime": 21831,
+      "eftp": 262.2,
+      "w_prime": 21809,
       "w_prime_kj": 21.8,
-      "p_max": 1009,
+      "p_max": 1008,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -253,9 +253,9 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 53,
+    "rhr_baseline_7d": null,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 51.7,
+    "rhr_baseline_28d": 51.8,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.0,
@@ -353,12 +353,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-10-28",
-          "end": "2026-11-24"
+          "start": "2026-10-29",
+          "end": "2026-11-25"
         },
         "previous_window": {
-          "start": "2026-09-30",
-          "end": "2026-10-27"
+          "start": "2026-10-01",
+          "end": "2026-10-28"
         },
         "anchors": {
           "5s": {
@@ -393,12 +393,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-10-28",
-          "end": "2026-11-24"
+          "start": "2026-10-29",
+          "end": "2026-11-25"
         },
         "previous_window": {
-          "start": "2026-09-30",
-          "end": "2026-10-27"
+          "start": "2026-10-01",
+          "end": "2026-10-28"
         },
         "anchors": {
           "60s": {
@@ -428,8 +428,8 @@
       "sustainability_profile": {
         "window": {
           "days": 42,
-          "start": "2026-10-14",
-          "end": "2026-11-24"
+          "start": "2026-10-15",
+          "end": "2026-11-25"
         },
         "weight_kg": 82.0,
         "weight_source": "wellness_extended",
@@ -522,7 +522,7 @@
           },
           "coverage_ratio": 0.86,
           "ftp_used": 271,
-          "w_prime_used": 21831,
+          "w_prime_used": 21809,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -535,12 +535,12 @@
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
-        "2026-11-18",
         "2026-11-19",
         "2026-11-21",
         "2026-11-22",
         "2026-11-23",
-        "2026-11-24"
+        "2026-11-24",
+        "2026-11-25"
       ],
       "completed_dates": []
     },
@@ -558,13 +558,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.99,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 0.82,
+          "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 1,
-          "race_proximity": 26,
+          "current_week_hard_days_total": 0,
+          "race_proximity": 25,
           "next_week_load": 0.86,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.83,
           "plan_coverage_next_week": 1.17
         },
         "data_quality": "good",
@@ -594,22 +594,22 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 262.5,
-    "w_prime": 21831,
+    "eftp": 262.2,
+    "w_prime": 21809,
     "w_prime_kj": 21.8,
-    "p_max": 1009,
+    "p_max": 1008,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-24T16:07:41.618106",
+    "calculation_timestamp": "2026-11-25T00:35:54.595015",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 1,
+      "rhr_data_points": 0,
       "activities_7d": 0,
-      "activities_28d": 21,
-      "planned_workouts_7d": 7,
+      "activities_28d": 20,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
-        "indoor": 209,
-        "outdoor": 209
+        "indoor": 210,
+        "outdoor": 210
       }
     }
   },
@@ -1264,7 +1264,7 @@
           "z7_time": 3
         }
       },
-      "has_intervals": true,
+      "has_intervals": false,
       "has_dfa": false,
       "terrain_summary": {
         "source": "activity_streams",
@@ -2355,102 +2355,9 @@
         "rain": 0.0,
         "snow": 0.0
       }
-    },
-    {
-      "id": "i203033322",
-      "date": "2026-10-28T00:00:00",
-      "type": "WeightTraining",
-      "name": "Lower-body strength + sled technique",
-      "duration_hours": 1.08,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "avg_speed_unit": "KPH",
-      "max_speed": null,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "display": {
-        "distance": {
-          "value": 0.0,
-          "unit": "km"
-        },
-        "elevation": null,
-        "avg_speed": null,
-        "max_speed": null
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": null,
-      "has_intervals": false,
-      "has_dfa": false,
-      "description": "Moderate lower-body strength and sled technique, 50 min. Prioritize quality, controlled eccentrics and good knee tracking. Keep 2\u20133 reps in reserve; no grinding reps. Suggested structure: 8 min warm-up/mobility, 25 min lower-body strength, 12 min controlled sled technique, 5 min core/cool-down."
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-11-18",
-      "weight_kg": null,
-      "display": {
-        "weight": null
-      },
-      "resting_hr": 53,
-      "hrv_rmssd": null,
-      "hrv_sdnn": 73.61015,
-      "sleep_hours": 6.44,
-      "sleep_formatted": "6h26m",
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": 11.918919,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": null,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
     {
       "date": "2026-11-19",
       "weight_kg": null,
@@ -2702,22 +2609,51 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": null
+    },
+    {
+      "date": "2026-11-25",
+      "weight_kg": null,
+      "display": {
+        "weight": null
+      },
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 157313313,
-      "date": "2026-11-24",
-      "name": "Threshold run \u2014 2 \u00d7 17 min",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 75,
-      "duration_hours": 1.05,
-      "duration_formatted": "1h3m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "2\u00d717 minutes at 4:40\u20134:45/km, with 3 minutes easy jog between. RPE 7\u20138/10, controlled and even. If fatigue is high, repeat 2\u00d715 minutes instead.\n- 15m Z1 Pace\n- 17m Z4 Pace\n- 3m Z1 Pace\n- 17m Z4 Pace\n- 11m Z1 Pace"
-    },
     {
       "id": 157313329,
       "date": "2026-11-25",
@@ -2821,7 +2757,7 @@
       "duration_formatted": "42m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Reduced-volume lower-body strength. Bulgarian split squat 2\u00d76/leg; single-leg RDL 2\u00d78/leg; hip thrust 2\u00d78; calf raise 2\u00d712; brief trunk stability. Keep 3 reps in reserve.\n- 10m\n- 24m"
+      "description": "Reduced-volume lower-body strength. Bulgarian split squat 2\u00d76/leg; single-leg RDL 2\u00d78/leg; hip thrust 2\u00d78; calf raise 2\u00d712; brief trunk stability. Keep 3 reps in reserve.\n- 10m\n- 24m\n- 8m"
     },
     {
       "id": 157313461,
@@ -3061,12 +2997,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 26,
+    "attempted": 25,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 26
+    "bail_no_match": 25
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
@@ -3074,7 +3010,7 @@
     "total_tss": 0,
     "activities_count": 0,
     "avg_hrv": null,
-    "avg_resting_hr": 53.0
+    "avg_resting_hr": null
   },
   "race_calendar": {
     "next_race": {
@@ -3082,7 +3018,7 @@
       "date": "2026-12-20",
       "category": "RACE_A",
       "type": "Other",
-      "days_until": 26,
+      "days_until": 25,
       "moving_time_seconds": null,
       "distance_meters": null,
       "display": {
@@ -3096,7 +3032,7 @@
         "date": "2026-12-20",
         "category": "RACE_A",
         "type": "Other",
-        "days_until": 26,
+        "days_until": 25,
         "moving_time_seconds": null,
         "distance_meters": null,
         "display": {
